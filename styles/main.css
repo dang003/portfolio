@@ -1,0 +1,102 @@
+body {
+  background-color: #121121;
+  color: #FBF8F3;
+  font-size: 10px;
+}
+
+/** typography **/
+
+h1 {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 4.2em; /* 42px */
+  line-height: 51px;
+}
+
+h2 {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 3.6em; /* 36px */
+  line-height: 44px;
+}
+
+h3 {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 1.8em; /* 18px */
+  line-height: 22px;
+}
+
+h4 {
+  font-family: Raleway, sans-serif;
+  font-size: 3.6em; /* 36px */
+  font-weight: 700;
+  line-height: 42px;
+}
+
+h5 {
+  font-family: raleway, sans-serif;
+  font-size: 1.8em; /* 18px */
+  font-weight: 700;
+  line-height: 21px;
+}
+
+h6 {
+  font-family: raleway, sans-serif;
+  font-size: 2.4em; /* 24 px */
+  font-weight: 400;
+  line-height: 28px;
+}
+
+p {
+  font-family: droid-serif, serif;
+  font-size: 1.6em; /* 16px */
+}
+
+/** navigation **/
+
+nav {
+  background-color: #FEEB99;
+  color: #121121;
+  position: relative;
+  height: 54px;
+}
+
+.my-logo {
+  float: left;
+  height: 54px;
+}
+
+.nav-text {
+  display: none;
+}
+
+.fas {
+  color: #121121;
+  position: absolute;
+  display: flex;
+  right: 8%;
+  top: 12px;
+}
+
+/** footer **/
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#footer-contact {
+  display: inline-flex;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-links li {
+  margin: 0 10px 50px 10px;
+}
+
+.fab {
+  color: #FBF8F3;
+  font-size: 2em; /** 20px **/
+}

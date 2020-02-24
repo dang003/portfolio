@@ -1,56 +1,124 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio | Dan Gallagher</title>
-  </head>
-  <body>
-    <nav>
-      <h3>about</h3>
-      <h3>work</h3>
-    </nav>
-    <header>
-      <h1>hi.</h1>
-      <h1>i'm dan g.</h1>
-      <h3>i'm a dang good designer.</h3>
-      <h5>take a look at my work down below.</h5>
-      <h5>connect with me here.</h5>
-      <div>
-        <a href="mailto:gallagherd07@gmail.com">CONTACT</a>
-      </div>
-      <h5>enjoy your stay.</h5>
-    </header>
-    <section>
-      <h2>projects.</h2>
-      <div class="project">
-        <h4><a href="project.html">CARGO</a></h4>
-      </div>
-      <div class="project">
-        <h4>BusyBus</h4>
-      </div>
-    </section>
-    <section>
-      <h2>good vibes.</h2>
-      <div class="testimonial">
-        <h6>This is where my testimonials will go, once I receive them. My previous mentor and my current one have both agreed to give me quotes that I can put here.</h6>
-        <h2>-my mentor.</h2>
-        <!-- Indicators -->
-        <ol>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-    </section>
-    <footer>
-      <h1>i'm available.</h1>
-      <div>
-        <a href="mailto:gallagherd07@gmail.com">CONTACT</a>
-      </div>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/dang">Link</a></li>
-        <li><a href="https://www.instagram.com/_djg003">Link</a></li>
-        <li><a href="https://www.github.com/dang003">Link</a></li>
-      </ul>
-    </footer>
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Portfolio | Dan Gallagher</title>
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.typekit.net/wkp1wfo.css">
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/a02749a14a.js" crossorigin="anonymous"></script>
+      <!-- Stylesheets -->
+      <link rel="stylesheet" href="/styles/reset.css">
+      <link rel="stylesheet" href="/styles/main.css">
+      <link rel="stylesheet" href="/styles/home.css">
+   </head>
+   <!-- BODY -->
+   <body>
+      <nav>
+         <a href="index.html"><img src="../images/dang.logo.png" class="my-logo" alt="dang. logo"></a>
+         <!-- hidden nav links -->
+         <div class="nav-text">
+            <a href="#about">
+               <h3>about.</h3>
+            </a>
+            <a href="#contact">
+               <h6>CONTACT</h6>
+            </a>
+         </div>
+         <!-- Hamburger menu icon -->
+         <a href="javascript:void(0)" class="Ham-menu" onclick="myFunction()">
+           <i class="fas fa-bars fa-3x"></i>
+         </a>
+      </nav>
+      <main>
+         <!-- INTRODUCTION -->
+         <header id="home-bg">
+            <div class="intro">
+               <h1>hi.</h1>
+               <h1>i'm dan g.</h1>
+               <h3 class="text-space">i'm a dang good designer.</h3>
+            </div>
+            <hr class="header-line">
+            <div class="sub-header">
+               <h5>take a look at my work down below.</h5>
+               <h5 class="text-space">connect with me here.</h5>
+               <div class="CONTACT">
+                  <a href="mailto:gallagherd07@gmail.com">
+                     <h6>CONTACT</h6>
+                  </a>
+               </div>
+            </div>
+            <h5>enjoy your stay.</h5>
+         </header>
+         <!-- PROJECTS -->
+         <section>
+            <h2 class="section-title">projects.</h2>
+            <div class="projects">
+               <div id="cargo-card">
+                  <a href="project.html" class="project-card">
+                     <h4 class="project-text">CARGO</h4>
+                  </a>
+               </div>
+               <div id="busybus-card">
+                  <a href="#Busybus protoype" class="project-card">
+                     <h4 class="project-text">BusyBus</h4>
+                  </a>
+               </div>
+            </div>
+         </section>
+         <!-- TESTIMONIALS -->
+         <section>
+            <h2 class="section-title">good vibes.</h2>
+            <!-- Slideshow Container -->
+            <div class="slideshow-container">
+               <div class="red-rect">
+                  <div class="quote-mark"></div>
+                  <!-- Slide Quotes -->
+                  <div class="mySlides vibe-text">
+                     <h6>This is where my testimonials will go, once I receive them. My previous mentor and my current one have both agreed to give me quotes that I can put here.</h6>
+                     <h2 class="attribute">-my mentor.</h2>
+                  </div>
+                  <div class="nextSlides vibe-text">
+                     <h6>This is where my testimonials will go, once I receive them. My previous mentor and my current one have both agreed to give me quotes that I can put here.</h6>
+                     <h2 class="attribute">-my mentor.</h2>
+                  </div>
+                  <!-- Indicators -->
+                  <div class="dot-container">
+                     <span class="dot active" onclick="currentSlide(1)"></span>
+                     <span class="dot" onclick="currentSlide(2)"></span>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- FOOTER -->
+      <footer>
+         <h1>i'm available.</h1>
+            <div class="CONTACT" id="footer-contact">
+               <a href="mailto:gallagherd07@gmail.com">
+                  <h6>CONTACT</h6>
+               </a>
+            </div>
+            <ul class="social-media-links">
+               <li>
+                  <a href="https://www.linkedin.com/in/dang">
+                  <i class="fab fa-linkedin"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/_djg003">
+                  <i class="fab fa-instagram"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.github.com/dang003">
+                  <i class="fab fa-github-square"></i>
+                  </a>
+               </li>
+            </ul>
+      </footer>
+   </body>
 </html>
