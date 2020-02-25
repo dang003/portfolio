@@ -13,8 +13,6 @@ body {
   width: 100%;
 }
 
-
-
 .container {
   max-width: 400px;
 }
@@ -71,13 +69,13 @@ p {
 nav {
   background-color: #FEEB99;
   color: #121121;
-  height: 5.4rem; /* 54px */
+  height: 6rem; /* 60px */
   position: relative;
 }
 
 .my-logo {
   float: left;
-  height: 5.4rem; /* 54px */
+  height: 6rem; /* 60px */
 }
 
 .nav-text {
@@ -88,7 +86,7 @@ nav {
   color: #121121;
   position: absolute;
   right: 8%;
-  top: 1.2rem; /* 12px */
+  top: 1.5rem; /* 14px */
 }
 
 /** Contact Button **/

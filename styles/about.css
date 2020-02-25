@@ -20,7 +20,7 @@ header {
 .header-title {
   display: inline-block;
   text-align: center;
-  margin: 50px 8% 30px 8%;
+  margin: 50px 8% 10% 8%;
 }
 
 .slideshow-container {
@@ -32,6 +32,8 @@ header {
 .mySlides {
   text-align: center;
   display: none;
+  position: relative;
+  height: 250px;
 }
 
 .slide-text {
@@ -42,7 +44,7 @@ header {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 70px;
+  top: 25%;
   width: auto;
   padding: 8%;
   color: #FEEB99;
