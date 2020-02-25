@@ -13,115 +13,167 @@
       <!-- Stylesheets -->
       <link rel="stylesheet" href="/styles/reset.css">
       <link rel="stylesheet" href="/styles/main.css">
+      <link rel="stylesheet" href="/styles/project.css">
    </head>
    <body>
-      <nav>
-         <a href="index.html"><img src="../images/dang.logo.png" class="my-logo" alt="dang. logo"></a>
-         <!-- hidden nav links -->
-         <div class="nav-text">
-            <a href="#about">
-               <h3>about.</h3>
-            </a>
-            <a href="#contact">
-               <h6>CONTACT</h6>
-            </a>
-         </div>
-         <!-- Hamburger menu icon -->
-         <a href="#"><img src="../images/Ham_menu.png" id="Ham_menu" alt="Hamburger menu"></a>
-      </nav>
+     <!-- TOP NAVIGATION -->
+     <nav>
+        <a href="index.html"><img src="../images/dang.logo.png" class="my-logo" alt="dang. logo"></a>
+        <!-- hidden nav links -->
+        <div class="nav-text">
+           <a href="#about">
+              <h3>about.</h3>
+           </a>
+           <a href="#contact">
+              <h6>CONTACT</h6>
+           </a>
+        </div>
+        <!-- Hamburger menu icon -->
+        <a href="javascript:void(0)" class="Ham-menu" onclick="myFunction()">
+          <i class="fas fa-bars fa-3x"></i>
+        </a>
+     </nav>
       <main>
-         <header>
+         <header class="red-bg">
+           <!-- Intro -->
             <h1>CARGO</h1>
             <h6>Case Study</h6>
-            <p>CARGO gives travelers a platform where they can store, organize, and access their files. Photos, plans, and notes can all be created or uploaded with this cloud storage site.</p>
-            <img src="../images/cargo/CARGO screens black.png" alt="Homepage and Trip Overview Screens">
-            <div>
-               <a href="https://dangallagher937465.invisionapp.com/overview/CARGO-prototype-ck45ziejb0j3q01dhkeaavhat/screens?v=oW%2BU0XEFUVzBtGm%2FtZxjQA%3D%3D&linkshare=urlcopied">View Prototype</a>
+            <p class="text-space">CARGO gives travelers a platform where they can store, organize, and access their files. Photos, plans, and notes can all be created or uploaded with this cloud storage site.</p>
+            <!-- Image mockup 1 -->
+            <div id="top-mockup"></div>
+            <div class="prototype-btn">
+               <a href="https://dangallagher937465.invisionapp.com/public/share/YRXDK8SSZ#/screens">
+                 <h6>View Prototype</h6>
+               </a>
             </div>
-            <div class="deliverables">
-               <h5>Deliverables</h5>
-               <p>User Research<br>Branding & Identity<br>Hi-fi Mockups<br>Working Prototype</p>
+            <!-- Deliverables & Tools -->
+            <div class="deliv-and-tools">
+              <div class="deliverables">
+                 <h5>Deliverables</h5>
+                 <p>User Research<br>Branding & Identity<br>Hi-fi Mockups<br>Working Prototype</p>
+              </div>
+              <div class="tools">
+                 <h5>Tools</h5>
+                 <p>Figma<br>Invision</p>
+              </div>
             </div>
-            <div class="tools">
-               <h5>Tools</h5>
-               <p>Figma<br>Invision</p>
+            <!-- Problem & Solution -->
+            <div class="problem">
+              <h2>problem.</h2>
+              <p>Many cloud storage site users are frustrated by the difficulty of organizing their files. Users feel the current organization options aren’t accessible enough.</p>
             </div>
-            <h2>problem.</h2>
-            <p>Many cloud storage site users are frustrated by the difficulty of organizing their files. Users feel the current organization options aren’t accessible enough.</p>
-            <h2>solution.</h2>
-            <p>User files are stored in trips. Users also have the ability to add tags to their files, which lets them customize their organization. Users will be able to access files by opening a trip or by directly searching by title or tag.</p>
+            <div class="solution">
+              <h2>solution.</h2>
+              <p>User files are stored in trips. Users also have the ability to add tags to their files, which lets them customize their organization. Users will be able to access files by opening a trip or by directly searching by title or tag.</p>
+            </div>
          </header>
+         <!-- RESEARCH -->
          <section>
-            <h2>research.</h2>
-            <h5>Survey</h5>
+            <h2 class="section-title">research.</h2>
+            <div class="section-paragraph">
+            <h5 class="paragraph-title">Survey</h5>
             <p>I noticed a few trends from my survey results. 87.5% of users said they used cloud storage for personal reasons, like storing family photos. Also, 75% mentioned that organization was a major frustration with their current services.</p>
-            <h5>Competitive Analysis</h5>
+          </div>
+          <div class="section-paragraph">
+            <h5 class="paragraph-title">Competitive Analysis</h5>
             <p>I created a SWOT of major cloud storage sites to better understand the market and come up with an idea where my project might fit in. Instead of building an all-in-one site like Google Drive, I learned that it would benefit us more if our site targets a niche.</p>
-            <h5>Personas</h5>
+          </div>
+          <div class="section-paragraph">
+            <h5 class="paragraph-title">Personas</h5>
             <p>I created and used some personas to showcase the common issues users face with current cloud storage services. Throughout the design process, I referenced my personas to make sure my final project would solve those problems.</p>
+          </div>
          </section>
-         <section>
-            <h2>information architecture.</h2>
-            <h5>User Stories</h5>
-            <p>Next, I created some user stories, based on features that users said they used on cloud storage sites in my survey. To prioritize, I ranked the more common answers as high priority. I ended up with four high priority stories.</p>
-            <h5>User Flows</h5>
-            <p>I created user flows for high priority stories. The user flows were laid out in a way that allows the user to take multiple directions to arrive at the end goal. Creating these gave me a lot of insight into how I could organize the site.</p>
-            <h5>Wireframes</h5>
-            <p>Next, I did some testing with basic wireframes. I gave each user 3 basic tasks: sign in to an account, upload pictures, and tag a note. These 3 tasks all use different features of the navigation, so I was able to understand how effective the site worked as a whole. In this stage, I was able to identify the issues in my wireframes. I addressed these issues while building mockups for the site.</p>
+         <!-- INFO ARCHITECTURE -->
+         <section class="red-bg">
+           <div class="red-title-box">
+             <h2 class="section-title red-title">information architecture.</h2>
+           </div>
+            <div class="section-paragraph">
+              <h5 class="paragraph-title red-p-t">User Stories</h5>
+              <p>Next, I created some user stories, based on features that users said they used on cloud storage sites in my survey. To prioritize, I ranked the more common answers as high priority. I ended up with four high priority stories.</p>
+            </div>
+            <div class="section-paragraph">
+              <h5 class="paragraph-title">User Flows</h5>
+              <p>I created user flows for high priority stories. The user flows were laid out in a way that allows the user to take multiple directions to arrive at the end goal. Creating these gave me a lot of insight into how I could organize the site.</p>
+            </div>
+            <div class="section-paragraph">
+              <h5 class="paragraph-title">Wireframes</h5>
+              <p>Next, I did some testing with basic wireframes. I gave each user 3 basic tasks: sign in to an account, upload pictures, and tag a note. These 3 tasks all use different features of the navigation, so I was able to understand how effective the site worked as a whole. In this stage, I was able to identify the issues in my wireframes. I addressed these issues while building mockups for the site.</p>
+            </div>
          </section>
+         <!-- BRANDING -->
          <section>
-            <h2>branding.</h2>
-            <h5>Logo</h5>
+            <h2 class="section-title">branding.</h2>
+            <div class="section-paragraph">
+            <h5 class="paragraph-title">Logo</h5>
             <p>I tried different names for the site, and different logos for each name. After settling on the name “CARGO”, I brought my favorite sketches into Figma to see how each one would look when polished.</p>
-            <img src="../images/cargo/Color Full.png" alt="Finished CARGO logo">
+            <div id="cargo-pic"></div>
             <p>I chose the logo that uses a box shape (similar to a cargo container) as the “O”, because it looks simple, friendly, and strong. I chose the font Roboto Bold because it looks simple and clean, and fit the width of the mark, making it look more like an “O”.</p>
-            <h5>Moodboard</h5>
+            </div>
+            <div class="section-paragraph">
+            <h5 class="paragraph-title">Moodboard</h5>
             <p>I wanted this moodboard to communicate excitement, adventure, and simplicity.</p>
-            <img src="../images/cargo/moodboard.png" alt="CARGO moodboard">
+            <div id="moodboard"></div>
             <p>Pulling from the moodboard, I was able to create a color scheme for the logo and site. Each color represents something different about the brand. Red = Excitement, Blue = Trust, Orange = Friendly, and Yellow= Happy.</p>
-            <h5>Icons</h5>
+            </div>
+            <div class="section-paragraph">
+            <h5 class="paragraph-title">Icons</h5>
             <p>I wanted the icons to look fun, while still being clear to the user what each one means. I created the note and tag icon, and downloaded the rest from flaticon.com.</p>
-            <img src="../images/cargo/icons_horiz.png" alt="All icons used in CARGO">
+            <div id="icons"></div>
             <p>I added a touch of orange (the main brand color) to each icon, except search. I wanted the search icon to remain clear to all users.</p>
-            <h5>Style Guide</h5>
+            </div>
+            <div class="section-paragraph">
+            <h5 class="paragraph-title">Style Guide</h5>
             <p>In the style guide, I included the final logo in color, black, and white versions. I also provided the color palette, icons, copy fonts and sizes, and instructions showing how it should all be used.</p>
+          </div>
          </section>
-         <section>
-            <h2>testing.</h2>
-            <h5>Preference Testing</h5>
-            <p>The most notable change from the preference tests was the notification banner on the user home page. I wasn’t sure how to design a notification bar for this site. So, I tested two ideas. The results were split, and I realized that neither one would fix user issues.</p>
-            <img src="../images/cargo/Cargo_notif_banner.png" alt="Finished notification banner">
-            <p>I decided to go back to the drawing board and ended up creating a welcome banner for users with a notification bar below it. This new design looks clean and provides the user with helpful information.</p>
-            <h5>Usability Testing</h5>
-            <p>I asked some questions about the user’s thoughts on the site, and gave them three tasks to complete. The tasks were: make an account, upload an image, and tag a note. Most of these tests went smoothly, and I was able to get valuable information about how well the brand conveys its message to users.</p>
-            <h5>Final Changes</h5>
-            <p>I edited some of the UI elements to avoid distracting the user.  Some of my final changes were:</p>
-            <ul>
-               <li>fixing the upcoming trip notification</li>
-               <li>organizing all navigation to the left side of the screen</li>
-               <li>consolidating the search function to an icon and a screen overlay</li>
-               <li>using icons on the cards so users can quickly identify what they’re looking at</li>
-            </ul>
-            <p>I’m happy with this end product, as it solves problems users commonly face and reflects the core ideas of the brand image.</p>
+         <!-- TESTING -->
+         <section class="red-bg">
+           <div class="red-title-box">
+             <h2 class="section-title red-title">testing.</h2>
+           </div>
+            <div class="section-paragraph">
+              <h5 class="paragraph-title red-p-t">Preference Testing</h5>
+              <p>The most notable change from the preference tests was the notification banner on the user home page. I wasn’t sure how to design a notification bar for this site. So, I tested two ideas. The results were split, and I realized that neither one would fix user issues.</p>
+              <div id="notif-banner"></div>
+              <p>I decided to go back to the drawing board and ended up creating a welcome banner for users with a notification bar below it. This new design looks clean and provides the user with helpful information.</p>
+            </div>
+            <div class="section-paragraph">
+              <h5 class="paragraph-title">Usability Testing</h5>
+              <p>I asked some questions about the user’s thoughts on the site, and gave them three tasks to complete. The tasks were: make an account, upload an image, and tag a note. Most of these tests went smoothly, and I was able to get valuable information about how well the brand conveys its message to users.</p>
+            </div>
+            <div class="section-paragraph">
+              <h5 class="paragraph-title">Final Changes</h5>
+              <p>I edited some of the UI elements to avoid distracting the user.  Some of my final changes were:</p>
+              <ul class="fa-ul final-changes">
+                 <li><span class="fa-li"><i class="fas fa-check fa-2x check"></i></span><p>fixing the upcoming trip notification</p></li>
+                 <li><span class="fa-li"><i class="fas fa-check fa-2x check"></i></span><p>organizing all navigation to the left side of the screen</p></li>
+                 <li><span class="fa-li"><i class="fas fa-check fa-2x check"></i></span><p>consolidating the search function to an icon and a screen overlay</p></li>
+                 <li><span class="fa-li"><i class="fas fa-check fa-2x check"></i></span><p>using icons on the cards so users can quickly identify what they’re looking at</p></li>
+              </ul>
+              <p>I’m happy with this end product, as it solves problems users commonly face and reflects the core ideas of the brand image.</p>
+            </div>
          </section>
+         <!-- Image Mockup 2 -->
          <div>
-            <img src="../images/cargo/Trip Mckup 2.png" alt="Final trip overview page">
-            <div>
-               <a href="https://dangallagher937465.invisionapp.com/overview/CARGO-prototype-ck45ziejb0j3q01dhkeaavhat/screens?v=oW%2BU0XEFUVzBtGm%2FtZxjQA%3D%3D&linkshare=urlcopied">View Prototype</a>
+           <div id="bot-mockup"></div>
+            <div class="prototype-btn bot-btn">
+               <a href="https://dangallagher937465.invisionapp.com/public/share/YRXDK8SSZ#/screens">
+                 <h6>View Prototype</h6>
+               </a>
             </div>
          </div>
+         <!-- CONCLUSION -->
          <section>
-            <h2>conclusion.</h2>
+            <h2 class="section-title">conclusion.</h2>
             <p>CARGO was built from research and refined by user testing. I’m thankful for all the ideas that didn’t work out, because they taught me valuable lessons. I experienced the full design process of a project, from research to finished product. I learned that, as a designer, I should never assume I know what the users want.</p>
-            <p>In the future, with a full scope of the project in mind, I will be able to create better research questions and tests to help me arrive at a polished final design that will address the user’s needs.</p>
+            <div id="last-mockup"></div>
+            <p id="mockup-buffer">In the future, with a full scope of the project in mind, I will be able to create better research questions and tests to help me arrive at a polished final design that will address the user’s needs.</p>
          </section>
-         <div>
-            <img src="../images/cargo/Homepage Mockup-Desk.png" alt="User Homepage on Computer Screen">
-         </div>
       </main>
+      <!-- FOOTER -->
       <footer>
          <h1>i'm available.</h1>
-         <address>
             <div class="CONTACT" id="footer-contact">
                <a href="mailto:gallagherd07@gmail.com">
                   <h6>CONTACT</h6>
@@ -144,7 +196,6 @@
                   </a>
                </li>
             </ul>
-         </address>
       </footer>
    </body>
 </html>

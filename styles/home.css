@@ -31,30 +31,18 @@ header {
 /** SECTION titles **/
 
 .section-title {
-  margin-top: 100px;
   margin-left: 8%;
-  position: relative;
   z-index: 1;
 }
 
-/** Contact Button **/
-
-.CONTACT {
-  border: 1px solid #FEEB99;
-  box-shadow: 0px 0px 4px #FEEB99, inset 0px 0px 4px #FEEB99;
-  height: 48px;
-  margin: 20px 0 30px 0;
-  width: 147px;
+.title-box {
+  position: relative;
+  margin-top: 100px;
 }
 
-.CONTACT a {
-  align-items: center;
-  color: #FEEB99;
-  display: flex;
-  height: 48px;
-  justify-content: center;
-  text-decoration: none;
-  width: 147px;
+.title {
+  position: absolute;
+  top: -34px;
 }
 
 /** PROJECTS **/
@@ -73,16 +61,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 .projects a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   color: inherit;
-  z-index: 1;
 }
 
 #cargo-card {
@@ -90,6 +74,7 @@ header {
   background-position: center;
   background-size: 315px 315px;
   background-repeat: no-repeat;
+  margin-top: 30px;
 }
 
 #busybus-card {
@@ -97,11 +82,12 @@ header {
   background-position: center;
   background-size: 315px 315px;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 
 /** TESTIMONIALS **/
 
-.red-rect {
+.red-bg {
   background-color: #4B182E;
   box-shadow: 0px 0px 50px #4B182E;
   height: 100%;
