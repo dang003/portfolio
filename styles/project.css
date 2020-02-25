@@ -3,6 +3,7 @@
 
 header {
   padding: 50px 8%;
+  position: relative;
 }
 
 .red-bg {
@@ -113,14 +114,14 @@ section {
 
 #top-mockup {
   background-image: url("../images/cargo/CARGO screens black.png");
-  width: 100%;
-  height: 237px;
-  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  position: absolute;
+  background-size: 100%;
+  height: 237px;
   left: 0;
-  margin: 50px 0;
+  position: absolute;
+  margin: 50px auto;
+  width: 100%;
 }
 
 
@@ -182,6 +183,6 @@ section {
   height: 249px;
   left: 0;
   position: absolute;
-  margin-top: 30px;
+  margin: 30px auto;
   width: 100%;
 }

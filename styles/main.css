@@ -3,6 +3,12 @@ body {
   color: #FBF8F3;
   font-size: 10px;
   width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+container {
+  max-width: 375px;
 }
 
 /** typography **/
