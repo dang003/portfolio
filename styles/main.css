@@ -2,10 +2,13 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   background-color: #121121;
   color: #FBF8F3;
-  font-size: 10px;
   margin: 0 auto;
   width: 100%;
 }
@@ -18,47 +21,47 @@ body {
 
 h1 {
   font-family: Montserrat Alternates, sans-serif;
-  font-size: 4.2em; /* 42px */
+  font-size: 4.2rem; /* 42px */
   line-height: 51px;
 }
 
 h2 {
   font-family: Montserrat Alternates, sans-serif;
-  font-size: 3.6em; /* 36px */
+  font-size: 3.6rem; /* 36px */
   line-height: 44px;
 }
 
 h3 {
   font-family: Montserrat Alternates, sans-serif;
-  font-size: 1.8em; /* 18px */
-  line-height: 22px;
+  font-size: 1.8rem; /* 18px */
+  line-height: 2.2rem; /* 22px */
 }
 
 h4 {
   font-family: Raleway, sans-serif;
-  font-size: 3.6em; /* 36px */
+  font-size: 3.6rem; /* 36px */
   font-weight: 700;
-  line-height: 42px;
+  line-height: 4.2rem; /* 42px */
 }
 
 h5 {
   font-family: raleway, sans-serif;
-  font-size: 1.8em; /* 18px */
+  font-size: 1.8rem; /* 18px */
   font-weight: 700;
-  line-height: 21px;
+  line-height: 2.1rem; /* 21px */
 }
 
 h6 {
   font-family: raleway, sans-serif;
-  font-size: 2.4em; /* 24 px */
+  font-size: 2.4rem; /* 24 px */
   font-weight: 400;
-  line-height: 28px;
+  line-height: 2.8rem; /* 28px */
 }
 
 p {
   font-family: droid-serif, serif;
-  font-size: 1.6em; /* 16px */
-  line-height: 22px;
+  font-size: 1.6rem; /* 16px */
+  line-height: 2.2rem; /* 22px */
 }
 
 /** navigation **/
@@ -66,13 +69,13 @@ p {
 nav {
   background-color: #FEEB99;
   color: #121121;
-  height: 54px;
+  height: 5.4rem; /* 54px */
   position: relative;
 }
 
 .my-logo {
   float: left;
-  height: 54px;
+  height: 5.4rem; /* 54px */
 }
 
 .nav-text {
@@ -83,7 +86,7 @@ nav {
   color: #121121;
   position: absolute;
   right: 8%;
-  top: 12px;
+  top: 1.2rem; /* 12px */
 }
 
 /** Contact Button **/
@@ -91,26 +94,26 @@ nav {
 .CONTACT {
   border: 1px solid #FEEB99;
   box-shadow: 0px 0px 4px #FEEB99, inset 0px 0px 4px #FEEB99;
-  height: 48px;
+  height: 4.8rem;
   margin: 20px 0 30px 0;
-  width: 147px;
+  width: 14.7rem;
 }
 
 .CONTACT a {
   align-items: center;
   color: #FEEB99;
   display: flex;
-  height: 48px;
+  height: 4.8rem; /* 48px */
   justify-content: center;
   text-decoration: none;
-  width: 147px;
+  width: 14.7rem; /* 147px */
 }
 
 /** footer **/
 
 footer {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 50px; /* 50px */
 }
 
 #footer-contact {
@@ -128,5 +131,5 @@ footer {
 
 .fab {
   color: #FBF8F3;
-  font-size: 2em; /** 20px **/
+  font-size: 2rem; /** 20px **/
 }
