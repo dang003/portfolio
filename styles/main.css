@@ -7,10 +7,6 @@ body {
   width: 100%;
 }
 
-container {
-  max-width: 375px;
-}
-
 /** typography **/
 
 h1 {
