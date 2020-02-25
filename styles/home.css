@@ -2,9 +2,8 @@
 /** INTRODUCTION **/
 
 header {
-  height: 40em;
-  padding-left: 8%;
-  padding-top: 50px;
+  height: 40rem;
+  padding: 5rem 8% 0 8%;
 }
 
 #home-bg {
@@ -12,10 +11,6 @@ header {
   background-position: left;
   background-repeat: no-repeat;
   background-size: 1000px 127.6%;
-}
-
-.text-space {
-  margin-top: 10px;
 }
 
 .header-line {
@@ -121,7 +116,7 @@ header {
   position: relative;
 }
 
-.nextSlides {
+.mySlides {
   display: none;
 }
 

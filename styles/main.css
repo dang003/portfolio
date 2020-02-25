@@ -13,6 +13,8 @@ body {
   width: 100%;
 }
 
+
+
 .container {
   max-width: 400px;
 }
@@ -132,4 +134,26 @@ footer {
 .fab {
   color: #FBF8F3;
   font-size: 2rem; /** 20px **/
+}
+
+/* RED BOX CODE */
+
+.red-bg {
+  background-color: #4B182E;
+  position: relative;
+}
+
+.red-title-box {
+  position: relative;
+}
+
+.red-title {
+  position: absolute;
+  top: -35px;
+}
+
+/** 10PX SPACE BETWEEN ITEMS **/
+
+.text-space {
+  margin-top: 10px;
 }

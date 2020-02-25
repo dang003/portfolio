@@ -6,10 +6,6 @@ header {
   position: relative;
 }
 
-.text-space {
-  margin-top: 10px;
-}
-
 /** VIEW PROTOTYPE BUTTON **/
 
 .prototype-btn {
@@ -66,20 +62,6 @@ section {
 }
 
 /** RED BG CODE **/
-
-.red-bg {
-  background-color: #4B182E;
-  position: relative;
-}
-
-.red-title-box {
-  position: relative;
-}
-
-.red-title {
-  position: absolute;
-  top: -35px;
-}
 
 #user-stories {
   padding-top: 83px;
