@@ -6,10 +6,6 @@ header {
   position: relative;
 }
 
-.red-bg {
-  background-color: #4B182E;
-}
-
 .text-space {
   margin-top: 10px;
 }
@@ -69,6 +65,30 @@ section {
   margin-bottom: 5px;
 }
 
+/** RED BG CODE **/
+
+.red-bg {
+  background-color: #4B182E;
+  position: relative;
+}
+
+.red-title-box {
+  position: relative;
+}
+
+.red-title {
+  position: absolute;
+  top: -35px;
+}
+
+#user-stories {
+  padding-top: 83px;
+}
+
+#pref-test {
+  padding-top: 39px;
+}
+
 /** FINAL CHANGES LIST **/
 
 .check {
@@ -93,21 +113,6 @@ section {
   background-color: #FEEB99;
   color: #121121;
   margin: 0 auto;
-}
-
-/** RED TITLE CODE **/
-
-.red-title-box {
-  position: relative;
-}
-
-.red-title {
-  position: absolute;
-  top: -34px;
-}
-
-.red-p-t {
-  padding-top: 30px;
 }
 
 /** IMAGES **/
