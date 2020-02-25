@@ -8,6 +8,9 @@ html {
 
 body {
   background-color: #121121;
+  background-image: url("../images/black-felt.png");
+  background-position: center;
+  background-size: 100%;
   color: #FBF8F3;
   margin: 0 auto;
   width: 100%;
@@ -69,8 +72,8 @@ p {
 nav {
   background-color: #FEEB99;
   color: #121121;
-  height: 6rem; /* 60px */
   position: relative;
+  overflow: hidden;
 }
 
 .my-logo {
@@ -78,15 +81,29 @@ nav {
   height: 6rem; /* 60px */
 }
 
-.nav-text {
+#myLinks {
   display: none;
+  margin-top: 6rem;
+}
+
+.nav-text a {
+  display: block;
+  text-decoration: none;
+  color: #121121;
+  text-align: right;
+  padding: 4% 8%;
+  background-color: #FEEB99;
 }
 
 .Ham-menu {
   color: #121121;
   position: absolute;
   right: 8%;
-  top: 1.5rem; /* 14px */
+  top: 1.5rem; /* 15px */
+}
+
+.active {
+  background-color: #FEEB99;
 }
 
 /** Contact Button **/

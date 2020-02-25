@@ -20,16 +20,23 @@
       <nav>
          <a href="index.html"><img src="../images/dang.logo.png" class="my-logo" alt="dang. logo"></a>
          <!-- hidden nav links -->
-         <div class="nav-text">
-            <a href="about.html">
-               <h3>about.</h3>
-            </a>
-            <a href="mailto:gallagherd07@gmail.com">
-               <h6>CONTACT</h6>
-            </a>
+         <div class="nav-text" id="myLinks">
+            <ul>
+               <li>
+                  <a href="about.html">
+                     <h3>about.</h3>
+                  </a>
+               </li>
+               <li>
+                  <a href="mailto:gallagherd07@gmail.com">
+                     <h3>contact.</h3>
+                  </a>
+               </li>
+            </ul>
          </div>
          <!-- Hamburger menu icon -->
-         <a href="javascript:void(0)" class="Ham-menu" onclick="myFunction()">
+         <!--  <a href="javascript:void(0)" class="Ham-menu" onclick="myFunction()"> -->
+         <a href="javascript:void(0);" class="Ham-menu" onclick="myFunction()">
          <i class="fas fa-bars fa-3x"></i>
          </a>
       </nav>
@@ -41,7 +48,8 @@
             <!-- Dan Selector -->
             <div class="slideshow-container">
                <!-- images with text -->
-               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>               <div class="mySlides">
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <div class="mySlides">
                   <img src="../images/about/delighted-dan.png"  alt="delighted dan" style="width:60%">
                   <div class="slide-text">
                      <h2>delighted dan.</h2>
@@ -82,7 +90,7 @@
             </div>
          </header>
          <!-- INTRODUCTION -->
-         <section>
+         <section class="intro">
             <h3>my name is dan g.</h3>
             <h5 class="text-space">i’m a ux/ui designer currently based in chicago.</h5>
             <h5 class="text-space">i make enjoyable designs for products that help people.</h5>
@@ -142,6 +150,7 @@
             </li>
          </ul>
       </footer>
+      <script src="scripts/main.js"></script>
       <script src="scripts/dan-show.js"></script>
    </body>
 </html>
