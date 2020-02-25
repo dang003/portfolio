@@ -2,9 +2,9 @@ body {
   background-color: #121121;
   color: #FBF8F3;
   font-size: 10px;
-  width: 100%;
-  max-width: 375px;
   margin: 0 auto;
+  max-width: 375px;
+  width: 100%;
 }
 
 container {
@@ -63,8 +63,8 @@ p {
 nav {
   background-color: #FEEB99;
   color: #121121;
-  position: relative;
   height: 54px;
+  position: relative;
 }
 
 .my-logo {

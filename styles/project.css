@@ -17,19 +17,19 @@ header {
 /** VIEW PROTOTYPE BUTTON **/
 
 .prototype-btn {
-  height: 61px;
-  width: 241px;
+  align-items: center;
   background: #121121;
   box-shadow: 1px 4px 4px rgba(18, 17, 33, 0.25);
-  margin: 337px auto 50px auto;
   display: flex;
+  height: 61px;
   justify-content: center;
-  align-items: center;
+  margin: 337px auto 50px auto;
+  width: 241px;
 }
 
 .prototype-btn a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 /** DELIVERABLES AND TOOLS **/
@@ -182,7 +182,7 @@ section {
   background-size: 100%;
   height: 249px;
   left: 0;
-  position: absolute;
   margin: 30px auto;
+  position: absolute;
   width: 100%;
 }
