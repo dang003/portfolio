@@ -168,3 +168,405 @@ footer {
 .text-space {
   margin-top: 10px;
 }
+
+
+
+
+/******* HOMEPAGE CSS *******/
+
+/** INTRODUCTION **/
+
+header {
+  height: 40rem;
+  padding: 5rem 8% 0 8%;
+}
+
+#home-bg {
+  background-image: linear-gradient(180deg, rgba(75, 24, 46, 0.2) 0%, #121121 100%), url("../images/bar-bg.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 1000px 127.6%;
+}
+
+.header-line {
+  box-shadow: 1px 1px 4px rgba(251, 248, 243, 0.3);
+  margin-right: 8%;
+  margin-top: 20px;
+}
+
+.sub-header {
+  margin-top: 20px;
+}
+
+/** SECTION titles **/
+
+.section-title {
+  z-index: 1;
+  padding-bottom: 30px;
+}
+
+.title-box {
+  margin-top: 100px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: -34px;
+}
+
+/** PROJECTS **/
+
+.projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-top: 30px;
+}
+
+.project-card {
+  display: flex;
+  height: 315px;
+  justify-content: center;
+  margin: 10px auto;
+  width: 315px;
+}
+
+.projects a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cargo-card {
+  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.4) 0%, rgba(18, 17, 33, 0.4) 100%), url("../images/cargo-bg-pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  height: 315px;
+  margin: 15px 15px;
+  width: 315px;
+}
+
+#busybus-card {
+  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.4) 0%, rgba(18, 17, 33, 0.4) 100%), url("../images/busybus-bg-pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 125%;
+  height: 315px;
+  margin: 15px 15px;
+  width: 315px;
+}
+
+/** TESTIMONIALS **/
+
+.red-bg {
+  background-color: #4B182E;
+  box-shadow: 0px 0px 50px #4B182E;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.quote-mark {
+  background-image: url("../images/quote-mark.png");
+  background-repeat: no-repeat;
+  float: left;
+  height: 55px;
+  margin: 30px 0 0 20px;
+  opacity: .2;
+  width: 75px;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.vibe-text {
+  margin: 0 8%;
+  padding-top: 100px;
+}
+
+.attribute {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.dot-container {
+  padding: 20px 8% 8% 8%;
+  text-align: right;
+}
+
+.dot {
+  background-color: #FBF8F3;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  margin: 0 5px;
+  opacity: .2;
+  transition: background-color 0.6s ease;
+  width: 15px;
+}
+
+.active {
+  opacity: 1;
+}
+
+
+
+
+/****** CASE STUDY CSS *******/
+
+
+/** INTRODUCTION **/
+
+header {
+  padding: 50px 8%;
+  position: relative;
+}
+
+/** VIEW PROTOTYPE BUTTON **/
+
+.prototype-btn {
+  align-items: center;
+  background: #121121;
+  box-shadow: 1px 4px 4px rgba(18, 17, 33, 0.25);
+  display: flex;
+  height: 61px;
+  justify-content: center;
+  margin: 337px auto 50px auto;
+  width: 241px;
+}
+
+.prototype-btn a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/** DELIVERABLES AND TOOLS **/
+
+.deliv-and-tools {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.tools {
+  margin-left: 16%;
+}
+
+/** SOLUTION **/
+
+.solution {
+  margin-top: 50px;
+}
+
+/** SECTION & PARAGRAPH **/
+
+section {
+  margin-top: 100px;
+  padding: 0 8%;
+  position: relative;
+}
+
+
+.section-paragraph {
+  padding-bottom: 30px;
+}
+
+.paragraph-title {
+  margin-bottom: 5px;
+}
+
+/** FINAL CHANGES LIST **/
+
+.check {
+  color: #FEEB99;
+}
+
+.final-changes {
+  margin: 20px 8%;
+}
+
+.final-changes li {
+  padding: 10px 10px ;
+}
+
+/** BOTTOM **/
+
+#mockup-buffer {
+  margin-top: 309px;
+}
+
+.bot-btn {
+  background-color: #FEEB99;
+  color: #121121;
+  margin: 0 auto;
+}
+
+/** IMAGES **/
+
+#top-mockup {
+  background-image: url("../images/cargo/CARGO screens black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 237px;
+  left: 0;
+  position: absolute;
+  margin: 50px auto;
+  width: 100%;
+}
+
+
+#cargo-pic {
+  background-image: url("../images/cargo/Color Full.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 158px;
+  margin: 30px auto;
+  max-width: 375px;
+}
+
+#moodboard {
+  background-image: url("../images/cargo/moodboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 297px;
+  margin: 30px auto;
+  max-width: 375px;
+}
+
+#icons {
+  background-image: url("../images/cargo/icons_horiz.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70px;
+  margin: 30px auto;
+  max-width: 375px;
+}
+
+#notif-banner {
+  background-image: url("../images/cargo/Cargo_notif_banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 93px;
+  margin: 30px auto;
+  max-width: 375px;
+}
+
+#bot-mockup {
+  background-image: url("../images/cargo/Trip Mckup 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 241px;
+  margin: 30px auto;
+  max-width: 375px;
+}
+
+#last-mockup {
+  background-image: url("../images/cargo/Homepage Mockup-Desk.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 249px;
+  left: 0;
+  margin: 30px auto;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+/******* ABOUT PAGE CSS *******/
+
+/** TEXT & FONT **/
+
+/** CHOOSE YOUR DAN **/
+
+header {
+  position: relative;
+  background-color: #4B182E;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  display: inline;
+  text-align: center;
+  margin: 50px 8% 30px; 8%;
+  color: #FEEB99;
+}
+
+.about-title h4 {
+  font-weight: 400;
+}
+
+.slideshow-container {
+  max-width: 450px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.mySlides {
+  text-align: center;
+  display: none;
+  position: relative;
+  height: 25%;
+}
+
+.slide-text {
+  text-align: center;
+  margin: 10% 8% 0px 8%;
+}
+
+.prev-icon, .next-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 8%;
+  color: #FEEB99;
+  font-weight: bold;
+  font-size: 36px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next-icon {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.btn-text {
+  display: none;
+}
+
+/** SECTION **/
+
+.intro {
+  padding: 34px 8%;
+}
+
+.less-space {
+  padding-bottom: 5px;
+}
