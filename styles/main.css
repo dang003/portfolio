@@ -14,6 +14,7 @@ body {
   color: #FBF8F3;
   margin: 0 auto;
   width: 100%;
+  padding-top: 6rem;
 }
 
 .container {
@@ -74,6 +75,15 @@ nav {
   color: #121121;
   position: relative;
   overflow: hidden;
+  width: 100%;
+}
+
+.nav-contents {
+    background-color: #FEEB99;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .my-logo {
@@ -167,4 +177,37 @@ footer {
 
 .text-space {
   margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 400px) {
+  .container {
+    max-width: 780px;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .container {
+    max-width: 1040px;
+  }
+
+  .Ham-menu {
+    display: none;
+  }
+
+  #myLinks {
+    display: block;
+    margin-top: 0;
+  }
+
+  .nav-text a {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 .5%;
+    height: 6rem;
+  }
+
 }

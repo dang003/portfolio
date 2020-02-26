@@ -149,3 +149,9 @@ header {
 .active {
   opacity: 1;
 }
+
+@media only screen and (min-width: 780px) {
+  .projects {
+    flex-direction: row;
+  }
+}
