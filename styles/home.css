@@ -7,7 +7,7 @@ header {
 }
 
 #home-bg {
-  background-image: linear-gradient(180deg, rgba(75, 24, 46, 0.2) 0%, #121121 100%), url(../images/bar-bg.jpg);
+  background-image: linear-gradient(180deg, rgba(75, 24, 46, 0.2) 0%, #121121 100%), url("../images/bar-bg.jpg");
   background-position: left;
   background-repeat: no-repeat;
   background-size: 1000px 127.6%;
