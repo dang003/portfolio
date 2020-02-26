@@ -25,13 +25,13 @@ body {
 h1 {
   font-family: Montserrat Alternates, sans-serif;
   font-size: 4.2rem; /* 42px */
-  line-height: 51px;
+  line-height: 5.1rem; /* 51px */
 }
 
 h2 {
   font-family: Montserrat Alternates, sans-serif;
   font-size: 3.6rem; /* 36px */
-  line-height: 44px;
+  line-height: 4.4rem; /* 44px */
 }
 
 h3 {
@@ -74,6 +74,15 @@ nav {
   color: #121121;
   position: relative;
   overflow: hidden;
+  height: 6rem;
+  z-index: 10;
+}
+
+.nav-contents {
+  position: fixed;
+  top: 0;
+  width: 400px;
+  background-color: #FEEB99;
 }
 
 .my-logo {
@@ -126,6 +135,14 @@ nav {
   width: 14.7rem; /* 147px */
 }
 
+/** header **/
+
+header {
+  background-color: #4B182E;
+  padding: 5rem 8%;
+  position: relative;
+}
+
 /** footer **/
 
 footer {
@@ -176,19 +193,16 @@ footer {
 
 /** INTRODUCTION **/
 
-header {
-  height: 40rem;
-  padding: 5rem 8% 0 8%;
-}
-
-#home-bg {
+.home-header {
   background-image: linear-gradient(180deg, rgba(75, 24, 46, 0.2) 0%, #121121 100%), url("../images/bar-bg.jpg");
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 1000px 127.6%;
+  background-size: 1000px 130%;
+  height: 45rem;
+  padding: 5rem 8% 8% 8%;
 }
 
-.header-line {
+.home-header-line {
   box-shadow: 1px 1px 4px rgba(251, 248, 243, 0.3);
   margin-right: 8%;
   margin-top: 20px;
@@ -286,11 +300,11 @@ header {
   width: 75px;
 }
 
-.slideshow-container {
+.home-slideshow-container {
   position: relative;
 }
 
-.mySlides {
+.mySlides-home {
   display: none;
 }
 
@@ -331,12 +345,6 @@ header {
 /****** CASE STUDY CSS *******/
 
 
-/** INTRODUCTION **/
-
-header {
-  padding: 50px 8%;
-  position: relative;
-}
 
 /** VIEW PROTOTYPE BUTTON **/
 
@@ -498,13 +506,9 @@ section {
 
 /******* ABOUT PAGE CSS *******/
 
-/** TEXT & FONT **/
-
 /** CHOOSE YOUR DAN **/
 
-header {
-  position: relative;
-  background-color: #4B182E;
+.about-header {
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -513,7 +517,7 @@ header {
 .about-title {
   display: inline;
   text-align: center;
-  margin: 50px 8% 30px; 8%;
+  margin: 0px 8% 30px; 8%;
   color: #FEEB99;
 }
 
@@ -521,20 +525,20 @@ header {
   font-weight: 400;
 }
 
-.slideshow-container {
+.about-slideshow-container {
   max-width: 450px;
   position: relative;
   margin: 0 auto;
 }
 
-.mySlides {
+.mySlides-about {
   text-align: center;
   display: none;
   position: relative;
   height: 25%;
 }
 
-.slide-text {
+.about-slide-text {
   text-align: center;
   margin: 10% 8% 0px 8%;
 }
@@ -542,7 +546,7 @@ header {
 .prev-icon, .next-icon {
   cursor: pointer;
   position: absolute;
-  top: 20%;
+  top: 55px;
   width: auto;
   padding: 8%;
   color: #FEEB99;
