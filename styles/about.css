@@ -35,18 +35,18 @@ header {
   text-align: center;
   display: none;
   position: relative;
-  height: 250px;
+  height: 25%;
 }
 
 .slide-text {
   text-align: center;
-  margin: 30px 8% 0px 8%;
+  margin: 10% 8% 0px 8%;
 }
 
-.prev, .next {
+.prev-icon, .next-icon {
   cursor: pointer;
   position: absolute;
-  top: 30%;
+  top: 20%;
   width: auto;
   padding: 8%;
   color: #FEEB99;
@@ -56,9 +56,13 @@ header {
   user-select: none;
 }
 
-.next {
+.next-icon {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+.btn-text {
+  display: none;
 }
 
 /** SECTION **/
