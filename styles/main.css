@@ -508,7 +508,7 @@ section {
 /** CHOOSE YOUR DAN **/
 
 .about-header {
-  height: 600px;
+  height: 560px;
   display: flex;
   flex-direction: column;
 }
@@ -528,27 +528,22 @@ section {
   max-width: 450px;
   position: relative;
   margin: 0 auto;
-  transition: 400ms;
 }
 
 .mySlides-about {
   text-align: center;
   display: none;
-  position: relative;
-  height: 25%;
 }
 
 .about-slide-text {
-  text-align: center;
-  margin: 10% 8% 0px 8%;
+  margin: 8% 0;
 }
 
 .prev-icon, .next-icon {
   cursor: pointer;
   position: absolute;
   top: 75px;
-  width: auto;
-  margin: 0 8%;
+  margin: 0 4%;
   padding: 5px 5px;
   color: #FEEB99;
   font-weight: bold;
