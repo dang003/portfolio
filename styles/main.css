@@ -104,7 +104,7 @@ nav {
   background-color: #FEEB99;
 }
 
-.Ham-menu {
+.burger {
   color: #121121;
   position: absolute;
   right: 8%;
@@ -529,6 +529,7 @@ section {
   max-width: 450px;
   position: relative;
   margin: 0 auto;
+  transition: 400ms;
 }
 
 .mySlides-about {
