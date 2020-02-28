@@ -83,6 +83,7 @@ nav {
   top: 0;
   width: 400px;
   background-color: #FEEB99;
+  z-index: 2;
 }
 
 .my-logo {
@@ -93,6 +94,7 @@ nav {
 #myLinks {
   display: none;
   margin-top: 6rem;
+  z-index: 2;
 }
 
 .nav-text a {
@@ -559,7 +561,6 @@ section {
 
 .next-icon {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 .btn-text {
