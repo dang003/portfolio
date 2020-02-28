@@ -303,10 +303,6 @@ footer {
   position: relative;
 }
 
-.mySlides-home {
-  display: none;
-}
-
 .vibe-text {
   margin: 0 8%;
   padding-top: 100px;
@@ -337,8 +333,6 @@ footer {
 .active {
   opacity: 1;
 }
-
-
 
 
 /****** CASE STUDY CSS *******/
@@ -530,16 +524,19 @@ section {
   margin: 0 auto;
 }
 
-.mySlides-about {
-  text-align: center;
+.mySlides {
   display: none;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .about-slide-text {
   margin: 8% 0;
 }
 
-.prev-icon, .next-icon {
+.about-prev, .about-next {
   cursor: pointer;
   position: absolute;
   top: 75px;
@@ -552,12 +549,8 @@ section {
   user-select: none;
 }
 
-.next-icon {
+.about-next {
   right: 0;
-}
-
-.btn-text {
-  display: none;
 }
 
 /** SECTION **/
