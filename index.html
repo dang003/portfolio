@@ -19,26 +19,29 @@
       <!-- TOP NAVIGATION -->
       <nav>
          <div class="nav-contents">
-            <a href="index.html"><img src="../images/dang.logo.png" class="my-logo" alt="dang. logo"></a>
+            <a href="index.html"><img src="images/dang.logo.png" class="my-logo" alt="dang. logo"></a>
             <!-- hidden nav links -->
             <div class="nav-text" id="myLinks">
                <ul>
                   <li>
+                     <a href="index.html#projects">
+                        <h3>work.</h3>
+                     </a>
+                  </li>
+                  <li>
                      <a href="about.html">
-                        <h3 id="nav-about">about.</h3>
+                        <h3>about.</h3>
                      </a>
                   </li>
                   <li>
                      <a href="mailto:gallagherd07@gmail.com">
-                        <h3 id="nav-contact">contact.</h3>
+                        <h3>contact.</h3>
                      </a>
                   </li>
                </ul>
             </div>
             <!-- Hamburger menu icon -->
-            <a href="javascript:void(0);" class="Ham-menu" onclick="myFunction()">
-            <i class="fas fa-bars fa-3x"></i>
-            </a>
+            <i class="burger fas fa-bars fa-3x"></i>
          </div>
       </nav>
       <main>
@@ -60,9 +63,9 @@
                </div>
             </div>
             <h5>enjoy your stay.</h5>
-          </div>
          </header>
          <!-- PROJECTS -->
+         <div id="projects"></div>
          <section>
             <div class="title-box">
                <h2 class="section-title title">projects.</h2>
@@ -84,6 +87,7 @@
                      </div>
                   </a>
                </div>
+            </div>
          </section>
          <!-- TESTIMONIALS -->
          <section class="red-bg">
@@ -94,20 +98,20 @@
             <div class="home-slideshow-container">
                <div class="quote-mark"></div>
                <!-- Slide Quotes -->
-               <div class="mySlides-home vibe-text">
+               <div class="mySlides vibe-text">
                   <h6>This is where my testimonials will go, once I receive them. My previous mentor and my current one have both agreed to give me quotes that I can put here.</h6>
                   <h2 class="attribute">-my mentor.</h2>
                </div>
-               <div class="nextSlides vibe-text">
+               <div class="mySlides vibe-text">
                   <h6>This is where my testimonials will go, once I receive them. My previous mentor and my current one have both agreed to give me quotes that I can put here.</h6>
                   <h2 class="attribute">-my mentor.</h2>
-               </div>
-               <!-- Indicators -->
-               <div class="dot-container">
-                  <span class="dot active" onclick="currentSlide(1)"></span>
-                  <span class="dot" onclick="currentSlide(2)"></span>
                </div>
             </div>
+               <!-- Indicators -->
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+           </div>
          </section>
       </main>
       <!-- FOOTER -->
@@ -137,5 +141,6 @@
          </ul>
       </footer>
       <script src="scripts/main.js"></script>
+      <script src="scripts/dan-show.js"></script>
    </body>
 </html>
