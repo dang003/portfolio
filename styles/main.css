@@ -595,7 +595,7 @@ section {
   }
 
   /** About page **/
-  .prev-icon, .next-icon {
+  .about-prev, .about-next {
     top: 85px;
   }
 
