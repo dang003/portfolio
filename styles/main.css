@@ -14,7 +14,6 @@ body {
   color: #FBF8F3;
   margin: 0 auto;
   width: 100%;
-  min-width: 300px;
 }
 
 .container {
@@ -71,36 +70,32 @@ p {
 /** navigation **/
 
 nav {
-  position: fixed;
-  top: 0;
+  background-color: #FEEB99;
   color: #121121;
   position: relative;
   overflow: hidden;
   height: 6rem;
   z-index: 10;
-  max-width: 992px;
-  margin: 0 auto;
 }
 
 .nav-contents {
-  background-color: #FEEB99;
-  width: 100%;
   position: fixed;
-  overflow: hidden;
+  top: 0;
+  width: 100%;
+  max-width: 400px;
+  background-color: #FEEB99;
+  z-index: 2;
 }
 
 .my-logo {
   float: left;
   height: 6rem; /* 60px */
-  right: 0;
 }
 
 #myLinks {
-  float: right;
-  width: 200px;
   display: none;
   margin-top: 6rem;
-  padding-right: 16px;
+  z-index: 2;
 }
 
 .nav-text a {
@@ -108,13 +103,15 @@ nav {
   text-decoration: none;
   color: #121121;
   text-align: right;
-  padding: 1.5rem 1.6rem;
+  padding: 4% 8%;
+  background-color: #FEEB99;
 }
 
-.Ham-menu {
+.burger {
+  cursor: pointer;
   color: #121121;
   position: absolute;
-  right: 30px;
+  right: 8%;
   top: 1.5rem; /* 15px */
 }
 
@@ -145,10 +142,9 @@ nav {
 /** header **/
 
 header {
+  background-color: #4B182E;
   padding: 5rem 8%;
   position: relative;
-  max-width: 992px;
-  margin: 0 auto;
 }
 
 /** footer **/
@@ -176,40 +172,6 @@ footer {
   font-size: 2rem; /** 20px **/
 }
 
-
-/** SECTION & PARAGRAPH **/
-
-section {
-  margin-top: 100px;
-  padding: 0 8%;
-  position: relative;
-}
-
-.section-title {
-  z-index: 1;
-  padding-bottom: 30px;
-}
-
-.section-paragraph {
-  padding-bottom: 30px;
-}
-
-.paragraph-title {
-  margin-bottom: 5px;
-}
-
-/** titles **/
-
-.title-box {
-  margin-top: 100px;
-  position: relative;
-}
-
-.title {
-  position: absolute;
-  top: -3.4rem;
-}
-
 /* RED BOX CODE */
 
 .red-bg {
@@ -225,7 +187,7 @@ section {
   top: -35px;
 }
 
-/** 10PX SPACE BETWEEN ITEMS **/
+/** 10PX SPACE ABOVE ITEMS **/
 
 .text-space {
   margin-top: 10px;
@@ -257,12 +219,29 @@ section {
   margin-top: 20px;
 }
 
+/** SECTION titles **/
+
+.section-title {
+  z-index: 1;
+  padding-bottom: 30px;
+}
+
+.title-box {
+  margin-top: 100px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: -34px;
+}
+
 /** PROJECTS **/
 
 .projects {
   align-items: center;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   justify-content: center;
   position: relative;
   padding-top: 30px;
@@ -324,10 +303,6 @@ section {
   position: relative;
 }
 
-.mySlides-home {
-  display: none;
-}
-
 .vibe-text {
   margin: 0 8%;
   padding-top: 100px;
@@ -360,9 +335,9 @@ section {
 }
 
 
-
-
 /****** CASE STUDY CSS *******/
+
+
 
 /** VIEW PROTOTYPE BUTTON **/
 
@@ -373,7 +348,7 @@ section {
   display: flex;
   height: 61px;
   justify-content: center;
-  margin: 50px auto;
+  margin: 337px auto 50px auto;
   width: 241px;
 }
 
@@ -399,6 +374,22 @@ section {
   margin-top: 50px;
 }
 
+/** SECTION & PARAGRAPH **/
+
+section {
+  margin-top: 100px;
+  padding: 0 8%;
+  position: relative;
+}
+
+
+.section-paragraph {
+  padding-bottom: 30px;
+}
+
+.paragraph-title {
+  margin-bottom: 5px;
+}
 
 /** FINAL CHANGES LIST **/
 
@@ -416,6 +407,10 @@ section {
 
 /** BOTTOM **/
 
+#mockup-buffer {
+  margin-top: 309px;
+}
+
 .bot-btn {
   background-color: #FEEB99;
   color: #121121;
@@ -424,55 +419,79 @@ section {
 
 /** IMAGES **/
 
-.image {
+#top-mockup {
+  background-image: url("../images/cargo/CARGO screens black.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  max-width: 400px;
+  height: 237px;
+  left: 0;
+  position: absolute;
+  margin: 50px auto;
+  width: 100%;
 }
 
-#top-mockup {
-  background-image: url("../images/cargo/CARGO screens black.png");
-  margin: 0 auto;
-  margin-top: 50px;
-  background-size: 100%;
-  height: 197px;
-}
 
 #cargo-pic {
   background-image: url("../images/cargo/Color Full.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 158px;
   margin: 30px auto;
+  max-width: 375px;
 }
 
 #moodboard {
   background-image: url("../images/cargo/moodboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 297px;
   margin: 30px auto;
+  max-width: 375px;
 }
 
 #icons {
   background-image: url("../images/cargo/icons_horiz.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 70px;
   margin: 30px auto;
+  max-width: 375px;
 }
 
 #notif-banner {
   background-image: url("../images/cargo/Cargo_notif_banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 93px;
   margin: 30px auto;
+  max-width: 375px;
 }
 
 #bot-mockup {
   background-image: url("../images/cargo/Trip Mckup 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 241px;
   margin: 30px auto;
+  max-width: 375px;
 }
 
 #last-mockup {
   background-image: url("../images/cargo/Homepage Mockup-Desk.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 249px;
+  left: 0;
   margin: 30px auto;
+  position: absolute;
+  width: 100%;
 }
 
 
@@ -483,7 +502,7 @@ section {
 /** CHOOSE YOUR DAN **/
 
 .about-header {
-  height: 620px;
+  height: 560px;
   display: flex;
   flex-direction: column;
 }
@@ -500,44 +519,41 @@ section {
 }
 
 .about-slideshow-container {
-  max-width: 480px;
+  max-width: 450px;
   position: relative;
   margin: 0 auto;
 }
 
-.mySlides-about {
-  text-align: center;
+.mySlides {
   display: none;
-  position: relative;
-  height: 25%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .about-slide-text {
-  text-align: center;
-  margin: 30px 8% 0px 8%;
+  margin: 8% 0;
 }
 
-.prev-icon, .next-icon {
+.about-prev, .about-next {
   cursor: pointer;
   position: absolute;
-  top: 18%;
-  width: auto;
-  padding: 8%;
+  top: 75px;
+  margin: 0 4%;
+  padding: 5px 5px;
   color: #FEEB99;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 3.6rem;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
-.next-icon {
+.about-next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
-.btn-text {
-  display: none;
-}
+/** SECTION **/
 
 .intro {
   padding: 34px 8%;
@@ -546,6 +562,7 @@ section {
 .less-space {
   padding-bottom: 5px;
 }
+
 
 
 
