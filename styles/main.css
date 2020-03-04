@@ -467,6 +467,10 @@ section {
   box-shadow: 0px 0px 20px #FEEB99;
 }
 
+#conclusion {
+  padding-bottom: 0;
+}
+
 /** IMAGES **/
 
 #top-mockup {
