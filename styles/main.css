@@ -298,6 +298,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: relative;
   padding-top: 30px;
 }
@@ -365,6 +366,11 @@ section {
 .vibe-text {
   margin: 0 8%;
   padding-top: 100px;
+}
+
+.vibe-text h6 {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
 }
 
 .attribute {
