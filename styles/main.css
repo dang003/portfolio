@@ -198,6 +198,10 @@ footer {
   margin: 0 10px 50px 10px;
 }
 
+.social-media-links li:hover {
+  text-shadow: 0px 0px 10px #f8f8f3;
+}
+
 .fab {
   color: #FBF8F3;
   font-size: 2rem; /** 20px **/
@@ -447,12 +451,21 @@ section {
 
 .sticky-nav {
   overflow: hidden;
-  position: sticky;
-  top: 7rem;
-  z-index: 13;
   background-color: #4B182E;
   background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
-  border-bottom: 2px solid #FEEB99;;
+  border-bottom: 2px solid #FEEB99;
+  position: sticky;
+  top: 7rem;
+  z-index: 11;
+}
+
+.sticky-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
 }
 
 .sticky-nav a, .sticky-nav h6 {
@@ -465,6 +478,10 @@ section {
 
 .sticky-nav a:hover {
   text-shadow: 0px 0px 10px #FBF8F3;
+}
+
+.sticky-links {
+  display: none;
 }
 
 /** FINAL CHANGES LIST **/
@@ -692,27 +709,6 @@ section {
   max-width: 820px;
 }
 
-.sticky-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.sticky-nav h6 {
-  display: none;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
   /** CASE STUDY IMAGES **/
 
   #top-mockup {
@@ -762,6 +758,19 @@ section {
   .home-header {
     background-size: 100%;
 
+  }
+
+  /** CASE STUDY **/
+
+  .sticky-header {
+    display: none;
+  }
+
+  .sticky-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
 }
