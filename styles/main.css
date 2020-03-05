@@ -8,9 +8,7 @@ html {
 
 body {
   background-color: #121121;
-  background-image: url("../images/black-felt.png");
-  background-position: center;
-  background-size: 100%;
+  background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png");
   color: #FBF8F3;
   margin: 0 auto;
   position: relative;
@@ -200,6 +198,10 @@ footer {
   margin: 0 10px 50px 10px;
 }
 
+.social-media-links li:hover {
+  text-shadow: 0px 0px 10px #f8f8f3;
+}
+
 .fab {
   color: #FBF8F3;
   font-size: 2rem; /** 20px **/
@@ -245,6 +247,7 @@ section {
 
 .red-bg {
   background-color: #4B182E;
+  background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
   box-shadow: 0px 0px 50px #4B182E;
   height: 100%;
   position: relative;
@@ -255,6 +258,7 @@ section {
   position: relative;
   top: -3.5rem;
 }
+
 
 /** SPACE MODIFIERS **/
 
@@ -273,10 +277,10 @@ section {
 /** INTRODUCTION **/
 
 .home-header {
-  background-image: linear-gradient(180deg, rgba(75, 24, 46, 0.2) 0%, #121121 100%), url("../images/bar-bg.jpg");
-  background-position: left;
+  background-image: linear-gradient(180deg, rgba(75, 24, 46, 0.2) 0%, #121121 100%), url("../images/sunset.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 1000px 130%;
+  background-size: 100rem 60rem;
   height: 45rem;
   padding: 5rem 8% 8% 8%;
 }
@@ -441,6 +445,43 @@ section {
 
 .solution {
   margin-top: 50px;
+}
+
+/** STICKY NAV **/
+
+.sticky-nav {
+  overflow: hidden;
+  background-color: #4B182E;
+  background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
+  border-bottom: 2px solid #FEEB99;
+  position: sticky;
+  top: 7rem;
+  z-index: 11;
+}
+
+.sticky-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+}
+
+.sticky-nav a, .sticky-nav h6 {
+  display: block;
+  color: #f8f8f3;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.sticky-nav a:hover {
+  text-shadow: 0px 0px 10px #FBF8F3;
+}
+
+.sticky-links {
+  display: none;
 }
 
 /** FINAL CHANGES LIST **/
@@ -662,7 +703,6 @@ section {
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
   .image {
@@ -717,6 +757,20 @@ section {
 
   .home-header {
     background-size: 100%;
+
+  }
+
+  /** CASE STUDY **/
+
+  .sticky-header {
+    display: none;
+  }
+
+  .sticky-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
 }
