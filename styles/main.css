@@ -72,29 +72,29 @@ p {
 
 nav {
   color: #FBF8F3;
-  position: relative;
-  overflow: hidden;
   height: 7rem;
+  overflow: hidden;
+  position: relative;
 }
 
 .nav-contents {
-  position: fixed;
-  top: 0;
-  height: 7rem;
-  padding: 0 8%;
-  display: flex;
   align-items: center;
-  width: 100%;
-  max-width: 400px;
   background-color: #121121;
   border-bottom: 2px solid #FEEB99;
   box-shadow: 0px 0px 40px #FEEB99;
+  display: flex;
+  height: 7rem;
+  max-width: 400px;
+  padding: 0 8%;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 4;
 }
 
 #myLogo {
-  text-decoration: none;
   color: #FBF8F3;
+  text-decoration: none;
 }
 
 #myLogo:hover {
@@ -103,22 +103,23 @@ nav {
 
 #myLinks {
   background-color: #121121;
+  border-bottom: 2px solid #FEEB99;
   display: none;
   margin-top: 7rem;
+  padding: 12px 6%;
   position: absolute;
   right: 0;
   top: 0;
-  padding: 12px 6%;
   width: 100%;
-  border-bottom: 2px solid #FEEB99;
 }
 
 .nav-text a {
-  display: block;
-  text-decoration: none;
-  padding: 1.6rem 1.4rem;
   color: #FEEB99;
-  text-align: right;}
+  display: block;
+  padding: 1.6rem 1.4rem;
+  text-align: right;
+  text-decoration: none;
+}
 
 
 .nav-text a:hover {
@@ -126,8 +127,8 @@ nav {
 }
 
 .burger {
-  cursor: pointer;
   color: #FEEB99;
+  cursor: pointer;
   position: absolute;
   right: 8%;
 }
@@ -140,7 +141,16 @@ nav {
   background-color: #FEEB99;
 }
 
-/** Contact Button **/
+/** Buttons **/
+
+.btn {
+  align-items: center;
+  height: 60px;
+  width: 241px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
 
 .CONTACT {
   border: 1px solid #FEEB99;
@@ -165,7 +175,7 @@ nav {
 }
 
 .CONTACT a:hover {
-text-shadow: 0px 0px 5px #FEEB99;
+  text-shadow: 0px 0px 5px #FEEB99;
 }
 
 /** header **/
@@ -179,8 +189,8 @@ header {
 /** footer **/
 
 footer {
-  text-align: center;
   margin-top: 50px; /* 50px */
+  text-align: center;
 }
 
 #footer-contact {
@@ -210,14 +220,14 @@ footer {
 section {
   margin-top: 10rem;
   padding: 0 8%;
-  position: relative;
   padding-bottom: 2rem;
+  position: relative;
 }
 
 .section-paragraph {
   padding-bottom: 3rem;
-  max-width: 640px;
   margin: 0 auto;
+  max-width: 640px;
 }
 
 .paragraph-title {
@@ -227,8 +237,8 @@ section {
 /** SECTION titles **/
 
 .section-title {
-  z-index: 1;
   margin-bottom: 3rem;
+  z-index: 1;
 }
 
 .title-box {
@@ -268,6 +278,9 @@ section {
   padding-bottom: 5px;
 }
 
+.text-deco {
+  color: inherit;
+}
 
 
 /******* HOMEPAGE CSS *******/
@@ -282,6 +295,7 @@ section {
   background-size: 100rem 60rem;
   height: 45rem;
   padding: 5rem 8% 8% 8%;
+  width: 100%;
 }
 
 .home-header-line {
@@ -298,12 +312,12 @@ section {
 /** PROJECTS **/
 
 .projects {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  position: relative;
   padding-top: 30px;
+  position: relative;
 }
 
 .project-card {
@@ -315,7 +329,7 @@ section {
 }
 
 .project-card:hover {
-    box-shadow: 0px 0px 30px #FBF8F3;
+  box-shadow: 0px 0px 30px #FBF8F3;
 }
 
 .projects a {
@@ -324,9 +338,9 @@ section {
 }
 
 .project-text {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
@@ -409,23 +423,18 @@ section {
 
 /** VIEW PROTOTYPE BUTTON **/
 
-.prototype-btn {
-  align-items: center;
+.prototype {
   background: #121121;
   box-shadow: 1px 4px 4px rgba(18, 17, 33, 0.25);
-  display: flex;
-  height: 60px;
-  justify-content: center;
   margin: 2rem auto 5rem auto;
-  width: 241px;
 }
 
-.prototype-btn a {
+.prototype a {
   color: inherit;
   text-decoration: none;
 }
 
-.prototype-btn:hover {
+.prototype:hover {
   box-shadow: 0px 0px 20px rgba(18, 17, 33, 1);
 }
 
@@ -449,29 +458,29 @@ section {
 /** STICKY NAV **/
 
 .sticky-nav {
-  overflow: hidden;
   background-color: #4B182E;
   background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
   border-bottom: 2px solid #FEEB99;
+  overflow: hidden;
   position: sticky;
   top: 7rem;
   z-index: 2;
 }
 
 .sticky-header {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   height: 6rem;
+  justify-content: center;
   width: 100%;
 }
 
 .sticky-nav a, .sticky-nav h6 {
   display: block;
   color: #f8f8f3;
-  text-align: center;
   padding: 20px 30px;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -481,6 +490,45 @@ section {
 
 .sticky-links {
   display: none;
+}
+
+
+/** PERSONA **/
+
+.personas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.lucas, .sarah {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.persona-text {
+  padding-left: 30px;
+}
+
+.persona-btn {
+  background-color: #FEEB99;
+  bottom: 0;
+  color: #121121;
+  margin-bottom: 30px;
+  position: absolute;
+  right: 8%;
+  width: 241px;
+}
+
+.persona-btn:hover {
+  box-shadow: 0px 0px 20px #FEEB99;
+}
+
+span {
+  font-style: italic;
 }
 
 /** FINAL CHANGES LIST **/
@@ -499,12 +547,18 @@ section {
 
 /** BOTTOM **/
 
-.bot-btn {
+.prototype-bot {
   background-color: #FEEB99;
+  color: #121121;
+  margin: 2rem auto 5rem auto;
+}
+
+.prototype-bot a {
+  text-decoration: none;
   color: #121121;
 }
 
-.bot-btn:hover {
+.prototype-bot:hover {
   box-shadow: 0px 0px 20px #FEEB99;
 }
 
@@ -593,16 +647,16 @@ section {
 /** CHOOSE YOUR DAN **/
 
 .about-header {
-  height: 56rem;
   display: flex;
   flex-direction: column;
+  height: 56rem;
 }
 
 .about-title {
-  display: inline;
-  text-align: center;
-  margin: 0px 8% 30px 8%;
   color: #FEEB99;
+  display: inline;
+  margin: 0px 8% 30px 8%;
+  text-align: center;
 }
 
 .about-title h4 {
@@ -610,9 +664,9 @@ section {
 }
 
 .about-slideshow-container {
+  margin: 0 auto;
   max-width: 450px;
   position: relative;
-  margin: 0 auto;
 }
 
 .mySlides {
@@ -628,15 +682,15 @@ section {
 }
 
 .about-prev, .about-next {
+  border-radius: 0 3px 3px 0;
+  color: #FEEB99;
   cursor: pointer;
-  position: absolute;
-  top: 6rem;
+  font-size: 3.6rem;
+  font-weight: bold;
   margin: 0 4%;
   padding: 5px 5px;
-  color: #FEEB99;
-  font-weight: bold;
-  font-size: 3.6rem;
-  border-radius: 0 3px 3px 0;
+  position: absolute;
+  top: 6rem;
   user-select: none;
 }
 
@@ -691,17 +745,17 @@ section {
   }
 
   section {
-    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 900px;
   }
 
   /** CASE STUDY **/
 
 .project-header {
-  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 640px;
 }
 
   .image {
@@ -766,10 +820,10 @@ section {
   }
 
   .sticky-links {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
   }
 
 }
