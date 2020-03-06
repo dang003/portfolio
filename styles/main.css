@@ -275,6 +275,7 @@ section {
 /** INTRODUCTION **/
 
 .home-header {
+  /* Hero image credit: TheDigitalArtist on Pixabay / https://pixabay.com/illustrations/tropical-summer-sunset-beach-1651426/ */
   background-image: linear-gradient(180deg, rgba(75, 24, 46, 0.2) 0%, #121121 100%), url("../images/sunset.jpg");
   background-position: center;
   background-repeat: no-repeat;
