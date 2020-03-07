@@ -150,6 +150,7 @@ nav {
   display: flex;
   justify-content: center;
   text-decoration: none;
+  color: inherit;
 }
 
 .CONTACT {
@@ -176,6 +177,19 @@ nav {
 
 .CONTACT a:hover {
   text-shadow: 0px 0px 5px #FEEB99;
+}
+
+.content-btn {
+  color: #FEEB99;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 200px;
+  text-decoration: none;
+}
+
+.content-btn:hover {
+  text-shadow: 0px 0px 20px #FEEB99;
 }
 
 /** header **/
