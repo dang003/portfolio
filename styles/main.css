@@ -727,11 +727,11 @@ span {
 
   html {
     font-size: 12px;
-}
+  }
+
   .container {
     max-width: 992px;
   }
-
 
   /** Homepage **/
 
@@ -752,15 +752,15 @@ span {
 
   /** CASE STUDY **/
 
-.project-header {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 640px;
-}
+  .project-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+  }
 
-  .image {
-  max-width: 820px;
-}
+    .image {
+    max-width: 820px;
+  }
 
   /** CASE STUDY IMAGES **/
 
@@ -810,7 +810,6 @@ span {
 
   .home-header {
     background-size: 100%;
-
   }
 
   /** CASE STUDY **/
