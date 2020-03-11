@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159718014-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-159718014-1');
+   </script>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Contact | Dan Gallagher</title>
+   <!-- Title Icon -->
+   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.typekit.net/wkp1wfo.css">
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/a02749a14a.js" crossorigin="anonymous"></script>
+   <!-- Stylesheets -->
+   <link rel="stylesheet" href="styles/reset.css">
+   <link rel="stylesheet" href="styles/main.css">
+</head>
+  <body>
+    <!-- TOP NAVIGATION -->
+    <nav>
+       <div class="nav-contents">
+          <a href="index.html" id="myLogo">
+             <h1>dang.</h1>
+          </a>
+          <!-- hidden nav links -->
+          <div class="nav-text" id="myLinks">
+             <ul>
+                <li>
+                   <a href="index.html#projects">
+                      <h3>work.</h3>
+                   </a>
+                </li>
+                <li>
+                   <a href="about.html">
+                      <h3>about.</h3>
+                   </a>
+                </li>
+                <li>
+                  <a href="contact.html">
+                      <h3>contact.</h3>
+                   </a>
+                </li>
+             </ul>
+          </div>
+          <!-- Hamburger menu icon -->
+          <i class="burger fas fa-bars fa-3x"></i>
+       </div>
+    </nav>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" class="contact-form red-bg" action="https://formspree.io/mrglzojp" method="POST">
+      <div class="red-title-box">
+         <h2 class="red-title">it began with a letter.</h2>
+      </div>
+      <div class="contact-form-header">
+        <p>To get in touch with me, please fill out the form below and click submit.</p>
+      </div>
+      <fieldset class="contact-area" id="fs-frm-inputs">
+        <label for="full-name">Full Name</label>
+        <input type="text" class="contact-input" name="name" id="full-name" placeholder="First and Last" required="">
+        <label for="email-address">Email Address</label>
+        <input type="email" class="contact-input" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" placeholder="Enter your message here." required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      </fieldset>
+      <input type="submit" class="contact-btn btn" value="Submit">
+    </form>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/dan-show.js"></script>
+ </body>
+</html>

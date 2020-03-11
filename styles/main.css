@@ -722,6 +722,80 @@ span {
 
 
 
+/****** CONTACT PAGE *******/
+
+.contact-form {
+  height: 100%;
+  margin: 9rem auto;
+  max-width: 900px;
+  position: relative;
+  width: 80%;
+}
+
+.contact-area {
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.contact-form-header {
+  margin: 0 3rem 3rem 3rem;
+}
+
+.contact-form label {
+  font-family: raleway, sans-serif;
+  font-size: 2rem; /* 20 px */
+  font-weight: 400;
+  line-height: 3.2rem; /* 32px */
+}
+
+
+.contact-input {
+  background-color: #F8F8F3;
+  color: #121121;
+  height: 4rem;
+  display: block;
+  font-family: droid-serif, serif;
+  font-size: 1.4rem; /* 16px */
+  line-height: 2.2rem; /* 22px */
+  margin-bottom: 1.8rem;
+  max-width: 25rem;
+  padding: 0 1rem;
+  width: 50%;
+}
+
+#message {
+  background-color: #F8F8F3;
+  color: #121121;
+  display: block;
+  font-family: droid-serif, serif;
+  font-size: 1.4rem; /* 14px */
+  margin-bottom: 10rem;
+  max-width: 50rem;
+  padding: 1rem;
+  resize: none;
+  width: 80%;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 2px solid #FEEB99;
+  color: #FEEB99;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  font-family: raleway, sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  height: 4.5rem;
+  margin: 3rem;
+  width: 11rem;
+}
+
+.contact-btn:hover {
+  box-shadow: 0px 0px 10px #FEEB99, inset 0px 0px 10px #FEEB99;
+  text-shadow: 0px 0px 10px #FEEB99;
+}
+
 /******* MEDIA QUERIES ********/
 
 @media only screen and (min-width: 400px) {
