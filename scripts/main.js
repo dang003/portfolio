@@ -27,7 +27,7 @@ function toggleSticky() {
   } else {
     x.style.display = "block";
   } ARROW.classList.toggle('fa-angle-up');
-};
+}
 
 (BAR).addEventListener('click', function() {
   toggleSticky();
