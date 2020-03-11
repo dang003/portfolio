@@ -92,10 +92,6 @@ nav {
   z-index: 4;
 }
 
-.nav-contents:hover {
-  box-shadow: 0px 0px 40px #FEEB99;
-}
-
 #myLogo {
   color: #FBF8F3;
   text-decoration: none;
