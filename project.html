@@ -64,7 +64,7 @@
             <h6 class="text-space">Case Study</h6>
             <p class="text-space">CARGO gives travelers a platform where they can store, organize, and access their files. Photos, plans, and notes can all be created or uploaded with this cloud storage site.</p>
             <!-- Image mockup 1 -->
-            <div id="top-mockup" title="Image of CARGO homepage and trip page"></div>
+            <div id="top-mockup" class="project-images" title="Image of CARGO homepage and trip page"></div>
             <div class="prototype btn">
                <a href="https://dangallagher937465.invisionapp.com/public/share/YRXDK8SSZ#/screens" target="_blank">
                   <h6>View Prototype</h6>
@@ -88,7 +88,7 @@
             </div>
             <div class="solution">
                <h2>solution.</h2>
-               <p class="text-space">User files are stored in trips. Users also have the ability to add tags to their files, which lets them customize their organization. Users will be able to access files by opening a trip or by directly searching by title or tag.</p>
+               <p class="text-space">User files are stored in trips. Users also have the ability to add tags to their files, which lets them customize their organization. Users will be able to access files by opening a trip or directly searching by title or tag.</p>
             </div>
             </div>
          </header>
@@ -113,10 +113,13 @@
             <div class="section-paragraph">
                <h5 class="paragraph-title">Survey</h5>
                <p>I noticed a few trends from my survey results. 87.5% of users said they used cloud storage for personal reasons, like storing family photos. Also, 75% mentioned that organization was a major frustration with their current services.</p>
+               <img src="images/cargo/survey_purposes.png" class="project-images bot-margin" width="100%" height="100%" alt="Cloud storage purposes">
+               <img src="images/cargo/survey_frustrations.png" class="project-images bot-margin" width="100%" height="100%" alt="Cloud storage frustrations">
             </div>
             <div class="section-paragraph">
                <h5 class="paragraph-title">Competitive Analysis</h5>
                <p>I created a SWOT of major cloud storage sites to better understand the market and come up with an idea where my project might fit in. Instead of building an all-in-one site like Google Drive, I learned that it would benefit us more if our site targets a niche.</p>
+               <img src="images/cargo/enemy_logos.png" class="project-images" alt="Google Drive, Dropbox, Evernote logos" width="80%" height="80%">
                <br>
                  <a class="content-btn" href="https://drive.google.com/file/d/1DmzW0TW_NkCrx9_cpMccGXl42Tp7af16/view?usp=sharing" target="_blank">
                    <p>View Competitive Analysis</p>
@@ -163,10 +166,29 @@
             <div class="section-paragraph">
                <h5 class="paragraph-title">User Stories</h5>
                <p>Next, I created some user stories, based on features that users said they used on cloud storage sites in my survey. To prioritize, I ranked the more common answers as high priority. I ended up with four high priority stories.</p>
+               <table class="stories-table">
+                <tr>
+                  <td>I want to make an account</td>
+                  <td>High</td>
+                </tr>
+                <tr>
+                  <td>I want to create a new trip</td>
+                  <td>High</td>
+                </tr>
+                <tr>
+                  <td>I want to view a picture</td>
+                  <td>High</td>
+                </tr>
+                <tr>
+                  <td>I want to search through my content</td>
+                  <td>High</td>
+                </tr>
+               </table>
             </div>
             <div class="section-paragraph">
                <h5 class="paragraph-title">User Flows</h5>
                <p>I created user flows for high priority stories. The user flows were laid out in a way that allows the user to take multiple directions to arrive at the end goal. Creating these gave me a lot of insight into how I could organize the site.</p>
+               <img src="../images/cargo/Create an Account.png" class="project-images" style="width:100%">
                <br>
                  <a class="content-btn" href="https://drive.google.com/file/d/1qNVsCHxV7-9ZTxQWwL3hTs0tnM8YCqL1/view?usp=sharing" target="_blank">
                    <p>View User Flows</p>
@@ -188,19 +210,19 @@
             <div class="section-paragraph">
                <h5 class="paragraph-title">Logo</h5>
                <p>I tried different names for the site, and different logos for each name. After settling on the name “CARGO”, I brought my favorite sketches into Figma to see how each one would look when polished.</p>
-               <div id="cargo-pic" title="CARGO logo"></div>
+              <img src="images/cargo/Color Full.png" class="project-images" width="100%" alt="Finished CARGO logo">
                <p>I chose the logo that uses a box shape (similar to a cargo container) as the “O”, because it looks simple, friendly, and strong. I chose the font Roboto Bold because it looks simple and clean, and fit the width of the mark, making it look more like an “O”.</p>
             </div>
             <div class="section-paragraph">
                <h5 class="paragraph-title">Moodboard</h5>
                <p>I wanted this moodboard to communicate excitement, adventure, and simplicity.</p>
-               <div id="moodboard" title="Image of moodboard"></div>
+               <div id="moodboard" class="project-images" title="Image of moodboard"></div>
                <p>Pulling from the moodboard, I was able to create a color scheme for the logo and site. Each color represents something different about the brand. Red = Excitement, Blue = Trust, Orange = Friendly, and Yellow= Happy.</p>
             </div>
             <div class="section-paragraph">
                <h5 class="paragraph-title">Icons</h5>
                <p>I wanted the icons to look fun, while still being clear to the user what each one means. I created the note and tag icon, and downloaded the rest from flaticon.com.</p>
-               <div id="icons" title="Image of Icons used"></div>
+               <div id="icons" class="project-images" title="Image of Icons used"></div>
                <p>I added a touch of orange (the main brand color) to each icon, except search. I wanted the search icon to remain clear to all users.</p>
             </div>
             <div class="section-paragraph">
@@ -221,8 +243,9 @@
               <div class="section-paragraph">
                <h5 class="paragraph-title">Preference Testing</h5>
                <p>The most notable change from the preference tests was the notification banner on the user home page. I wasn’t sure how to design a notification bar for this site. So, I tested two ideas. The results were split, and I realized that neither one would fix user issues.</p>
-               <div id="notif-banner" title="Image of final notification banner"></div>
+               <img src="images/cargo/Pref_test.png" class="project-images" width="100%" alt="2 early variations of notification banner">
                <p>I decided to go back to the drawing board and ended up creating a welcome banner for users with a notification bar below it. This new design looks clean and provides the user with helpful information.</p>
+               <div id="notif-banner" class="bot-margin" title="Image of final notification banner"></div>
             </div>
             <div class="section-paragraph">
                <h5 class="paragraph-title">Usability Testing</h5>
@@ -254,19 +277,20 @@
           </div>
          </section>
          <!-- Image Mockup 2 -->
-         <div>
-            <div id="bot-mockup" title="Image of CARGO homepage"></div>
-            <div class="prototype-bot btn">
+         <div class="prototype-gif">
+           <img src="images/cargo/CARGO_recording.gif" class="project-images" alt="GIF of CARGO screens" width="100%">
+           <div class="prototype-bot btn">
                <a href="https://dangallagher937465.invisionapp.com/public/share/YRXDK8SSZ#/screens" target="_blank">
                   <h6>View Prototype</h6>
                </a>
          </div>
+       </div>
          <!-- CONCLUSION -->
          <section>
             <h2 class="section-title">conclusion.</h2>
             <div class="section-paragraph" id="conclusion">
             <p>CARGO was built from research and refined by user testing. I’m thankful for all the ideas that didn’t work out, because they taught me valuable lessons. I experienced the full design process of a project, from research to finished product. I learned that, as a designer, I should never assume I know what the users want.</p>
-            <div id="last-mockup" title="Image of Cargo on a computer"></div>
+            <div id="last-mockup" class="project-images" title="Image of Cargo on a computer"></div>
             <p>In the future, with a full scope of the project in mind, I will be able to create better research questions and tests to help me arrive at a polished final design that will address the user’s needs.</p>
           </div>
          </section>
