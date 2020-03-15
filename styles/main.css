@@ -24,25 +24,25 @@ body {
 /** typography **/
 
 h1 {
-  font-family: Montserrat Alternates, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 4.2rem; /* 42px */
   line-height: 5.1rem; /* 51px */
 }
 
 h2 {
-  font-family: Montserrat Alternates, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 3.6rem; /* 36px */
   line-height: 4.4rem; /* 44px */
 }
 
 h3 {
-  font-family: Montserrat Alternates, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.8rem; /* 18px */
   line-height: 2.2rem; /* 22px */
 }
 
 h4 {
-  font-family: Raleway, sans-serif;
+  font-family: raleway, sans-serif;
   font-size: 3.6rem; /* 36px */
   font-weight: 700;
   line-height: 4.2rem; /* 42px */
@@ -98,7 +98,7 @@ nav {
 }
 
 #myLogo:hover {
-  text-shadow: 0px 0px 20px #FBF8F3;
+  text-shadow: 0 0 20px #FBF8F3;
 }
 
 #myLinks {
@@ -123,7 +123,7 @@ nav {
 
 
 .nav-text a:hover {
-  text-shadow: 0px 0px 10px #FEEB99;
+  text-shadow: 0 0 10px #FEEB99;
 }
 
 .burger {
@@ -134,7 +134,7 @@ nav {
 }
 
 .burger:hover {
-  text-shadow: 0px 0px 30px #FEEB99;
+  text-shadow: 0 0 30px #FEEB99;
 }
 
 .active {
@@ -145,24 +145,24 @@ nav {
 
 .btn {
   align-items: center;
-  height: 60px;
-  width: 241px;
+  color: inherit;
   display: flex;
+  height: 60px;
   justify-content: center;
   text-decoration: none;
-  color: inherit;
+  width: 241px;
 }
 
 .CONTACT {
   border: 1px solid #FEEB99;
-  box-shadow: 0px 0px 4px #FEEB99, inset 0px 0px 4px #FEEB99;
+  box-shadow: 0 0 4px #FEEB99, inset 0 0 4px #FEEB99;
   height: 4.8rem;
   margin: 20px 0 30px 0;
   width: 14.7rem;
 }
 
 .CONTACT:hover {
-  box-shadow: 0px 0px 20px #FEEB99, inset 0px 0px 10px #FEEB99;
+  box-shadow: 0 0 20px #FEEB99, inset 0 0 10px #FEEB99;
 }
 
 .CONTACT a {
@@ -176,7 +176,7 @@ nav {
 }
 
 .CONTACT a:hover {
-  text-shadow: 0px 0px 5px #FEEB99;
+  text-shadow: 0 0 5px #FEEB99;
 }
 
 .content-btn {
@@ -184,12 +184,12 @@ nav {
   height: 40px;
   margin-bottom: 20px;
   margin-top: 20px;
-  width: 200px;
   text-decoration: none;
+  width: 200px;
 }
 
 .content-btn:hover {
-  text-shadow: 0px 0px 20px #FEEB99;
+  text-shadow: 0 0 20px #FEEB99;
 }
 
 /** header **/
@@ -221,7 +221,7 @@ footer {
 }
 
 .social-media-links li:hover {
-  text-shadow: 0px 0px 10px #f8f8f3;
+  text-shadow: 0 0 10px #f8f8f3;
 }
 
 .fab {
@@ -239,9 +239,9 @@ section {
 }
 
 .section-paragraph {
-  padding-bottom: 3rem;
   margin: 0 auto;
   max-width: 640px;
+  padding-bottom: 3rem;
 }
 
 .paragraph-title {
@@ -270,7 +270,7 @@ section {
 .red-bg {
   background-color: #4B182E;
   background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
-  box-shadow: 0px 0px 50px #4B182E;
+  box-shadow: 0 0 50px #4B182E;
   height: 100%;
   position: relative;
   z-index: 0;
@@ -343,7 +343,7 @@ section {
 }
 
 .project-card:hover {
-  box-shadow: 0px 0px 30px #FBF8F3;
+  box-shadow: 0 0 30px #FBF8F3;
 }
 
 .projects a {
@@ -405,8 +405,8 @@ section {
 }
 
 .attribute {
-  margin-top: 30px;
   margin-bottom: 30px;
+  margin-top: 30px;
   text-align: right;
 }
 
@@ -449,7 +449,7 @@ section {
 }
 
 .prototype:hover {
-  box-shadow: 0px 0px 20px rgba(18, 17, 33, 1);
+  box-shadow: 0 0 20px rgba(18, 17, 33, 1);
 }
 
 /** DELIVERABLES AND TOOLS **/
@@ -491,15 +491,15 @@ section {
 }
 
 .sticky-nav a, .sticky-nav h6 {
-  display: block;
   color: #f8f8f3;
+  display: block;
   padding: 20px 30px;
   text-align: center;
   text-decoration: none;
 }
 
 .sticky-nav a:hover {
-  text-shadow: 0px 0px 10px #FBF8F3;
+  text-shadow: 0 0 10px #FBF8F3;
 }
 
 .sticky-links {
@@ -538,7 +538,7 @@ section {
 }
 
 .persona-btn:hover {
-  box-shadow: 0px 0px 20px #FEEB99;
+  box-shadow: 0 0 20px #FEEB99;
 }
 
 span {
@@ -589,12 +589,12 @@ span {
 }
 
 .prototype-bot a {
-  text-decoration: none;
   color: #121121;
+  text-decoration: none;
 }
 
 .prototype-bot:hover {
-  box-shadow: 0px 0px 20px #FEEB99;
+  box-shadow: 0 0 20px #FEEB99;
 }
 
 #conclusion {
@@ -631,7 +631,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 120%;
-  box-shadow: 0px 0px 10px #121121;
+  box-shadow: 0 0 10px #121121;
   height: 237px;
 }
 
@@ -696,8 +696,7 @@ span {
 
 .about-title {
   color: #FEEB99;
-  display: inline;
-  margin: 0px 8% 30px 8%;
+  margin: 0 8% 30px 8%;
   text-align: center;
 }
 
@@ -741,7 +740,7 @@ span {
 }
 
 .about-prev:hover, .about-next:hover {
-  text-shadow: 0px 0px 30px #FEEB99;
+  text-shadow: 0 0 30px #FEEB99;
 }
 
 
@@ -757,8 +756,8 @@ span {
 }
 
 .contact-area {
-  width: 100%;
   margin-left: 3rem;
+  width: 100%;
 }
 
 .contact-form-header {
@@ -776,10 +775,10 @@ span {
 .contact-input {
   background-color: #F8F8F3;
   color: #121121;
-  height: 4rem;
   display: block;
   font-family: droid-serif, serif;
   font-size: 1.4rem; /* 16px */
+  height: 4rem;
   line-height: 2.2rem; /* 22px */
   margin-bottom: 1.8rem;
   max-width: 25rem;
@@ -803,21 +802,21 @@ span {
 .contact-btn {
   background-color: transparent;
   border: 2px solid #FEEB99;
+  bottom: 0;
   color: #FEEB99;
   display: block;
-  position: absolute;
-  bottom: 0;
   font-family: raleway, sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   height: 4.5rem;
   margin: 3rem;
+  position: absolute;
   width: 11rem;
 }
 
 .contact-btn:hover {
-  box-shadow: 0px 0px 10px #FEEB99, inset 0px 0px 10px #FEEB99;
-  text-shadow: 0px 0px 10px #FEEB99;
+  box-shadow: 0 0 10px #FEEB99, inset 0 0 10px #FEEB99;
+  text-shadow: 0 0 10px #FEEB99;
 }
 
 /******* MEDIA QUERIES ********/
@@ -837,6 +836,8 @@ span {
 
 .about-prev, .about-next {
   top: 9rem;
+}
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -925,8 +926,8 @@ span {
 /** HOMEPAGE **/
 
   .home-header {
-    background-size: 100%;
     background-position: center;
+    background-size: 100%;
   }
 
   /** CASE STUDY **/
