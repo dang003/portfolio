@@ -749,10 +749,8 @@ span {
 
 .contact-form {
   height: 100%;
-  margin: 9rem auto;
   max-width: 900px;
   position: relative;
-  width: 80%;
 }
 
 .contact-area {
@@ -771,17 +769,15 @@ span {
   line-height: 3.2rem; /* 32px */
 }
 
-
 .contact-input {
   background-color: #F8F8F3;
   color: #121121;
   display: block;
   font-family: droid-serif, serif;
-  font-size: 1.4rem; /* 16px */
+  font-size: 1.4rem; /* 14px */
   height: 4rem;
   line-height: 2.2rem; /* 22px */
   margin-bottom: 1.8rem;
-  max-width: 25rem;
   padding: 0 1rem;
   width: 50%;
 }
@@ -793,7 +789,6 @@ span {
   font-family: droid-serif, serif;
   font-size: 1.4rem; /* 14px */
   margin-bottom: 10rem;
-  max-width: 50rem;
   padding: 1rem;
   resize: none;
   width: 80%;

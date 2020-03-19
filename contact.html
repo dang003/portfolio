@@ -56,24 +56,26 @@
             <i class="burger fas fa-bars fa-3x"></i>
          </div>
       </nav>
-      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" class="contact-form red-bg" action="https://formspree.io/mrglzojp" method="POST">
-         <div class="red-title-box">
-            <h2 class="red-title">it began with a letter.</h2>
-         </div>
-         <div class="contact-form-header">
-            <p>To get in touch with me, please fill out the form below and click submit.</p>
-         </div>
-         <fieldset class="contact-area" id="fs-frm-inputs">
-            <label for="full-name">Full Name</label>
-            <input type="text" class="contact-input" name="name" id="full-name" placeholder="First and Last" required="">
-            <label for="email-address">Email Address</label>
-            <input type="email" class="contact-input" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-            <label for="message">Message</label>
-            <textarea rows="5" name="message" id="message" placeholder="Enter your message here." required=""></textarea>
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-         </fieldset>
-         <input type="submit" class="contact-btn btn" value="Submit">
-      </form>
+      <section class="red-bg">
+         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" class="contact-form" action="https://formspree.io/mrglzojp" method="POST">
+            <div class="red-title-box">
+               <h2 class="red-title">it began with a letter.</h2>
+            </div>
+            <div class="contact-form-header">
+               <p>To get in touch with me, please fill out the form below and click submit.</p>
+            </div>
+            <fieldset class="contact-area" id="fs-frm-inputs">
+               <label for="full-name">Full Name</label>
+               <input type="text" class="contact-input" name="name" id="full-name" placeholder="First and Last" required="">
+               <label for="email-address">Email Address</label>
+               <input type="email" class="contact-input" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+               <label for="message">Message</label>
+               <textarea rows="5" name="message" id="message" placeholder="Enter your message here." required=""></textarea>
+               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" class="contact-btn btn" value="Submit">
+         </form>
+      </section>
       <script src="scripts/main.js"></script>
       <script src="scripts/dan-show.js"></script>
    </body>
