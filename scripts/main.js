@@ -30,10 +30,16 @@ function toggleSticky() {
   } ARROW.classList.toggle('fa-angle-up');
 }
 
+var w = window.innerWidth;
+if (w < 992) {
+
 (BAR).addEventListener('click', function() {
   toggleSticky();
-});
+}
+);
 
 (LINKS).addEventListener('click', function() {
   toggleSticky();
-})
+});
+
+}
