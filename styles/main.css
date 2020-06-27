@@ -24,48 +24,49 @@ body {
 /** typography **/
 
 h1 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 4.2rem; /* 42px */
   line-height: 5.1rem; /* 51px */
 }
 
 h2 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 3.6rem; /* 36px */
   line-height: 4.4rem; /* 44px */
 }
 
 h3 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.8rem; /* 18px */
   line-height: 2.2rem; /* 22px */
 }
 
 h4 {
-  font-family: raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 3.6rem; /* 36px */
   font-weight: 700;
   line-height: 4.2rem; /* 42px */
 }
 
 h5 {
-  font-family: raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 700;
   line-height: 2.1rem; /* 21px */
 }
 
 h6 {
-  font-family: raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2.4rem; /* 24 px */
   font-weight: 400;
   line-height: 2.8rem; /* 28px */
 }
 
 p {
-  font-family: droid-serif, serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem; /* 16px */
   line-height: 2.2rem; /* 22px */
+  font-weight: 400;
 }
 
 /** navigation **/
@@ -234,7 +235,8 @@ footer {
 /** SECTION & PARAGRAPH **/
 
 section {
-  padding: 0 8%;
+  margin-top: 5rem;
+  padding: 0 50px;
   padding-bottom: 2rem;
   position: relative;
 }
@@ -326,10 +328,10 @@ section {
 
 /** PROJECTS **/
 
-.projects {
+.projects-container {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   padding-top: 30px;
   position: relative;
@@ -337,17 +339,18 @@ section {
 
 .project-card {
   display: flex;
-  height: 315px;
+  height: 280px;
   justify-content: center;
   margin: 0 auto;
-  width: 315px;
+  position: relative;
+  width: 280px;
 }
 
 .project-card:hover {
   box-shadow: 0 0 30px #FBF8F3;
 }
 
-.projects a {
+.projects-container a {
   color: inherit;
   text-decoration: none;
 }
@@ -359,24 +362,49 @@ section {
   justify-content: center;
 }
 
-#cargo-card {
-  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.4) 0%, rgba(18, 17, 33, 0.4) 100%), url("../images/cargo-bg-pic.png");
+.case-study-bar {
+  background-color: rgba(248, 248, 243, 0.75);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  position: absolute;
+  bottom: 0;
+}
+
+.case-study-bar p {
+  color: #121121;
+}
+
+#virtuoso-card {
+  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.5) 0%, rgba(18, 17, 33, 0.5) 100%), url("../images/virtuoso-bg-pic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 200%;
-  height: 315px;
+  height: 280px;
   margin: 15px 15px;
-  width: 315px;
+  width: 280px;
+}
+
+#cargo-card {
+  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.5) 0%, rgba(18, 17, 33, 0.5) 100%), url("../images/cargo-bg-pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  height: 280px;
+  margin: 15px 15px;
+  width: 280px;
 }
 
 #busybus-card {
-  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.4) 0%, rgba(18, 17, 33, 0.4) 100%), url("../images/busybus-bg-pic.jpg");
+  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.5) 0%, rgba(18, 17, 33, 0.5) 100%), url("../images/busybus-bg-pic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 125%;
-  height: 315px;
+  height: 280px;
   margin: 15px 15px;
-  width: 315px;
+  width: 280px;
 }
 
 /** TESTIMONIALS **/
@@ -433,8 +461,7 @@ section {
 }
 
 
-/****** CASE STUDY CSS *******/
-
+/******** CASE STUDY CSS ********/
 
 /** VIEW PROTOTYPE BUTTON **/
 
@@ -622,6 +649,25 @@ span {
   width: 50%;
 }
 
+/**** Virtuoso ****/
+
+.virt-research-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px ;
+}
+
+#virt-topmock {
+  background-image: url("../images/virtuoso/Virtuoso-All.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 0 0 10px #121121;
+  height: 430px;
+}
+
+/**** CARGO ****/
+
 #enemy-logos {
   height: 75%;
   width: 75%;
@@ -750,6 +796,7 @@ span {
 
 .contact-form {
   height: 100%;
+  margin-top: 7rem;
   max-width: 900px;
   position: relative;
 }
@@ -760,7 +807,7 @@ span {
 }
 
 .contact-form-header {
-  margin: 0 3rem 3rem 3rem;
+  margin: 0 3rem 2rem 3rem;
 }
 
 .contact-form label {
@@ -849,7 +896,7 @@ span {
   /** Navigation **/
 
   .burger {
-    display: none;
+    opacity: 0;
   }
 
   #myLinks {
@@ -870,12 +917,6 @@ span {
 
   .nav-text a {
     padding: 1rem 1.4rem;
-  }
-
-  /** Homepage **/
-
-  .projects {
-    flex-flow: row;
   }
 
   /** About page **/
@@ -902,7 +943,7 @@ span {
     max-width: 820px;
   }
 
-  /** CASE STUDY IMAGES **/
+  /** CARGO IMAGES **/
 
   #top-mockup {
     height: 448px;
@@ -939,11 +980,25 @@ span {
     max-width: 1080px;
   }
 
+  /** Contact Page **/
+
+  .contact-form {
+    margin-top: 0;
+  }
+
 }
 
 @media only screen and (min-width: 992px) {
   .container {
     max-width: inherit;
+  }
+
+  section {
+    max-width: 1040px;
+  }
+
+  .section-paragraph {
+    max-width: 780px;
   }
 
 /** HOMEPAGE **/
