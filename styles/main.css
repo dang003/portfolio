@@ -639,6 +639,10 @@ span {
   width: 100%;
 }
 
+.top-mockup {
+  box-shadow: 1px 4px 20px rgba(18, 17, 33, 0.25);
+}
+
 .bot-margin {
   margin-bottom: 0;
 }
@@ -656,31 +660,12 @@ span {
   padding: 10px 10px ;
 }
 
-#virt-topmock {
-  background-image: url("../images/virtuoso/Virtuoso-All.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  box-shadow: 0 0 10px #121121;
-  height: 430px;
-}
-
 /**** CARGO ****/
 
 #enemy-logos {
   height: 75%;
   width: 75%;
 }
-
-#top-mockup {
-  background-image: url("../images/cargo/CARGO screens black.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 120%;
-  box-shadow: 0 0 10px #121121;
-  height: 237px;
-}
-
 
 #cargo-pic {
   background-image: url("../images/cargo/Color Full.png");
@@ -943,11 +928,6 @@ span {
   }
 
   /** CARGO IMAGES **/
-
-  #top-mockup {
-    height: 448px;
-    max-width: 1080px;
-  }
 
   #cargo-pic {
     height: 392px;
