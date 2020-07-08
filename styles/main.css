@@ -328,25 +328,7 @@ section {
 /** PROJECTS **/
 
 .projects-container {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 30px;
   position: relative;
-}
-
-.project-card {
-  display: flex;
-  height: 280px;
-  justify-content: center;
-  margin: 0 auto;
-  position: relative;
-  width: 280px;
-}
-
-.project-card:hover {
-  box-shadow: 0 0 30px #FBF8F3;
 }
 
 .projects-container a {
@@ -354,11 +336,40 @@ section {
   text-decoration: none;
 }
 
+.project-section {
+  margin-bottom: 5rem;
+}
+
+.project-hero {
+  height: 100%;
+  padding: 3rem;
+  width: 100%;
+}
+
 .project-text {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.case-study-btn {
+    align-items: center;
+    background-color: #FEEB99;
+    border-radius: 30px;
+    color: #121121;
+    display: flex;
+    height: 4.4rem;
+    justify-content: center;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 18.1rem;
+}
+
+.case-study-btn:hover {
+  box-shadow: 0 0 12px #FEEB99;
 }
 
 .case-study-bar {
