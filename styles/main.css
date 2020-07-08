@@ -235,7 +235,6 @@ footer {
 
 section {
   margin-top: 5rem;
-  padding: 0 50px;
   padding-bottom: 2rem;
   position: relative;
 }
@@ -490,6 +489,10 @@ section {
   box-shadow: 0 0 20px rgba(18, 17, 33, 1);
 }
 
+.case-study-section {
+  padding: 0 2rem;
+}
+
 /** DELIVERABLES AND TOOLS **/
 
 .deliv-and-tools {
@@ -547,36 +550,13 @@ section {
 
 /** PERSONA **/
 
-.personas {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 30px 0;
-}
-
 .lucas, .sarah {
-  display: flex;
-  flex-direction: row;
-  padding: 30px;
+  padding-top: 3rem;
+  align-items: center;
 }
 
 .persona-text {
-  padding-left: 30px;
-}
-
-.persona-btn {
-  background-color: #FEEB99;
-  bottom: 0;
-  color: #121121;
-  margin-bottom: 30px;
-  position: absolute;
-  right: 8%;
-  width: 241px;
-}
-
-.persona-btn:hover {
-  box-shadow: 0 0 20px #FEEB99;
+  padding-top: 1rem;
 }
 
 span {
@@ -659,8 +639,8 @@ span {
 }
 
 .persona-images {
-  height: 50%;
-  width: 50%;
+  height: 75%;
+  width: 75%;
 }
 
 /**** Virtuoso ****/
@@ -936,6 +916,28 @@ span {
 
     .image {
     max-width: 820px;
+  }
+
+  .personas {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+
+  .lucas, .sarah {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+
+  .persona-text {
+    padding-left: 30px;
+  }
+
+  .persona-images {
+    height: 50%;
+    width: 50%;
   }
 
   /** CARGO IMAGES **/
