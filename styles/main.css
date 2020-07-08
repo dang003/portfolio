@@ -342,7 +342,7 @@ section {
 
 .project-hero {
   height: 100%;
-  padding: 3rem;
+  padding: 3rem 0;
   width: 100%;
 }
 
@@ -939,11 +939,6 @@ span {
   }
 
   /** CARGO IMAGES **/
-
-  #cargo-pic {
-    height: 392px;
-    max-width: 800px;
-  }
 
   #moodboard {
     height: 550px;
