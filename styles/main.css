@@ -253,6 +253,7 @@ section {
 
 .section-title {
   margin-bottom: 3rem;
+  margin-left: 3rem;
   z-index: 1;
 }
 
@@ -280,6 +281,10 @@ section {
 .red-title-box {
   position: relative;
   top: -3.5rem;
+}
+
+.red-title {
+  margin-bottom: 0px;
 }
 
 
@@ -489,7 +494,7 @@ section {
   box-shadow: 0 0 20px rgba(18, 17, 33, 1);
 }
 
-.case-study-section {
+.section-padding {
   padding: 0 2rem;
 }
 
@@ -768,6 +773,10 @@ span {
 
 
 /****** CONTACT PAGE *******/
+
+.contact-section {
+  margin-bottom: 3rem;
+}
 
 .contact-form {
   height: 100%;
