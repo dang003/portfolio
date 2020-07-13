@@ -88,8 +88,7 @@ nav {
   max-width: 400px;
   position: fixed;
   top: 0;
-  transform: translate3d(0,0,0);
-  width: 100%;
+  -webkit-transform: translateZ(0);  width: 100%;
   z-index: 4;
 }
 
