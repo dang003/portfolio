@@ -73,7 +73,7 @@ p {
 nav {
   color: #FBF8F3;
   height: 7rem;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   z-index: 4;
 }
@@ -88,7 +88,8 @@ nav {
   max-width: 400px;
   position: fixed;
   top: 0;
-  -webkit-transform: translateZ(0);  width: 100%;
+  -webkit-transform: translate3d(0,0,0);
+  width: 100%;
   z-index: 4;
 }
 
