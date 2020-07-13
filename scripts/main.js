@@ -1,6 +1,6 @@
 ///// NAVIGATION
 
-const BURGER = document.querySelector('.burger');
+const BURGERMENU = document.querySelector('.burger');
 
 function toggleNav() {
   var x = document.getElementById("myLinks");
@@ -8,10 +8,10 @@ function toggleNav() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
-  } BURGER.classList.toggle('fa-times');
+  } BURGERMENU.classList.toggle('fa-times');
 }
 
-(BURGER).addEventListener('click', function() {
+(BURGERMENU).addEventListener('click', function() {
   toggleNav();
 });
 
