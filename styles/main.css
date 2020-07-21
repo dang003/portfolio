@@ -812,7 +812,7 @@ span {
 
 .contact-form {
   height: 100%;
-  margin-top: 7rem;
+  margin: 7rem auto;
   max-width: 900px;
   position: relative;
 }
@@ -843,7 +843,7 @@ span {
   line-height: 2.2rem; /* 22px */
   margin-bottom: 1.8rem;
   padding: 0 1rem;
-  width: 50%;
+  width: 80%;
 }
 
 #message {
@@ -1000,6 +1000,10 @@ span {
 
   .contact-form {
     margin-top: 0;
+  }
+
+  .contact-input {
+    width: 50%
   }
 
 }
