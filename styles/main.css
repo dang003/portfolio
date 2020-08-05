@@ -269,6 +269,7 @@ section {
 .title {
   position: absolute;
   top: -3.5rem;
+  left: 3rem;
 }
 
 /* RED BOX CODE */
@@ -429,23 +430,14 @@ section {
 
 /** TESTIMONIALS **/
 
-.quote-mark {
-  background-image: url("../images/quote-mark.png");
-  background-repeat: no-repeat;
-  float: left;
-  height: 55px;
-  margin: 30px 0 0 20px;
-  opacity: .3;
-  width: 75px;
-}
-
 .home-slideshow-container {
   position: relative;
 }
 
 .vibe-text {
-  margin: 0 5rem;
-  padding-top: 100px;
+  margin: 0 auto;
+  padding-top: 5rem;
+  max-width: 740px;
 }
 
 .vibe-text h6 {
@@ -1066,10 +1058,10 @@ span {
   }
 
   .display-project-image {
-    height: 700px;
+    height: 640px;
     object-fit: cover;
     padding: 3rem 0 0 0;
-    width: 65%;
+    width: 60%;
   }
 
   /** CASE STUDY **/
