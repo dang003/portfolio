@@ -570,7 +570,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .graphic1, .graphic2 {
@@ -705,13 +705,26 @@ span {
 /**** Virtuoso ****/
 
 .virt-research-list {
-  margin: 0 15% 3rem 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .virt-research-list li {
-  display: flex;
   align-items: center;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+
+.research-icon {
+  margin-bottom: 2rem;
+  max-height: 200px;
+  max-width: 200px;
+  width: 100%;
 }
 
 /**** CARGO ****/
