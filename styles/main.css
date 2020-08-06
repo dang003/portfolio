@@ -18,7 +18,7 @@ body {
   max-width: 400px;
 }
 
-/* Colors: #121121 (blue) #FEEB99 (yellow) #FBF8F3 (gray) #4B182E (red)  */
+/* Colors: #121121 (dark blue) #FEEB99 (yellow) #FBF8F3 (gray) #4B182E (red)  */
 
 /** typography **/
 
@@ -257,7 +257,6 @@ section {
 
 .section-title {
   margin-bottom: 3rem;
-  margin-left: 3rem;
   z-index: 1;
 }
 
@@ -478,14 +477,15 @@ section {
 
 /**** HEADER ****/
 
-.project-header {
-  margin: 0 auto;
-  max-width: 640px;
-}
-
 .top-mockup {
   height: 100%;
   width: 100%;
+}
+
+.project-header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
 }
 
 /** VIEW PROTOTYPE BUTTON **/
@@ -509,21 +509,27 @@ section {
   padding: 0 2rem;
 }
 
+.desktop-btn {
+  display: none;
+}
+
 /** DELIVERABLES AND TOOLS **/
 
 .deliv-and-tools {
   display: flex;
-  margin-bottom: 50px;
+  flex-direction: column;
+  margin-right: 5rem;
+  margin-top: 1rem
 }
 
 .tools {
-  margin-left: 16%;
+  margin-top: 16%;
 }
 
 /** PROBLEM & SOLUTION **/
 
 .solution {
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
 /** STICKY NAV **/
@@ -956,6 +962,10 @@ span {
     margin-right: auto;
   }
 
+  .section-title {
+    margin-left: 3rem;
+  }
+
   /**** CASE STUDY ****/
 
   /** PAGE **/
@@ -981,6 +991,14 @@ span {
     max-width: 640px;
     width: 80%;
     margin-right: -50vw;
+  }
+
+  .desktop-btn {
+    display: flex;
+  }
+
+  .mobile-btn {
+    display: none;
   }
 
 /** RESEARCH **/
@@ -1073,14 +1091,14 @@ span {
   .display-project-image {
     height: 640px;
     object-fit: cover;
-    padding: 3rem 0 0 0;
+    padding: 0;
     width: 60%;
   }
 
   /** CASE STUDY **/
 
   .project-header {
-    max-width: 780px;
+    max-width: 840px;
   }
 
   .sticky-header {
