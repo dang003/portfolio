@@ -416,22 +416,13 @@ section {
 
 /** WHAT I OFFER **/
 
-.offer-bg {
+.offer-container {
   background-image: url("../images/office.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.offer-container {
-  background-color: rgba(18, 17, 33, 0.5);
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
