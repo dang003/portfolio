@@ -262,7 +262,7 @@ section {
 }
 
 .title-box {
-  margin-top: 100px;
+  margin-top: 10rem;
   position: relative;
 }
 
@@ -351,12 +351,6 @@ section {
 
 /** PROJECTS **/
 
-/*
-.home-work {
-  background-color: #f8f8f3;
-  color: #121121;
-} */
-
 .projects-container {
   position: relative;
 }
@@ -419,34 +413,42 @@ section {
   color: #121121;
 }
 
-#virtuoso-card {
-  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.5) 0%, rgba(18, 17, 33, 0.5) 100%), url("../images/virtuoso-bg-pic.jpg");
+
+/** WHAT I OFFER **/
+
+.offer-bg {
+  background-image: url("../images/office.png");
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 200%;
-  height: 280px;
-  margin: 15px 15px;
-  width: 280px;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#cargo-card {
-  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.5) 0%, rgba(18, 17, 33, 0.5) 100%), url("../images/cargo-bg-pic.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 200%;
-  height: 280px;
-  margin: 15px 15px;
-  width: 280px;
+.offer-container {
+  background-color: rgba(18, 17, 33, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-#busybus-card {
-  background-image: linear-gradient(180deg, rgba(18, 17, 33, 0.5) 0%, rgba(18, 17, 33, 0.5) 100%), url("../images/busybus-bg-pic.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 125%;
-  height: 280px;
-  margin: 15px 15px;
-  width: 280px;
+.offer-section {
+  display: flex;
+}
+
+.offer-content {
+  width: 50%;
+  max-width: 30rem;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: left;
 }
 
 /** TESTIMONIALS **/
@@ -530,6 +532,7 @@ section {
 
 .section-padding {
   padding: 0 2rem;
+  margin-top: 10rem;
 }
 
 .title-padding {
@@ -985,7 +988,6 @@ span {
   }
 
   section {
-    margin-top: 10rem;
     margin-left: auto;
     margin-right: auto;
   }
