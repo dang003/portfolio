@@ -973,7 +973,14 @@ span {
     padding: 1rem 1.4rem;
   }
 
+  /**** HOMEPAGE ****/
+
+  .offer-container {
+    height: 80vh;
+  }
+
   /** About page **/
+
   .about-prev, .about-next {
     top: 9rem;
   }
