@@ -1118,7 +1118,7 @@ span {
   }
 
   .display-project-image {
-    height: 640px;
+    height: 100%;
     object-fit: cover;
     padding: 0;
     width: 60%;
