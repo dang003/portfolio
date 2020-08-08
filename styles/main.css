@@ -500,8 +500,6 @@ section {
 
 .project-header {
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
 }
 
 /** VIEW PROTOTYPE BUTTON **/
@@ -538,13 +536,13 @@ section {
 
 .deliv-and-tools {
   display: flex;
-  flex-direction: column;
-  margin-right: 5rem;
+  flex-direction: row;
+  margin-bottom: 5rem;
   margin-top: 1rem
 }
 
 .tools {
-  margin-top: 16%;
+  margin-left: 16%;
 }
 
 /** PROBLEM & SOLUTION **/
@@ -1034,6 +1032,21 @@ span {
 
   .mobile-btn {
     display: none;
+  }
+
+  .project-header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .deliv-and-tools {
+    flex-direction: column;
+    margin-right: 5rem;
+  }
+
+  .tools {
+    margin-top: 3rem;
+    margin-left: 0;
   }
 
 /** RESEARCH **/
