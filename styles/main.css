@@ -631,24 +631,26 @@ section {
 .personas {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 85rem;
 }
 
 .lucas, .sarah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 3rem;
-  position: relative;
+  margin: 0 auto;
 }
 
 .persona-images {
-  display: block;
-  height: 50%;
-  margin: 0 auto;
-  width: 50%;
+  width: 60%;
+  max-width: 50rem;
 }
 
 .persona-text {
-  margin: 0 auto;
   max-width: 30rem;
-  padding: 1rem 0;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -1009,31 +1011,6 @@ span {
 
   /** HEADER **/
 
-  .hero-header {
-    align-items: center;
-    display: flex;
-  }
-
-  .hero-text {
-    width: 60%;
-    max-width: 500px
-  }
-
-  .top-mockup {
-    height: 80%;
-    max-width: 640px;
-    width: 80%;
-    margin-right: -50vw;
-  }
-
-  .desktop-btn {
-    display: flex;
-  }
-
-  .mobile-btn {
-    display: none;
-  }
-
   .project-header {
     display: flex;
     flex-direction: row;
@@ -1148,6 +1125,33 @@ span {
   }
 
   /** CASE STUDY **/
+
+  /** HEADER **/
+
+  .hero-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-text {
+    width: 60%;
+    max-width: 500px
+  }
+
+  .top-mockup {
+    height: 80%;
+    max-width: 640px;
+    width: 80%;
+  }
+
+  .desktop-btn {
+    display: flex;
+  }
+
+  .mobile-btn {
+    display: none;
+  }
 
   .project-header {
     max-width: 840px;
