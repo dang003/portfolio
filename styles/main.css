@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  max-width: 320px;
+  max-width: 400px;
 }
 
 /* Colors: #121121 (dark blue) #FEEB99 (yellow) #FBF8F3 (gray) #4B182E (red)  */
@@ -92,7 +92,7 @@ nav {
   display: flex;
   flex-direction: row;
   height: 7rem;
-  max-width: 320px;
+  max-width: 400px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -337,7 +337,7 @@ section {
 .home-header-text {
   padding-top: 5rem;
   padding-left: 3rem;
-  max-width: 320px;
+  max-width: 400px;
   padding-bottom: 10rem;
 }
 
@@ -379,7 +379,7 @@ section {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  max-width: 320px;
+  max-width: 400px;
   padding: 0 2rem;
   text-align: center;
   width: 90%;
@@ -517,7 +517,7 @@ section {
 .prototype {
   background: #121121;
   box-shadow: 1px 4px 4px rgba(18, 17, 33, 0.25);
-  margin: 2rem auto 5rem auto;
+  margin: 2rem auto 0 auto;
 }
 
 .prototype a {
@@ -928,7 +928,7 @@ span {
 
 /******* MEDIA QUERIES ********/
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 400px) {
   .container {
     max-width: 600px;
   }
@@ -1167,6 +1167,10 @@ span {
 
   .mobile-btn {
     display: none;
+  }
+
+  .prototype {
+    margin-bottom: 5rem;
   }
 
   .project-header {
