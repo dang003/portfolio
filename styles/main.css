@@ -203,8 +203,6 @@ nav {
 /** header **/
 
 header {
-  background-color: #121121;
-  padding: 5rem 8%;
   position: relative;
 }
 
@@ -326,12 +324,17 @@ section {
 /** INTRODUCTION **/
 
 .home-header {
-  background-image: url("../images/chicago.png");
+  background-color: #4B182E;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #f8f8f3;
   height: 80vh;
+}
+
+.header-text {
+  padding-top: 5rem;
 }
 
 .home-header-line {
@@ -347,6 +350,11 @@ section {
 
 .header-image {
   width: 50%;
+}
+
+.transition {
+  position: absolute;
+  bottom: 0;
 }
 
 /** PROJECTS **/
@@ -493,6 +501,10 @@ section {
 
 /**** HEADER ****/
 
+.hero-header {
+  padding: 5rem 5%;
+}
+
 .top-mockup {
   height: 100%;
   width: 100%;
@@ -500,6 +512,7 @@ section {
 
 .project-header {
   margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
 /** VIEW PROTOTYPE BUTTON **/
