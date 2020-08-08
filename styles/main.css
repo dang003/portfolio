@@ -324,7 +324,7 @@ section {
 /** INTRODUCTION **/
 
 .home-header {
-  background-color: #4B182E;
+  background-image: url("../images/chicago.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -333,16 +333,12 @@ section {
   height: 80vh;
 }
 
-.header-text {
+.home-header-text {
   padding-top: 5rem;
+  padding-left: 5rem;
+  max-width: 640px;
 }
 
-.home-header-line {
-  box-shadow: 1px 1px 4px rgba(251, 248, 243, 0.3);
-  margin-left: 0;
-  margin-top: 20px;
-  max-width: 800px;
-}
 
 .sub-header {
   margin-top: 20px;
@@ -355,6 +351,7 @@ section {
 .transition {
   position: absolute;
   bottom: 0;
+  width: 100%;
 }
 
 /** PROJECTS **/
@@ -1024,6 +1021,10 @@ span {
 
   /** HEADER **/
 
+  .home-header {
+    height: 90vh;
+  }
+
   .project-header {
     display: flex;
     flex-direction: row;
@@ -1111,10 +1112,6 @@ span {
   }
 
 /** HOMEPAGE **/
-
-  .home-header {
-    height: 90vh;
-  }
 
   .project-section {
     display: flex;
