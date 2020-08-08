@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 320px;
 }
 
 /* Colors: #121121 (dark blue) #FEEB99 (yellow) #FBF8F3 (gray) #4B182E (red)  */
@@ -92,7 +92,7 @@ nav {
   display: flex;
   flex-direction: row;
   height: 7rem;
-  max-width: 400px;
+  max-width: 320px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -324,28 +324,25 @@ section {
 /** INTRODUCTION **/
 
 .home-header {
-  background-image: url("../images/chicago.png");
+  background-color: #4B182E;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #f8f8f3;
-  height: 80vh;
+  height: 100%;
+  width: 100%;
 }
 
 .home-header-text {
   padding-top: 5rem;
-  padding-left: 5rem;
-  max-width: 640px;
+  padding-left: 3rem;
+  max-width: 320px;
+  padding-bottom: 10rem;
 }
-
 
 .sub-header {
   margin-top: 20px;
-}
-
-.header-image {
-  width: 50%;
 }
 
 .transition {
@@ -358,6 +355,7 @@ section {
 
 .projects-container {
   position: relative;
+
 }
 
 .projects-container a {
@@ -381,9 +379,10 @@ section {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 320px;
   padding: 0 2rem;
   text-align: center;
+  width: 90%;
 }
 
 .case-study-btn {
@@ -432,7 +431,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
+  max-height: 50rem;
 }
 
 .offer-section {
@@ -456,7 +456,6 @@ section {
 .vibe-text {
   margin: 0 auto;
   padding-top: 5rem;
-  padding-bottom: 2.5rem;
   max-width: 740px;
 }
 
@@ -510,6 +509,7 @@ section {
 .project-header {
   margin: 0 auto;
   padding-bottom: 5rem;
+  padding: 0 2rem 5rem 2rem;
 }
 
 /** VIEW PROTOTYPE BUTTON **/
@@ -928,7 +928,7 @@ span {
 
 /******* MEDIA QUERIES ********/
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 320px) {
   .container {
     max-width: 600px;
   }
@@ -985,9 +985,19 @@ span {
 
   /**** HOMEPAGE ****/
 
+  .home-header {
+    height: 100%;
+  }
+
+  .home-header-text {
+    padding-bottom: 15rem;
+    max-width: 680px;
+  }
+
   .offer-container {
     height: 80vh;
   }
+
 
   /** About page **/
 
@@ -1020,10 +1030,6 @@ span {
   }
 
   /** HEADER **/
-
-  .home-header {
-    height: 90vh;
-  }
 
   .project-header {
     display: flex;
