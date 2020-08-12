@@ -51,9 +51,9 @@ h4 {
 
 h5 {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.8rem; /* 18px */
+  font-size: 1.6rem; /* 14px */
   font-weight: 700;
-  line-height: 2.1rem; /* 21px */
+  line-height: 1.6rem; /* 20px */
 }
 
 h6 {
@@ -166,7 +166,7 @@ nav {
   border: 1px solid #FEF0AE;
   box-shadow: 0 0 4px #FEF0AE, inset 0 0 4px #FEF0AE;
   height: 4.8rem;
-  margin: 20px 0 30px 0;
+  margin: 2rem 0;
   width: 14.7rem;
 }
 
@@ -345,6 +345,10 @@ section {
   padding: 5rem 0 10rem 5rem;
   max-width: 360px;
   z-index: 2;
+}
+
+.header-line {
+  margin-top: 2rem;
 }
 
 .top-sm-links {
