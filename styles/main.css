@@ -395,16 +395,16 @@ section {
 }
 
 .project-2 {
-  background-color: #3662FD;
+  background-image: linear-gradient(to bottom right, #1B4BF2, #72A8FF);
 }
 
 .project-1 {
-  background-color: #ECECEC;
+  background-image: linear-gradient(to bottom right, #ECECEC, #CFD0D3);
   color: #121121;
 }
 
 .display-project-image {
-  width: 50%;
+  width: 60%;
   height: 50%;
   position: absolute;
   right: 0;
@@ -415,10 +415,9 @@ section {
 .display-project-text {
   display: block;
   margin: 0;
-  left: 0;
   padding: 2rem;
   text-align: left;
-  width: 280px;
+  width: 240px;
 }
 
 .case-study-btn {
@@ -1159,11 +1158,12 @@ span {
   }
 
   .display-project-image {
-    max-width: 60rem;
+    max-width: 70rem;
     object-fit: contain;
     object-position: center;
-    right: 2rem;
+    right: 5%;
 }
+
 
   /** CASE STUDY **/
 
