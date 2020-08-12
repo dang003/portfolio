@@ -1176,7 +1176,9 @@ span {
   }
 
   .display-project-image {
-    max-width: 70rem;
+    width: 60%;
+    height: 60%;
+    max-width: 60rem;
     object-fit: contain;
     object-position: center;
     right: 5%;
