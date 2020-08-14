@@ -162,30 +162,22 @@ nav {
   width: 241px;
 }
 
-.CONTACT {
+.CONTACT a {
   border: 2px solid #FEF0AE;
   box-shadow: 0 0 4px #FEF0AE, inset 0 0 4px #FEF0AE;
-  height: 4.8rem;
-  margin: 2rem 0;
-  width: 13rem;
-}
-
-.CONTACT:hover {
-  background-color: #FEF0AE;
-}
-
-.CONTACT a {
   align-items: center;
   color: #FEF0AE;
   display: flex;
   height: 4.8rem; /* 48px */
   justify-content: center;
+  margin: 2rem 0;
   text-decoration: none;
   width: 13rem; /* 130px */
 }
 
 .CONTACT a:hover {
   color: #121121;
+  background-color: #FEF0AE;
 }
 
 .content-btn {
