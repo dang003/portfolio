@@ -130,7 +130,6 @@ nav {
   text-decoration: none;
 }
 
-
 .nav-text a:hover {
   text-shadow: 0 0 10px #FEF0AE;
 }
@@ -150,6 +149,16 @@ nav {
   background-color: #FEF0AE;
 }
 
+.currentlink a{
+  padding: 0;
+  margin: 1.6rem 1.4rem;
+  color: #E7ECEE;
+}
+
+.currentlink a:hover {
+  text-shadow: 0 0 0 #E7ECEE;
+}
+
 /** Buttons **/
 
 .btn {
@@ -163,10 +172,9 @@ nav {
 }
 
 .CONTACT a {
-  border: 2px solid #FEF0AE;
-  box-shadow: 0 0 4px #FEF0AE, inset 0 0 4px #FEF0AE;
   align-items: center;
-  color: #FEF0AE;
+  background-color: #FEF0AE;
+  color: #121121;
   display: flex;
   height: 4.8rem; /* 48px */
   justify-content: center;
@@ -176,8 +184,8 @@ nav {
 }
 
 .CONTACT a:hover {
-  color: #121121;
-  background-color: #FEF0AE;
+  box-shadow: 0 0 14px #FEF0AE;
+
 }
 
 .content-btn {
@@ -938,11 +946,10 @@ span {
 }
 
 .contact-btn {
-  background-color: transparent;
+  background-color: #FEF0AE;
   border: 2px solid #FEF0AE;
   bottom: 0;
-  box-shadow: 0 0 4px #FEF0AE, inset 0 0 4px #FEF0AE;
-  color: #FEF0AE;
+  color: #121121;
   display: block;
   font-family: raleway, sans-serif;
   font-size: 1.8rem; /* 18px */
@@ -954,8 +961,7 @@ span {
 }
 
 .contact-btn:hover {
-  background-color: #FEF0AE;
-  color: #121121;
+  box-shadow: 0 0 12px #FEF0AE;
 }
 
 
@@ -1027,6 +1033,11 @@ span {
 
   .nav-text a {
     padding: 1rem 1.4rem;
+  }
+
+  .currentlink a {
+    padding: 0;
+    margin: 1rem 1.4rem;
   }
 
   /**** HOMEPAGE ****/
