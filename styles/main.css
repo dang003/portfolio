@@ -306,12 +306,12 @@ section {
 
 .sticky-destination {
   position: relative;
-  top: -11rem;
+  top: -8rem;
 }
 
 .red-sticky-destination {
   position: relative;
-  top: -15rem;
+  top: -10rem;
 }
 
 #work {
@@ -1077,7 +1077,7 @@ span {
 
   .sticky-destination {
     position: relative;
-    top: -5rem;
+    top: -6rem;
   }
 
   .red-sticky-destination {
