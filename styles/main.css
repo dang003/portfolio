@@ -420,11 +420,14 @@ section {
 }
 
 .display-project-text {
+  background-color: rgba(18, 17, 33, 0.8);
+  color: #E7ECEE;
   display: block;
   margin: 0;
   padding: 2rem;
   text-align: left;
-  width: 220px;
+  width: 75%;
+  z-index: 3;
 }
 
 .case-study-btn {
@@ -443,6 +446,7 @@ section {
   box-shadow: 0 0 12px #FEF0AE;
 }
 
+/**
 .invert-btn {
   background-color: #121121;
   color: #E7ECEE;
@@ -450,7 +454,7 @@ section {
 
 .invert-btn:hover {
   box-shadow: 0 0 8px #121121;
-}
+} **/
 
 /** WHAT I OFFER **/
 
@@ -1058,6 +1062,7 @@ span {
   }
 
   .display-project-text {
+    background-color: transparent;
     width: 280px;
   }
 
