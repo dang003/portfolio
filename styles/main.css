@@ -426,7 +426,7 @@ section {
   margin: 0;
   padding: 2rem;
   text-align: left;
-  width: 75%;
+  width: 60%;
   z-index: 3;
 }
 
@@ -445,16 +445,6 @@ section {
 .case-study-btn:hover {
   box-shadow: 0 0 12px #FEF0AE;
 }
-
-/**
-.invert-btn {
-  background-color: #121121;
-  color: #E7ECEE;
-}
-
-.invert-btn:hover {
-  box-shadow: 0 0 8px #121121;
-} **/
 
 /** WHAT I OFFER **/
 
@@ -1063,7 +1053,21 @@ span {
 
   .display-project-text {
     background-color: transparent;
+    color: #121121;
     width: 280px;
+  }
+
+  .light {
+    color: #E7ECEE;
+  }
+
+  .invert-btn {
+    background-color: #121121;
+    color: #E7ECEE;
+  }
+
+  .invert-btn:hover {
+    box-shadow: 0 0 8px #121121;
   }
 
   /** About page **/
@@ -1187,7 +1191,7 @@ span {
   }
 
   .display-project-text {
-    margin-left: 4rem;
+    margin-left: 4%;
     width: 320px;
   }
 
@@ -1197,7 +1201,7 @@ span {
     max-width: 60rem;
     object-fit: contain;
     object-position: center;
-    right: 5%;
+    right: 4%;
 }
 
 
