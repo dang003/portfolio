@@ -420,13 +420,13 @@ section {
 }
 
 .display-project-text {
-  background-color: rgba(18, 17, 33, 0.8);
+  background-color: rgba(18, 17, 33, 0.6);
   color: #E7ECEE;
   display: block;
   margin: 0;
   padding: 2rem;
   text-align: left;
-  width: 60%;
+  width: 100%;
   z-index: 3;
 }
 
