@@ -63,6 +63,11 @@ h6 {
   line-height: 2.8rem; /* 28px */
 }
 
+.small {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem; /* 16px */
