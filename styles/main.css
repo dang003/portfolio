@@ -1053,8 +1053,8 @@ span {
   }
 
   .display-project-image {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
   }
 
   .display-project-text {
@@ -1204,7 +1204,7 @@ span {
   .display-project-image {
     width: 60%;
     height: 60%;
-    max-width: 60rem;
+    max-width: 80rem;
     object-fit: contain;
     object-position: center;
     right: 4%;
