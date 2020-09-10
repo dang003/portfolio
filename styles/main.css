@@ -392,17 +392,26 @@ section {
 }
 
 .project-section {
-  margin: 2rem 0;
-  height: 85vh;
-  max-height: 85vh;
+  align-items: center;
   background-color: #121121;
   display: flex;
-  align-items: center;
+  height: 85vh;
+  margin: 2rem 0;
+  max-height: 85vh;
+  position: relative;
 }
 
 .project-3 {
   background-image: linear-gradient(111.81deg, #FCF0EE 0%, #F3E5E3 100%);
   color: #121121;
+}
+
+#AAlogo {
+  color: #7A2415;
+  font-size: 40px;
+  left: 2rem;
+  position: absolute;
+  top: 126rem;
 }
 
 .project-2 {
@@ -415,17 +424,17 @@ section {
 }
 
 .display-project-image {
-  height: 40%;
+  height: 100%;
   max-height: 85vh;
   object-fit: cover;
   object-position: left;
   position: absolute;
   right: 0;
-  width: 60%;
+  width: 80%;
 }
 
 .display-project-text {
-  background-color: rgba(18, 17, 33, 0.6);
+  background-color: rgba(18, 17, 33, 0.75);
   color: #E7ECEE;
   display: block;
   margin: 0;
@@ -1053,14 +1062,14 @@ span {
   }
 
   .display-project-image {
-    height: 60%;
-    width: 60%;
+    right: 0;
+    width: 50%;
   }
 
   .display-project-text {
     background-color: transparent;
     color: #121121;
-    width: 280px;
+    width: 320px;
   }
 
   .light {
@@ -1198,16 +1207,15 @@ span {
 
   .display-project-text {
     margin-left: 4%;
-    width: 320px;
+    width: 360px;
   }
 
   .display-project-image {
-    width: 60%;
-    height: 60%;
     max-width: 80rem;
     object-fit: contain;
     object-position: center;
-    right: 4%;
+    right: 0;
+    width: 65%;
   }
 
 
