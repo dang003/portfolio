@@ -60,49 +60,84 @@
          </div>
       </nav>
       <main>
-         <!-- INTRODUCTION -->
-         <header class="home-header">
-           <div class="home-header-text">
-              <h1>hi.</h1>
-              <h1>i'm dan g.</h1>
-              <h3 class="text-space">i'm a dang good product designer based in chicago.</h3>
-              <hr class="header-line">
-           <div class="sub-header">
-              <p>Take a look at my work down below.</p>
-              <p>Connect with me here.</p>
-              <div class="CONTACT">
-                 <a href="contact.html">
-                    <h6>Contact</h6>
-                 </a>
+        <header class="home-header">
+          <div class="home-header-container">
+           <div class="home-title">
+              <h4>CHOOSE YOUR DAN</h4>
+           </div>
+           <!-- Dan Selector -->
+           <div class="CYD-slideshow-container">
+              <!-- images with text -->
+              <div class="mySlides text-center">
+                 <img src="images/CYD/delighted-dan.png"  alt="delighted dan" style="width:60%">
+                 <div class="CYD-slide-text">
+                    <h2>delighted dan.</h2>
+                    <br>
+                    <h5>dan's natural state. don't make any sudden movements, or you might upset him.</h5>
+                 </div>
+              </div>
+              <div class="mySlides text-center">
+                 <img src="images/CYD/dangerous-dan.png" alt="dangerous dan" style="width:60%">
+                 <div class="CYD-slide-text">
+                    <h2>dangerous dan.</h2>
+                    <br>
+                    <h5>uh oh. you’ve upset dan. now you have to deal with dangerous dan.</h5>
+                 </div>
+              </div>
+              <div class="mySlides text-center">
+                 <img src="images/CYD/dazzled-dan.png" alt="dazzled dan" style="width:60%">
+                 <div class="CYD-slide-text">
+                    <h2>dazzled dan.</h2>
+                    <br>
+                    <h5>woah! dan doesn’t surprise easily. you really startled the poor guy.</h5>
+                 </div>
+              </div>
+              <div class="mySlides text-center">
+                 <img src="images/CYD/dapper-dan.png" alt="dapper dan" style="width:60%">
+                 <div class="CYD-slide-text">
+                    <h2>dapper dan.</h2>
+                    <br>
+                    <h5>dapper dan looks confident. this is a guy who will get sh- ...stuff done.</h5>
+                 </div>
+              </div>
+              <div class="mySlides text-center">
+                 <img src="images/CYD/dubious-dan.png" alt="dubious dan" style="width:60%">
+                 <div class="CYD-slide-text">
+                    <h2>dubious dan</h2>
+                    <br>
+                    <h5>dubious dan is suspicious by nature. are you sure you want to pick this dan?</h5>
+                 </div>
+              </div>
+              <!-- Next and previous buttons -->
+              <div class="CYD-arrows">
+                <a class="CYD-prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="CYD-next" onclick="plusSlides(1)">&#10095;</a>
               </div>
            </div>
-           <p>Enjoy your stay.</p>
-           <ul class="social-media-links top-sm-links">
-              <li>
-                 <a href="https://www.linkedin.com/in/dang" target="_blank">
-                 <i class="fab fa-linkedin"></i>
-                 </a>
-              </li>
-              <li>
-                 <a href="https://dribbble.com/dang003" target="_blank">
-                 <i class="fab fa-dribbble-square"></i>
-                 </a>
-              </li>
-              <li>
-                 <a href="https://www.github.com/dang003" target="_blank">
-                 <i class="fab fa-github-square"></i>
-                 </a>
-              </li>
-           </ul>
+           <a href="index.html#work"><img src="images/scrollout.png" class="scroll-please" alt="click to scroll to my work"></a>
+         </div>
+        </header>
+        <section class="section-padding section-spacing text-box white-box">
+          <h2>no matter which dan you pick,</h2>
+          <br>
+          <h3>you'll get a product designer who loves solving problems.</h3>
+          <br>
+          <div class="intro-set">
+            <a href="index.html#work"><img src="images/scrollout.png" class="intro-icon" alt="click to scroll to my work"></a>
+            <h5>take a look at my work below.</h5>
           </div>
-          <img src="images/myface/graymec.png" class="top-me" alt="That Me.">
-         </header>
+          <br>
+          <div class="intro-set">
+            <a href="contact.html"><img src="images/connect.png" class="intro-icon" alt="click to connect"></a>
+            <h5>connect with me here.</h5>
+          </div>
+        </section>
          <!-- PROJECTS -->
          <div id="work"></div>
          <!-- Anchor for Nav (work.) -->
          <section>
           <!--  <div class="title-box">
-               <h2 class="section-title title title-padding">case studies.</h2>
+               <h2 class="section-title title title-padding">work.</h2>
             </div> -->
             <div class="projects-container">
               <div class="project-section project-2">
@@ -142,6 +177,8 @@
                 <div class="display-project-text">
                    <h4>Adventurer's Assistant</h4>
                    <br>
+                   <h6 class="small">PROTOTYPE</h6>
+                   <br>
                    <p>Bringing Dungeons & Dragons into the 21st century. A smart alternative to paper character and spell sheets.</p>
                 <div class="case-study-btn invert-btn">
                    <a href="https://www.figma.com/proto/HiZZTD1Nc0aMLIdZI1EKKc/DnD-Hi-Fi-Character-Creator?node-id=24%3A26&viewport=-55%2C1003%2C0.08828883618116379&scaling=scale-down" target="_blank">
@@ -176,23 +213,20 @@
          </section>
          <!-- TESTIMONIALS -->
          <section class="red-bg">
-            <div class="title-box">
-               <h2 class="section-title title title-padding">references.</h2>
-            </div>
-            <!-- Slideshow Container -->
-            <div class="home-slideshow-container section-padding">
-               <div class="quote-mark"></div>
-               <!-- Slide Quotes -->
-               <div class="mySlides vibe-text">
-                  <p>Dan is a fast learning process-driven designer. As his UX Design mentor at Thinkful, I have witnessed on many occasions how he is capable of turning a business idea into a seamless, memorable experience by using a process-driven design approach that puts the user first and aligns user needs seamlessly with business requirements.</p>
+      <!--         <h2 class="section-title title-spacing title title-padding">references.</h2>  -->
+            <div class="section-padding">
+               <!-- Quotes -->
+               <div class="vibe-text">
+                  <p>"Dan is a fast learning process-driven designer. As his UX Design mentor at Thinkful, I have witnessed on many occasions how he is capable of turning a business idea into a seamless, memorable experience by using a process-driven design approach that puts the user first and aligns user needs seamlessly with business requirements.</p>
                   <br>
-                  <p>During my time with Dan I have seen him rise up as a confident, proactive designer that will be a catch for anyone that is chasing fresh UX Design talent.</p>
+                  <p>During my time with Dan I have seen him rise up as a confident, proactive designer that will be a catch for anyone that is chasing fresh UX Design talent."</p>
                   <div class="attribute">
                      <h3>-mike dekker.</h3>
                      <h6>independent UX/UI designer & consultant</h6>
                   </div>
                </div>
-               <div class="mySlides vibe-text">
+               <!--
+               <div class="vibe-text">
                   <h6>This is where my testimonials will go, once I receive them. My previous mentor and my current one have both agreed to give me quotes that I can put here.</h6>
                   <div class="attribute">
                      <h3>-name.</h3>
@@ -200,11 +234,7 @@
                   </div>
                </div>
             </div>
-            <!-- Indicators -->
-            <!--          <div class="dot-container">
-               <span class="dot" onclick="currentSlide(1)"></span>
-               <span class="dot" onclick="currentSlide(2)"></span>
-               </div>  -->
+          -->
          </section>
       </main>
       <!-- FOOTER -->
