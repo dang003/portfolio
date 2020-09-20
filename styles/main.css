@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #121121;
+  background-color: #E7ECEE;
   color: #E7ECEE;
   height: 100%;
   margin: 0 auto;
@@ -18,6 +18,8 @@ body {
 
 .container {
   max-width: 400px;
+  background-color: #121121;
+  position: relative;
 }
 
 /* Colors: #121121 (dark blue) #FEF0AE (yellow) #E7ECEE (white) #4B182E (red)  */
@@ -33,34 +35,34 @@ h1 {
 h2 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 3.6rem; /* 36px */
-  line-height: 4.4rem; /* 44px */
+  line-height: 5.4rem; /* 54px */
 }
 
 h3 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.8rem; /* 18px */
-  line-height: 2.2rem; /* 22px */
+  line-height: 2.7rem; /* 27px */
 }
 
 h4 {
   font-family: 'Raleway', sans-serif;
   font-size: 3.6rem; /* 36px */
-  font-weight: 700;
-  line-height: 4.2rem; /* 42px */
+  font-weight: 700; /* bold */
+  line-height: 5.4rem; /* 54px */
 }
 
 h5 {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.6rem; /* 14px */
-  font-weight: 700;
-  line-height: 1.6rem; /* 20px */
+  font-size: 1.8rem; /* 18px */
+  font-weight: 700; /* bold */
+  line-height: 2.7rem; /* 27px */
 }
 
 h6 {
   font-family: 'Raleway', sans-serif;
   font-size: 2.4rem; /* 24 px */
-  font-weight: 400;
-  line-height: 2.8rem; /* 28px */
+  font-weight: 400; /* regular */
+  line-height: 3.6rem; /* 36px */
 }
 
 .small {
@@ -71,7 +73,7 @@ h6 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem; /* 16px */
-  line-height: 2.2rem; /* 22px */
+  line-height: 2.4rem; /* 24px */
   font-weight: 400;
 }
 
@@ -178,8 +180,8 @@ nav {
 
 .CONTACT a {
   align-items: center;
-  background-color: #FEF0AE;
-  color: #121121;
+  border: 2px solid #fEf0ae;
+  color: #fEf0ae;
   display: flex;
   height: 4.8rem; /* 48px */
   justify-content: center;
@@ -189,16 +191,16 @@ nav {
 }
 
 .CONTACT a:hover {
-  box-shadow: 0 0 14px #FEF0AE;
-
+  background-color: #fef0ae;
+  color: #121121;
 }
 
 .content-btn {
   color: #FEF0AE;
-  height: 40px;
-  margin: 2rem 0;
+  display: block;
   text-decoration: none;
-  width: 200px;
+  margin-top: 1rem;
+  width: max-content;
 }
 
 .content-btn:hover {
@@ -269,32 +271,11 @@ section {
   top: -3.5rem;
 }
 
-/* RED BOX CODE */
-
-.red-bg {
-  background-color: #4B182E;
-  background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
-  box-shadow: 0 0 50px #4B182E;
-  margin: 2rem;
-  height: 100%;
-  position: relative;
-  z-index: 0;
-}
-
-.red-title-box {
-  position: relative;
-  top: -3.5rem;
-}
-
-.red-title {
-  margin-bottom: 0px;
-}
-
 
 /** SPACE MODIFIERS **/
 
 .title-spacing {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .text-space {
@@ -311,71 +292,118 @@ section {
 
 .sticky-destination {
   position: relative;
-  top: -8rem;
-}
-
-.red-sticky-destination {
-  position: relative;
   top: -10rem;
 }
 
 #work {
   position: relative;
-  top: -4rem;
+  top: -8rem;
+}
+
+.section-spacing {
+  margin: 10rem auto;
 }
 
 /******* HOMEPAGE CSS *******/
 
-/** INTRODUCTION **/
+/** CHOOSE YOUR DAN **/
 
 .home-header {
-  color: #E7ECEE;
-  height: 100%;
-  max-width: 70rem;
+  background-image: url("../images/CYD/arcade.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  max-height: 56rem;
+  position: relative;
+}
+
+.home-header-container {
+  max-width: 1600px;
   margin: 0 auto;
   position: relative;
-  margin-top: 2rem;
+  width: 100%;
 }
 
-.top-me {
-  height: 80%;
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  box-shadow: 0 0 30px rgba(248, 248, 243, 0.25);
-  display: none;
+.home-title {
+  color: #FEF0AE;
+  margin: 3% 8% 30px 8%;
+  text-align: center;
 }
 
-.home-header-text {
-  padding: 5rem 0 10rem 2rem;
-  max-width: 360px;
+.home-title h4 {
+  font-weight: 400;
+}
+
+.CYD-slideshow-container {
+  margin: 0 auto;
+  max-width: 450px;
+  position: relative;
   z-index: 2;
 }
 
-.header-line {
-  margin-top: 2rem;
+.mySlides {
+  display: none;
 }
 
-.top-sm-links {
-  justify-content: left;
-  margin-top: 2rem;
+.text-center {
+  text-align: center;
 }
 
-.top-sm-links li {
-  margin-left: 0;
-  margin-right: 20px;
+.CYD-slide-text {
+  margin: 8% auto;
 }
 
-.sub-header {
-  margin-top: 20px;
-}
-
-.transition {
+.CYD-prev, .CYD-next {
+  border-radius: 0 3px 3px 0;
+  color: #FEF0AE;
+  cursor: pointer;
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: 0 4%;
+  padding: 5px 5px;
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  top: 20%;
+  user-select: none;
+}
+
+.CYD-next {
+  right: 0;
+}
+
+.CYD-prev:hover, .CYD-next:hover {
+  text-shadow: 0 0 30px #FEF0AE;
+}
+
+.scroll-please {
+  display: none;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  max-width: 4rem;
+}
+
+.scroll-please:hover {
+  box-shadow: 0 0 12px #FEF0AE;
+}
+
+.intro-set {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.intro-icon {
+  max-width: 3rem;
+  margin-right: 2rem;
+}
+
+.intro-icon:hover {
+  box-shadow: 0 0 8px #FEF0AE;
 }
 
 /** PROJECTS **/
@@ -397,7 +425,7 @@ section {
   display: flex;
   height: 85vh;
   margin: 2rem 0;
-  max-height: 85vh;
+  max-height: 900px;
   position: relative;
 }
 
@@ -446,8 +474,8 @@ section {
 
 .case-study-btn {
     align-items: center;
-    background-color: #FEF0AE;
-    color: #121121;
+    border: 2px solid #FEF0AE;
+    color: #FEF0AE;
     display: flex;
     height: 4.4rem;
     justify-content: center;
@@ -457,7 +485,8 @@ section {
 }
 
 .case-study-btn:hover {
-  box-shadow: 0 0 12px #FEF0AE;
+  background-color: #FEF0AE;
+  color: #121121;
 }
 
 /** WHAT I OFFER **/
@@ -491,7 +520,12 @@ section {
 
 /** TESTIMONIALS **/
 
-.home-slideshow-container {
+.red-bg {
+  background-color: #4B182E;
+  background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
+}
+
+.CYD-slideshow-container {
   position: relative;
 }
 
@@ -503,7 +537,7 @@ section {
 
 .vibe-text h6 {
   font-size: 1.8rem;
-  line-height: 2.5rem;
+  line-height: 2.7rem;
 }
 
 .attribute {
@@ -512,6 +546,7 @@ section {
   text-align: right;
 }
 
+/**
 .dot-container {
   padding: 20px 8% 20px 8%;
   text-align: right;
@@ -528,10 +563,12 @@ section {
   transition: background-color 0.6s ease;
   width: 15px;
 }
+**/
 
 .active {
   opacity: 1;
 }
+
 
 
 /******** CASE STUDY ********/
@@ -541,6 +578,7 @@ section {
 
 .cs-header {
   margin: 0;
+  background-color: #4B182E;
 }
 
 .hero-header {
@@ -561,23 +599,18 @@ section {
 /** VIEW PROTOTYPE BUTTON **/
 
 .prototype {
-  background: #121121;
-  box-shadow: 1px 4px 4px rgba(18, 17, 33, 0.25);
+  border: 2px solid #E7ECEE;
   margin: 2rem auto 0 auto;
 }
 
-.prototype a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .prototype:hover {
-  box-shadow: 0 0 20px rgba(18, 17, 33, 1);
+  color: #121121;
+  background-color: #E7ECEE;
 }
 
 .section-padding {
   padding: 0 2rem;
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
 
 .title-padding {
@@ -700,13 +733,15 @@ section {
 }
 
 .persona-images {
-  width: 60%;
-  max-width: 50rem;
+  border-radius: 50%;
+  max-width: 30rem;
+  width: 70%;
 }
 
 .persona-text {
   max-width: 30rem;
   margin-top: 1rem;
+  margin-left: 2rem;
   text-align: center;
 }
 
@@ -730,6 +765,10 @@ span {
   padding: .5rem 1rem;
 }
 
+
+/**  BRANDING **/
+
+
 /** FINAL CHANGES LIST **/
 
 .check {
@@ -752,18 +791,14 @@ span {
 }
 
 .prototype-bot {
-  background-color: #FEF0AE;
-  color: #121121;
+  border: 2px solid #FEF0AE;
+  color: #FEF0AE;
   margin: 2rem auto 10rem auto;
 }
 
-.prototype-bot a {
-  color: #121121;
-  text-decoration: none;
-}
-
 .prototype-bot:hover {
-  box-shadow: 0 0 20px #FEF0AE;
+  background-color: #FEF0AE;
+  color: #121121;
 }
 
 #conclusion {
@@ -828,92 +863,99 @@ span {
 }
 
 #icons {
-  background-image: url("../images/cargo/icons_horiz.png");
+  background-image: url("../images/cargo/cargo-icons.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 70px;
+  background-size: 60%;
+  height: 100px;
   max-width: 375px;
+  width: 100%;
 }
 
 
 /******* ABOUT PAGE CSS *******/
 
-/** CHOOSE YOUR DAN **/
+/** INTRODUCTION **/
 
 .about-header {
-  background-image: url("../images/about/arcade.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  max-height: 56rem;
+  color: #E7ECEE;
+  height: 100%;
+  max-width: 70rem;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.about-title {
-  color: #FEF0AE;
-  margin: 0 8% 30px 8%;
-  text-align: center;
-}
-
-.about-title h4 {
-  font-weight: 400;
-}
-
-.about-slideshow-container {
   margin: 0 auto;
-  max-width: 450px;
   position: relative;
+  margin-top: 2rem;
 }
 
-.mySlides {
-  display: none;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.about-slide-text {
-  margin: 8% 0;
-}
-
-.about-prev, .about-next {
-  border-radius: 0 3px 3px 0;
-  color: #FEF0AE;
-  cursor: pointer;
-  font-size: 3.6rem;
-  font-weight: bold;
-  margin: 0 4%;
-  padding: 5px 5px;
+.top-me {
+  height: 80%;
+  z-index: 1;
   position: absolute;
-  top: 6rem;
-  user-select: none;
-}
-
-.about-next {
+  top: 0;
   right: 0;
+  box-shadow: 0 0 30px rgba(248, 248, 243, 0.25);
 }
 
-.about-prev:hover, .about-next:hover {
-  text-shadow: 0 0 30px #FEF0AE;
+.about-header-text {
+  padding: 5rem 0 10rem 2rem;
+  max-width: 360px;
+  z-index: 2;
 }
 
+.header-line {
+  margin-top: 2rem;
+}
 
+.top-sm-links {
+  justify-content: left;
+  margin-top: 2rem;
+}
+
+.top-sm-links li {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.sub-header {
+  margin-top: 20px;
+}
+
+.transition {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.ai-section {
+  position: relative;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  width: 100%;
+  max-width: inherit;
+  margin-bottom: 1rem;
+}
 
 /****** CONTACT PAGE *******/
 
 .contact-section {
-  margin: 10rem auto 3rem auto;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.red-box {
+  padding-top: 3rem;
+  background-color: #4B182E;
 }
 
 .contact-form {
   height: 100%;
-  margin: 7rem auto;
+  margin: 0 auto;
   max-width: 900px;
   position: relative;
 }
@@ -938,7 +980,7 @@ span {
   background-color: #E7ECEE;
   color: #121121;
   display: block;
-  font-family: droid-serif, serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem; /* 14px */
   height: 4rem;
   line-height: 2.2rem; /* 22px */
@@ -951,8 +993,9 @@ span {
   background-color: #E7ECEE;
   color: #121121;
   display: block;
-  font-family: droid-serif, serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem; /* 14px */
+  line-height: 2.2rem; /* 22px */
   margin-bottom: 10rem;
   padding: 1rem;
   resize: none;
@@ -994,8 +1037,8 @@ span {
   max-width: 400px;
 }
 
-.about-prev, .about-next {
-  top: 9rem;
+.CYD-prev, .CYD-next {
+  top: 25%;
 }
 
 .top-me {
@@ -1052,9 +1095,9 @@ span {
 
   /**** HOMEPAGE ****/
 
-  .home-header-text {
-    padding-bottom: 15rem;
-    max-width: 540px;
+  .scroll-please {
+    display: block;
+    opacity: .6;
   }
 
   .offer-container {
@@ -1095,19 +1138,16 @@ span {
   }
 
   .invert-btn {
+    border: 2px solid #121121;
+    color: #121121;
+  }
+
+  .invert-btn:hover {
     background-color: #121121;
     color: #E7ECEE;
   }
 
-  .invert-btn:hover {
-    box-shadow: 0 0 8px #121121;
-  }
-
   /** About page **/
-
-  .about-prev, .about-next {
-    top: 9rem;
-  }
 
   section {
     margin-left: auto;
@@ -1125,29 +1165,22 @@ span {
 
   .sticky-destination {
     position: relative;
-    top: -6rem;
-  }
-
-  .red-sticky-destination {
-    position: relative;
-    top: -8.5rem;
+    top: -14rem;
   }
 
   /** HEADER **/
 
   .project-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .deliv-and-tools {
-    flex-direction: column;
-    margin-right: 5rem;
+    flex-direction: row;
   }
 
   .tools {
-    margin-top: 3rem;
-    margin-left: 0;
+    margin-left: 5rem;
   }
 
 /** RESEARCH **/
@@ -1181,7 +1214,7 @@ span {
   }
 
   #icons {
-    height: 150px;
+    height: 200px;
     max-width: 800px;
   }
 
@@ -1218,6 +1251,12 @@ span {
   }
 
 /** HOMEPAGE **/
+
+  .scroll-please {
+    opacity: 1;
+    bottom: 3rem;
+    left: 3rem;
+  }
 
   .project-section {
     margin: 2rem 2rem;
