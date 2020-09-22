@@ -8,8 +8,8 @@ html {
 }
 
 body {
-  background-color: #E7ECEE;
-  color: #E7ECEE;
+  background-color: #F3F6F1;
+  color: #050A24;
   height: 100%;
   margin: 0 auto;
   position: relative;
@@ -18,11 +18,11 @@ body {
 
 .container {
   max-width: 400px;
-  background-color: #121121;
+  background-color: #F3F6F1;
   position: relative;
 }
 
-/* Colors: #121121 (dark blue) #FEF0AE (yellow) #E7ECEE (white) #4B182E (red)  */
+/* Colors: #F3F6F1(white) #F8F5B5(yellow) #C596A2(red) #2D2D4E(blue) #050A24(black)  */
 
 /** typography **/
 
@@ -85,7 +85,7 @@ p {
 /** navigation **/
 
 nav {
-  color: #E7ECEE;
+  color: #050A24;
   height: 7rem;
   overflow: visible;
   position: relative;
@@ -94,8 +94,8 @@ nav {
 
 .nav-contents {
   align-items: center;
-  background-color: #121121;
-  border-bottom: 2px solid #FEF0AE;
+  background-color: #F3F6F1;
+  border-bottom: 2px solid #C596A2;
   display: flex;
   flex-direction: row;
   height: 7rem;
@@ -107,19 +107,19 @@ nav {
 }
 
 #myLogo {
-  color: #E7ECEE;
+  color: #050A24;
   display: flex;
   padding: 0 8%;
   text-decoration: none;
 }
 
 #myLogo:hover {
-  text-shadow: 0 0 20px #E7ECEE;
+  color: #C596A2;
 }
 
 #myLinks {
-  background-color: #121121;
-  border-bottom: 2px solid #FEF0AE;
+  background-color: #F3F6F1;
+  border-bottom: 2px solid #C596A2;
   display: none;
   margin-top: 7rem;
   padding: 12px 6%;
@@ -130,7 +130,7 @@ nav {
 }
 
 .nav-text a {
-  color: #FEF0AE;
+  color: #050A24;
   display: block;
   padding: 1.6rem 1.4rem;
   text-align: right;
@@ -138,32 +138,32 @@ nav {
 }
 
 .nav-text a:hover {
-  text-shadow: 0 0 10px #FEF0AE;
+  color: #C596A2;
 }
 
 .burger {
-  color: #FEF0AE;
+  color: #050A24;
   cursor: pointer;
   position: absolute;
   right: 8%;
 }
 
 .burger:hover {
-  text-shadow: 0 0 30px #FEF0AE;
+  color: #C596A2;
 }
 
 .active {
-  background-color: #FEF0AE;
+  background-color: #F8F5B5;
 }
 
 .currentlink a{
   padding: 0;
   margin: 1.6rem 1.4rem;
-  color: #E7ECEE;
+  color: #050A24;
 }
 
 .currentlink a:hover {
-  text-shadow: 0 0 0 #E7ECEE;
+  text-shadow: 0 0 0 #050A24;
 }
 
 /** Buttons **/
@@ -180,8 +180,8 @@ nav {
 
 .CONTACT a {
   align-items: center;
-  border: 2px solid #fEf0ae;
-  color: #fEf0ae;
+  border: 2px solid #C596A2;
+  color: #C596A2;
   display: flex;
   height: 4.8rem; /* 48px */
   justify-content: center;
@@ -191,12 +191,13 @@ nav {
 }
 
 .CONTACT a:hover {
-  background-color: #fef0ae;
-  color: #121121;
+  background-color: #C596A2;
+  color: #F3F6F1;
 }
 
 .content-btn {
-  color: #FEF0AE;
+  border: 1px solid #050A24;
+  color: #050A24;
   display: block;
   text-decoration: none;
   margin-top: 1rem;
@@ -204,7 +205,7 @@ nav {
 }
 
 .content-btn:hover {
-  text-shadow: 0 0 20px #FEF0AE;
+  text-shadow: 0 0 20px #C596A2;
 }
 
 /** header **/
@@ -234,11 +235,11 @@ footer {
 }
 
 .social-media-links li:hover {
-  text-shadow: 0 0 10px #E7ECEE;
+  text-shadow: 0 0 10px #050A24;
 }
 
 .fab {
-  color: #E7ECEE;
+  color: #050A24;
   font-size: 2rem; /** 20px **/
 }
 
@@ -287,7 +288,7 @@ section {
 }
 
 .text-deco {
-  color: #FEF0AE;
+  color: #F8F5B5;
 }
 
 .sticky-destination {
@@ -329,7 +330,7 @@ section {
 }
 
 .home-title {
-  color: #FEF0AE;
+  color: #F8F5B5;
   margin: 3% 8% 30px 8%;
   text-align: center;
 }
@@ -354,12 +355,13 @@ section {
 }
 
 .CYD-slide-text {
+  color: #F3F6F1;
   margin: 8% auto;
 }
 
 .CYD-prev, .CYD-next {
   border-radius: 0 3px 3px 0;
-  color: #FEF0AE;
+  color: #F8F5B5;
   cursor: pointer;
   font-size: 3.6rem;
   font-weight: bold;
@@ -375,7 +377,7 @@ section {
 }
 
 .CYD-prev:hover, .CYD-next:hover {
-  text-shadow: 0 0 30px #FEF0AE;
+  text-shadow: 0 0 30px #F8F5B5;
 }
 
 .scroll-please {
@@ -387,7 +389,7 @@ section {
 }
 
 .scroll-please:hover {
-  box-shadow: 0 0 12px #FEF0AE;
+  box-shadow: 0 0 12px #F8F5B5;
 }
 
 .intro-set {
@@ -403,7 +405,7 @@ section {
 }
 
 .intro-icon:hover {
-  box-shadow: 0 0 8px #FEF0AE;
+  box-shadow: 0 0 8px #F8F5B5;
 }
 
 /** PROJECTS **/
@@ -421,7 +423,7 @@ section {
 
 .project-section {
   align-items: center;
-  background-color: #121121;
+  background-color: #F3F6F1;
   display: flex;
   height: 85vh;
   margin: 2rem 0;
@@ -431,7 +433,7 @@ section {
 
 .project-3 {
   background-image: linear-gradient(111.81deg, #FCF0EE 0%, #F3E5E3 100%);
-  color: #121121;
+  color: #F3F6F1;
 }
 
 .project-2 {
@@ -440,7 +442,7 @@ section {
 
 .project-1 {
   background-image: linear-gradient(to bottom right, #ECECEC, #CFD0D3);
-  color: #121121;
+  color: #F3F6F1;
 }
 
 .display-project-image {
@@ -455,7 +457,7 @@ section {
 
 .display-project-text {
   background-color: rgba(18, 17, 33, 0.75);
-  color: #E7ECEE;
+  color: #F3F6F1;
   display: block;
   margin: 0;
   padding: 2rem;
@@ -474,8 +476,8 @@ section {
 
 .case-study-btn {
     align-items: center;
-    border: 2px solid #FEF0AE;
-    color: #FEF0AE;
+    border: 2px solid #F8F5B5;
+    color: #F8F5B5;
     display: flex;
     height: 4.4rem;
     justify-content: center;
@@ -485,8 +487,8 @@ section {
 }
 
 .case-study-btn:hover {
-  background-color: #FEF0AE;
-  color: #121121;
+  background-color: #F8F5B5;
+  color: #F3F6F1;
 }
 
 /** WHAT I OFFER **/
@@ -497,6 +499,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #F3F6F1;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -521,8 +524,7 @@ section {
 /** TESTIMONIALS **/
 
 .red-bg {
-  background-color: #4B182E;
-  background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
+  background-color: #C596A2;
 }
 
 .CYD-slideshow-container {
@@ -553,7 +555,7 @@ section {
 }
 
 .dot {
-  background-color: #E7ECEE;
+  background-color: #050A24;
   border-radius: 50%;
   cursor: pointer;
   display: inline-block;
@@ -578,7 +580,7 @@ section {
 
 .cs-header {
   margin: 0;
-  background-color: #4B182E;
+  background-color: #C596A2;
 }
 
 .hero-header {
@@ -599,13 +601,13 @@ section {
 /** VIEW PROTOTYPE BUTTON **/
 
 .prototype {
-  border: 2px solid #E7ECEE;
+  border: 2px solid #050A24;
   margin: 2rem auto 0 auto;
 }
 
 .prototype:hover {
-  color: #121121;
-  background-color: #E7ECEE;
+  color: #F3F6F1;
+  background-color: #050A24;
 }
 
 .section-padding {
@@ -643,9 +645,9 @@ section {
 /** STICKY NAV **/
 
 .sticky-nav {
-  background-color: #4B182E;
+  background-color: #C596A2;
   background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
-  border-bottom: 2px solid #FEF0AE;
+  border-bottom: 2px solid #F8F5B5;
   overflow: hidden;
   position: sticky;
   top: 7rem;
@@ -662,7 +664,7 @@ section {
 }
 
 .sticky-nav a, .sticky-nav h6 {
-  color: #E7ECEE;
+  color: #050A24;
   display: block;
   padding: 20px 30px;
   text-align: center;
@@ -670,7 +672,7 @@ section {
 }
 
 .sticky-nav a:hover {
-  text-shadow: 0 0 10px #E7ECEE;
+  text-shadow: 0 0 10px #050A24;
 }
 
 .sticky-links {
@@ -761,7 +763,7 @@ span {
 }
 
 .stories-table td {
-  border: 1px solid #E7ECEE;
+  border: 1px solid #050A24;
   padding: .5rem 1rem;
 }
 
@@ -772,7 +774,7 @@ span {
 /** FINAL CHANGES LIST **/
 
 .check {
-  color: #FEF0AE;
+  color: #F8F5B5;
 }
 
 .final-changes {
@@ -791,14 +793,14 @@ span {
 }
 
 .prototype-bot {
-  border: 2px solid #FEF0AE;
-  color: #FEF0AE;
+  border: 2px solid #F8F5B5;
+  color: #F8F5B5;
   margin: 2rem auto 10rem auto;
 }
 
 .prototype-bot:hover {
-  background-color: #FEF0AE;
-  color: #121121;
+  background-color: #F8F5B5;
+  color: #F3F6F1;
 }
 
 #conclusion {
@@ -878,7 +880,7 @@ span {
 /** INTRODUCTION **/
 
 .about-header {
-  color: #E7ECEE;
+  color: #050A24;
   height: 100%;
   max-width: 70rem;
   display: flex;
@@ -950,7 +952,7 @@ span {
 
 .red-box {
   padding-top: 3rem;
-  background-color: #4B182E;
+  background-color: #C596A2;
 }
 
 .contact-form {
@@ -977,8 +979,8 @@ span {
 }
 
 .contact-input {
-  background-color: #E7ECEE;
-  color: #121121;
+  background-color: #F3F6F1;
+  color: #050A24;
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem; /* 14px */
@@ -990,8 +992,8 @@ span {
 }
 
 #message {
-  background-color: #E7ECEE;
-  color: #121121;
+  background-color: #F3F6F1;
+  color: #050A24;
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem; /* 14px */
@@ -1003,10 +1005,10 @@ span {
 }
 
 .contact-btn {
-  background-color: #FEF0AE;
-  border: 2px solid #FEF0AE;
+  background-color: #F3F6F1;
+  border: 1px solid #050A24;
   bottom: 0;
-  color: #121121;
+  color: #050A24;
   display: block;
   font-family: raleway, sans-serif;
   font-size: 1.8rem; /* 18px */
@@ -1018,7 +1020,8 @@ span {
 }
 
 .contact-btn:hover {
-  box-shadow: 0 0 12px #FEF0AE;
+  background-color: #050A24;
+  color: #F3F6F1;
 }
 
 
@@ -1069,8 +1072,8 @@ span {
   }
 
   #myLinks {
-    background-color: #121121;
-    border-bottom: 0 solid #FEF0AE;
+    background-color: #F3F6F1;
+    border-bottom: 0 solid #F8F5B5;
     display: block;
     margin: 1rem 6% 0 0;
     padding: 0;
@@ -1129,22 +1132,22 @@ span {
 
   .display-project-text {
     background-color: transparent;
-    color: #121121;
+    color: #050A24;
     width: 320px;
   }
 
   .light {
-    color: #E7ECEE;
+    color: #F3F6F1;
   }
 
-  .invert-btn {
-    border: 2px solid #121121;
-    color: #121121;
+  .dark-btn {
+    border: 2px solid #050A24;
+    color: #050A24;
   }
 
-  .invert-btn:hover {
-    background-color: #121121;
-    color: #E7ECEE;
+  .dark-btn:hover {
+    background-color: #050A24;
+    color: #F3F6F1;
   }
 
   /** About page **/
