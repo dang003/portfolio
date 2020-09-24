@@ -677,6 +677,22 @@ section {
   display: none;
 }
 
+/** LISTS **/
+
+.cs-list {
+  margin: 1rem 0;
+}
+
+.cs-list li {
+  display: flex;
+  padding: .5rem 0;
+}
+
+.list-icon {
+  color: #E7ECEE;
+  margin: 8px 1rem 0 0;
+}
+
 /** SURVEY **/
 
 .survey-container {
@@ -771,16 +787,9 @@ span {
 
 /** FINAL CHANGES LIST **/
 
-.check {
+.fc-li {
   color: #FEF0AE;
-}
-
-.final-changes {
-  margin: 20px 8%;
-}
-
-.final-changes li {
-  padding: 10px 10px ;
+  margin: 4px 1rem 0 0;
 }
 
 /** BOTTOM **/
@@ -821,11 +830,15 @@ span {
   margin-bottom: 0;
 }
 
+#Vuserflow {
+  display: none;
+}
+
 /**** Virtuoso ****/
 
 .virt-research-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
@@ -1035,20 +1048,20 @@ span {
 
   .image {
   max-width: 400px;
-}
+  }
 
-.CYD-prev, .CYD-next {
+  .CYD-prev, .CYD-next {
   top: 25%;
-}
+  }
 
-.top-me {
+  .top-me {
   display: block;
-}
+  }
 
-.display-project-text {
+  .display-project-text {
   width: 65%;
   margin: 1rem;
-}
+  }
 
 }
 
@@ -1194,12 +1207,20 @@ span {
     width: 50%;
   }
 
+  .virt-research-list {
+    flex-direction: row;
+  }
+
   .personas {
     flex-direction: row;
   }
 
   .stories-table {
     max-width: 50rem;
+  }
+
+  #Vuserflow {
+    display: block;
   }
 
   .final-changes {
