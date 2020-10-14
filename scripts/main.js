@@ -18,7 +18,7 @@ function toggleNav() {
 // STICKY NAV
 
 const BAR = document.querySelector('.sticky-header');
-const ARROW = document.querySelector('.arrow');
+const ARROW = document.querySelector('.sticky-arrow');
 const LINKS = document.querySelector('.sticky-links');
 
 function toggleSticky() {

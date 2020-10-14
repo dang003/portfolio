@@ -58,84 +58,72 @@
             <i class="burger fas fa-bars fa-3x"></i>
          </div>
       </nav>
-      <main>
+      <main class="light-main">
          <div id="overview" class="sticky-destination"></div>
          <!-- Anchor for Sticky Nav (overview.) -->
          <header class="cs-header">
-              <div class="hero-header">
-                <div class="hero-text text-box">
+              <div class="cs-hero-header text-box" id="virt-bg">
+                <div class="cs-header-text">
                   <h4>Virtuoso</h4>
-                  <h6 class="text-space ">Case Study</h6>
+                  <h6 class="text-space">Case Study</h6>
                   <p class="text-space">Remote Learning is a familiar topic for adults looking to gain new skills. With the severe social impact of the Coronavirus, children were told to complete the school year from the safety of their homes. I looked to build a site that children and teachers could quickly adapt to and continue learning with ease.</p>
                   <br><br>
-                  <!-- Desktop Protype BTN -->
-                      <a href="https://dangallagher937465.invisionapp.com/public/share/YK1751GB2J" class="prototype btn desktop-btn" target="_blank">
-                        <h6>View Prototype</h6>
-                      </a>
                 </div>
-                <!-- Image -->
-                <img src="images/virtuoso/Homepages.png" class="top-mockup" alt="Desktop and Mobile view of the home page">
-                <!-- Mobile Protype BTN -->
-                    <a href="https://dangallagher937465.invisionapp.com/public/share/YK1751GB2J" class="prototype btn mobile-btn" target="_blank">
-                      <h6>View Prototype</h6>
-                    </a>
+                <!-- Deliverables & Tools -->
+                <div class="deliv-and-tools">
+                   <div class="deliverables">
+                      <h5>Responsibilities</h5>
+                      <p>User Research<br>Branding & Identity<br>Hi-fi Mockups<br>Working Prototype</p>
+                   </div>
+                   <div class="tools">
+                      <h5>Tools</h5>
+                      <p>Figma<br>Invision</p>
+                   </div>
                 </div>
+              </div>
               <div class="project-header">
-               <!-- Deliverables & Tools
-               <div class="deliv-and-tools">
-                  <div class="deliverables">
-                     <h5>Deliverables</h5>
-                     <p>User Research<br>Branding & Identity<br>Hi-fi Mockups<br>Working Prototype</p>
-                  </div>
-                  <div class="tools">
-                     <h5>Tools</h5>
-                     <p>Figma<br>Invision</p>
-                  </div>
-               </div> -->
                <!-- Problem & Solution -->
-               <div class="probsol">
-                 <div class="problem">
+               <div class="probsol text-box">
                     <h2>problem.</h2>
                     <p class="text-space">By staying at home and learning online, children were missing out on an important part of the educational experience: socializing. Many users of remote learning complain about feeling isolated.</p>
                     <p class="text-space">Most online learning platforms were built to supplement in-classroom learning, not replace it. They simply don’t have enough features.</p>
                  </div>
-                 <div class="solution">
+                 <div class="solution text-box">
                     <h2>solution.</h2>
                     <p class="text-space">Allow students to discuss and share ideas in classroom discussions and assigned groups.</p>
                     <p class="text-space">Providing the right features for teachers and students can effectively replace in-classroom learning.</p>
                  </div>
                </div>
-            </div>
          </header>
          <!-- Sticky Nav Bar -->
-         <div class="sticky-nav">
-            <div class="sticky-header">
-               <h6>Jump to section</h6>
-               <i class="arrow fas fa-angle-down fa-3x"></i>
-            </div>
-            <div class="sticky-links">
-               <a href="#overview">
-                  <h3>overview.</h3>
-               </a>
-               <a href="#research">
-                  <h3>research.</h3>
-               </a>
-               <a href="#info">
-                  <h3>information architecture.</h3>
-               </a>
-               <a href="#branding">
-                  <h3>branding.</h3>
-               </a>
-               <a href="#testing">
-                  <h3>testing.</h3>
-               </a>
-            </div>
-         </div>
+           <div class="sticky-nav">
+              <div class="sticky-header">
+                 <h6>Jump to section</h6>
+                 <i class="sticky-arrow fas fa-angle-down fa-3x"></i>
+              </div>
+              <div class="sticky-links">
+                 <a href="#overview">
+                    <h3>overview.</h3>
+                 </a>
+                 <a href="#research">
+                    <h3>research.</h3>
+                 </a>
+                 <a href="#info">
+                    <h3>information architecture.</h3>
+                 </a>
+                 <a href="#branding">
+                    <h3>branding.</h3>
+                 </a>
+                 <a href="#testing">
+                    <h3>testing.</h3>
+                 </a>
+              </div>
+           </div>
          <!-- RESEARCH -->
          <div class="snav-spacing"></div>
          <div id="research" class="sticky-destination"></div>
          <!-- Anchor for Sticky Nav (research.) -->
-         <section class="section-padding">
+         <section class="section-padding cs-first-section">
             <h2 class="text-box title-spacing">research.</h2>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Survey Results</h5>
@@ -168,7 +156,7 @@
                 </ul>
             </div>
             <div class="section-paragraph text-box">
-               <h5 class="paragraph-title text-box">Competitive Analysis</h5>
+               <h5 class="paragraph-title">Competitive Analysis</h5>
                <p>I researched Google Classroom, Blackboard, and Top Hat, 3 sites that promise to supplement or replace in-person learning.</p>
                <br>
                <ul class="cs-list">
@@ -220,9 +208,8 @@
             </div>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">User Flows</h5>
+               <div class="dark-bg"><img src="../images/virtuoso/VAWflow.png" class="project-images" id="Vuserflow" alt="User Flow for viewing assigned work"></div>
                <p>I mapped out the processes behind these stories. By doing this, I was able to build on my ideas and turn them into actionable features.</p>
-               <img src="../images/virtuoso/VAWflow.png" class="project-images" id="Vuserflow" alt="User Flow for viewing assigned work">
-               <br>
                <div>
                  <a class="content-btn" href="https://drive.google.com/file/d/1u072PD5H-FkkrTkmdskQWZtbiXFf8xEL/view?usp=sharing" target="_blank">
                     <p>View User Flows</p>
@@ -231,7 +218,7 @@
             </div>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Wireframes</h5>
-               <img src="../images/virtuoso/Wireframes Display.png" class="project-images" alt="Desktop and Mobile Wireframes">
+               <div class="dark-bg"><img src="../images/virtuoso/Wireframes Display.png" class="project-images" alt="Desktop and Mobile Wireframes"></div>
                <ul class="cs-list">
                  <li>
                    <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -242,7 +229,7 @@
                    <p>I found design inspiration for calendars, classes, and discussions on dribbble and pinterest.</p>
                  </li>
                </ul>
-               <div>
+               <div class="flex-btn">
                  <a class="content-btn" href="https://drive.google.com/file/d/119f5yMnN0GT2TpTOfy-vMSKXRPVpyRZu/view?usp=sharing" target="_blank">
                     <p>View Desktop Wireframes</p>
                  </a>
@@ -260,7 +247,7 @@
             <h2 class="text-box title-spacing">branding.</h2>
             <div class="section-paragraph text-box">
              <h5 class="paragraph-title">Logo</h5>
-             <img src="images/virtuoso/VirtLogoC.png" class="project-images" alt="Finished Virtuoso logo">
+             <div class="dark-bg"><img src="images/virtuoso/VirtLogoC.png" class="project-images" alt="Finished Virtuoso logo"></div>
              <ul class="cs-list">
                <li>
                  <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -282,7 +269,7 @@
             </div>
             <div class="section-paragraph text-box">
               <h5 class="paragraph-title">Color and Typography</h5>
-              <img src="images/virtuoso/CAP CT Guide.png" class="project-images" alt="Color and Type branding">
+              <div class="dark-bg"><img src="images/virtuoso/CAP CT Guide.png" class="project-images" alt="Color and Type branding"></div>
               <ul class="cs-list">
                 <li>
                   <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -311,7 +298,7 @@
             </div>
             <div class="section-paragraph text-box">
               <h5 class="paragraph-title">Hi-Fi Mockups</h5>
-              <img src="images/virtuoso/Early Hi-Fi Mockups.png" class="project-images" alt="Early Hi-Fi Mockups">
+              <div class="dark-bg"><img src="images/virtuoso/Early Hi-Fi Mockups.png" class="project-images" alt="Early Hi-Fi Mockups"></div>
               <ul class="cs-list">
                 <li>
                   <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -332,7 +319,7 @@
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Preference Testing</h5>
                <p>With branding finished, I began designing the Hi-Fi Mockups. There were a few stages of redesign throughout the process, after receiving feedback from senior designers and completing preference tests. In the first preference test, I examined how to organize the top navigation bar. Which do you like better?</p>
-               <img src="images/virtuoso/Pref Test1.png" class="project-images" alt="2 variations of the Homepage's Top Navigation">
+               <div class="dark-bg"><img src="images/virtuoso/Pref Test1.png" class="project-images" alt="2 variations of the Homepage's Top Navigation"></div>
                <p> Between these two options, the bottom one won. I believe it won because it is simpler, easier to understand, and takes up less space.</p>
             </div>
             <div class="section-paragraph text-box">
@@ -377,19 +364,21 @@
                <p>I’m excited about the end result. I believe it can become an effective tool for teachers and students to continue their education in any situation.</p>
             </div>
          </section>
-         <!-- Image Mockup 2 -->
-         <div class="prototype-gif">
-            <img src="images/virtuoso/Virtuoso Prototype Walkthrough.gif" class="project-images" alt="GIF showing the Virtuoso Prototype">
-             <a href="https://dangallagher937465.invisionapp.com/public/share/YK1751GB2J" class="prototype-bot btn" target="_blank">
+         <!-- Virtuoso Prototype 2 -->
+         <section class="dark-section">
+           <div class="prototype-bot">
+            <img src="images/virtuoso/Virtuoso Prototype Walkthrough.gif" class="prototype-gif" alt="GIF showing the Virtuoso Prototype">
+             <a href="https://dangallagher937465.invisionapp.com/public/share/YK1751GB2J" class="prototype-btn btn" target="_blank">
                 <h6>View Prototype</h6>
              </a>
-         </div>
+           </div>
+         </section>
          <!-- FURTHER REFINEMENTS -->
          <section class="section-padding">
            <h2 class="text-box title-spacing">further refinements.</h2>
             <div class="section-paragraph text-box">
                <p>I revisited this project and added microinteractions to give my design more life. To do this, I used Figma's "Smart Animate" function. There are a few advantages to including microinteractions in an app. Some apps use them to save time for their users, while others use them to show their branding. I decided to use microinteractions to communicate information and engage users.</p>
-               <img src="images/virtuoso/Virtuoso_MI.gif" class="project-images" alt="GIF of microinteractions in Virtuoso">
+               <div class="dark-bg"><img src="images/virtuoso/Virtuoso_MI.gif" class="project-images" alt="GIF of microinteractions in Virtuoso"></div>
                <ul class="cs-list">
                  <li>
                    <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -410,14 +399,14 @@
             </div>
          </section>
          <!-- CONCLUSION -->
-         <section class="section-padding">
+         <section class="section-padding dark-section">
             <h2 class="text-box title-spacing">conclusion.</h2>
             <div class="section-paragraph text-box" id="conclusion">
                <p>I feel confident that Virtuoso could open up possibilities for teachers and students who are currently participating in remote learning. I saw how important user testing is, as it gives me a way to view my project through fresh eyes.</p>
                <br>
                <p>In future projects, I will use user testing earlier in the process, starting with wireframes. This project has reminded me that the design process is not a linear journey, it includes circling back to different stages of research and testing throughout. I am happy with how this turned out and eager to start on my next project!</p>
-               <img src="images/virtuoso/VirtMbookMU.png" class="project-images" alt="Desktop Mockup of Virtuoso">
-            </div>
+             </div>
+             <img src="images/virtuoso/VirtMbookMU.png" class="project-images" alt="Desktop Mockup of Virtuoso">
          </section>
       </main>
       <!-- FOOTER -->

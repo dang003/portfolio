@@ -58,59 +58,46 @@
             <i class="burger fas fa-bars fa-3x"></i>
          </div>
       </nav>
-      <main>
+      <main class="light-main">
          <div id="overview" class="sticky-destination"></div>
          <!-- Anchor for Sticky Nav (overview.) -->
-         <header class="red-bg cs-header">
-           <div class="hero-header">
-             <div class="hero-text text-box">
-               <!-- Intro -->
+         <header class="cs-header">
+           <div class="cs-hero-header text-box" id="cargo-bg">
+             <div class="cs-header-text">
                <h4>CARGO</h4>
                <h6 class="text-space">Case Study</h6>
                <p class="text-space">CARGO gives travelers a platform where they can store, organize, and access their files. Photos, plans, and notes can all be created or uploaded with this cloud storage site.</p>
                <br><br>
-               <!-- Prototype BTN -->
-               <a href="https://dangallagher937465.invisionapp.com/public/share/YRXDK8SSZ#/screens" class="prototype btn desktop-btn" target="_blank">
-                 <h6>View Prototype</h6>
-               </a>
              </div>
-               <!-- Image -->
-               <img src="images/cargo/CARGO-Homepages.png" class="top-mockup" title="Image of CARGO homepage and trip page">
-               <!-- Mobile Protype BTN -->
-               <a href="https://dangallagher937465.invisionapp.com/public/share/YK1751GB2J" class="prototype btn mobile-btn" target="_blank">
-                 <h6>View Prototype</h6>
-               </a>
+             <!-- Deliverables & Tools -->
+            <div class="deliv-and-tools">
+                <div class="deliverables">
+                   <h5>Responsibilities</h5>
+                   <p>User Research<br>Branding & Identity<br>Hi-fi Mockups<br>Working Prototype</p>
+                </div>
+                <div class="tools">
+                   <h5>Tools</h5>
+                   <p>Figma<br>Invision</p>
+                </div>
+             </div>
             </div>
             <div class="project-header">
-               <!-- Deliverables & Tools -->
-               <!-- <div class="deliv-and-tools">
-                  <div class="deliverables">
-                     <h5>Deliverables</h5>
-                     <p>User Research<br>Branding & Identity<br>Hi-fi Mockups<br>Working Prototype</p>
-                  </div>
-                  <div class="tools">
-                     <h5>Tools</h5>
-                     <p>Figma<br>Invision</p>
-                  </div>
-               </div> -->
                <!-- Problem & Solution -->
-               <div class="probsol">
-               <div class="problem">
+               <div class="probsol text-box">
                   <h2>problem.</h2>
                   <p class="text-space">Many cloud storage site users are frustrated by the difficulty of organizing their files. Users feel the current organization options aren’t accessible enough.</p>
                </div>
-               <div class="solution">
+               <div class="solution text-box">
                   <h2>solution.</h2>
                   <p class="text-space">User files are stored in trips. Users also have the ability to add tags to their files, which lets them customize their organization. Users will be able to access files by opening a trip or directly searching by title or tag.</p>
                </div>
-             </div>
             </div>
          </header>
          <!-- Sticky Nav Bar -->
          <div class="sticky-nav">
             <div class="sticky-header">
                <h6>Jump to section</h6>
-               <i class="arrow fas fa-angle-down fa-3x"></i>
+               <i class="sticky-arrow fas fa-angle-down fa-3x"></i>
             </div>
             <div class="sticky-links">
                <a href="#overview">
@@ -133,7 +120,7 @@
          <!-- RESEARCH -->
          <div id="research" class="sticky-destination"></div>
          <!-- Anchor for Sticky Nav (research.) -->
-         <section class="section-padding">
+         <section class="section-padding cs-first-section">
             <h2 class="text-box title-spacing">research.</h2>
             <div class="section-paragraph text-box">
               <h5 class="paragraph-title">Survey Results</h5>
@@ -150,7 +137,7 @@
            </div>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Competitive Analysis</h5>
-               <img src="images/cargo/enemy_logos.png" class="project-images" id="enemy-logos" alt="Google Drive, Dropbox, Evernote logos">
+               <div class="light-bg"><img src="images/cargo/enemy_logos.png" class="project-images" id="enemy-logos" alt="Google Drive, Dropbox, Evernote logos"></div>
                <ul class="cs-list">
                  <li>
                    <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -168,7 +155,7 @@
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Personas</h5>
                <div class="personas">
-                  <div class="lucas">
+                  <div class="lucas dark-bg">
                      <img src="images/cargo/Lucas.png" class="persona-images" alt="Lucas Persona">
                      <div class="persona-text">
                         <h6>Lucas</h6>
@@ -178,7 +165,7 @@
                         <p><span>"I want to share experiences with my family and friends that we can talk about for a long time."</span></p>
                      </div>
                   </div>
-                  <div class="sarah">
+                  <div class="sarah dark-bg">
                      <img src="images/cargo/Sarah.png" class="persona-images" alt="Sarah Persona">
                      <div class="persona-text">
                         <h6>Sarah</h6>
@@ -194,7 +181,7 @@
                  <p>View Personas</p>
                </a>
             </div>
-         </section>
+         </section class="section-padding">
          <!-- INFO ARCHITECTURE -->
          <div id="info" class="sticky-destination"></div>
          <!-- Anchor for Sticky Nav (information architecture.) -->
@@ -217,18 +204,18 @@
                      <td>High</td>
                   </tr>
                   <tr>
-                     <td>I want to search through my content</td>
+                     <td>I want to search my trips</td>
                      <td>High</td>
                   </tr>
                </table>
             </div>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">User Flows</h5>
+               <div class="dark-bg"><img src="../images/cargo/Create_Account.png" class="project-images" alt="Example User Flow"></div>
                <p>I created user flows for high priority stories. The user flows were laid out in a way that allows the user to take multiple directions to arrive at the end goal.</p>
-                 <img src="../images/cargo/Create_Account.png" class="project-images" alt="Example User Flow">
-                 <a class="content-btn" href="https://drive.google.com/file/d/1qNVsCHxV7-9ZTxQWwL3hTs0tnM8YCqL1/view?usp=sharing" target="_blank">
-                    <p>View User Flows</p>
-                 </a>
+               <a class="content-btn" href="https://drive.google.com/file/d/1qNVsCHxV7-9ZTxQWwL3hTs0tnM8YCqL1/view?usp=sharing" target="_blank">
+                  <p>View User Flows</p>
+               </a>
             </div>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Wireframes</h5>
@@ -253,11 +240,11 @@
          <!-- BRANDING -->
          <div id="branding" class="sticky-destination"></div>
          <!-- Anchor for Sticky Nav (branding.) -->
-         <section  class="section-padding">
+         <section class="section-padding">
             <h2 class="text-box title-spacing">branding.</h2>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Logo</h5>
-               <img src="images/cargo/Color_Full.png" class="project-images" alt="Finished CARGO logo">
+               <div class="light-bg"><img src="images/cargo/Color_Full.png" class="project-images" alt="Finished CARGO logo"></div>
                <ul class="cs-list">
                  <li>
                    <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -275,7 +262,7 @@
             </div>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Moodboard</h5>
-               <div id="moodboard" class="project-images" title="Image of moodboard"></div>
+               <div class="dark-bg"><img src="../images/cargo/moodboard.png" class="project-images" alt="Image of moodboard"></div>
                <ul class="cs-list">
                  <li>
                    <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -289,7 +276,7 @@
             </div>
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Icons</h5>
-               <div id="icons" class="project-images" title="Image of Icons used"></div>
+               <div class="dark-bg"><img src="../images/cargo/cargo-icons.png" class="project-images" alt="Icons in CARGO"></div>
                <ul class="cs-list">
                  <li>
                    <span class="list-icon"><i class="fas fa-circle"></i></span>
@@ -331,9 +318,9 @@
             <div class="section-paragraph text-box">
                <h5 class="paragraph-title">Preference Testing</h5>
                <p>I created a few versions of important features' design, and held preference tests to see how users feel about them. Which do you like better?</p>
-               <img src="images/cargo/Pref_test.png" class="project-images" alt="2 early variations of notification banner">
+               <div class="dark-bg"><img src="images/cargo/Pref_test.png" class="project-images" alt="Two early variations of notification banner"></div>
                <p>The results were split, and users did not seem happy with either. I realized this wasn't solving user problems, so I took their feedback and created a new design.</p>
-               <img src="../images/cargo/Cargo_notif_banner.png" class="project-images" alt="Final notification banner">
+               <div class="dark-bg"><img src="../images/cargo/Cargo_notif_banner.png" class="project-images" alt="Final notification banner"></div>
                <p>The goal behind this was to personalize a user's experience. This new design looks clean and provides the user with helpful information.</p>
             </div>
             <div class="section-paragraph text-box">
@@ -379,13 +366,15 @@
                <p>I’m happy with this end product, as it solves problems users commonly face and reflects the core ideas of the brand image.</p>
             </div>
          </section>
-         <!-- Image Mockup 2 -->
-         <div class="prototype-gif">
-            <img src="images/cargo/CARGO_recording.gif" class="project-images" alt="GIF of CARGO screens">
-            <a href="https://dangallagher937465.invisionapp.com/public/share/YRXDK8SSZ#/screens" class="prototype-bot btn" target="_blank">
+         <!-- CARGO Prototype 2 -->
+         <section class="dark-section">
+           <div class="prototype-bot">
+            <img src="images/cargo/CARGO_recording.gif" class="prototype-gif" alt="GIF of CARGO screens">
+            <a href="https://dangallagher937465.invisionapp.com/public/share/YRXDK8SSZ#/screens" class="prototype-btn btn" target="_blank">
               <h6>View Prototype</h6>
             </a>
-         </div>
+          </div>
+       </section>
          <!-- CONCLUSION -->
          <section class="section-padding">
             <h2 class="text-box title-spacing">conclusion.</h2>
@@ -393,8 +382,8 @@
                <p>CARGO was built from research and refined by user testing. I’m thankful for all the ideas that didn’t work out, because they let me build an even better app. I experienced the full design process of a project, from research to finished product. I learned that, as a designer, I should never assume I know what the users want.</p>
                <br>
                <p>In the future, with a full scope of the project in mind, I will be able to create better research questions and tests to help me arrive at a polished final design that will address the user’s needs.</p>
-               <img src="../images/cargo/Homepage Mockup-Desk.png" class="project-images" alt="Mockup of CARGO Homepage">
             </div>
+            <img src="../images/cargo/Homepage Mockup-Desk.png" class="project-images" alt="Mockup of CARGO Homepage">
          </section>
       </main>
       <!-- FOOTER -->
