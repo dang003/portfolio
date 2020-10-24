@@ -396,6 +396,8 @@ section {
 
 .CYD-slide-text {
   margin: 8% auto;
+  height: 140px;
+  border: 1px solid white;
 }
 
 .CYD-prev, .CYD-next {
@@ -1213,6 +1215,11 @@ span {
   }
 
   /**** HOMEPAGE ****/
+
+
+  .CYD-slide-text {
+    height: 100%;
+  }
 
   .scroll-please {
     display: block;
