@@ -827,7 +827,7 @@ section {
   display: block;
   height: 40%;
   margin: 1rem auto;
-  max-width: 500px;
+  max-width: 400px;
   width: 40%;
 }
 
@@ -1337,6 +1337,10 @@ span {
 
   .survey-container {
     flex-direction: row;
+  }
+
+  .graphic1, .graphic2 {
+    width: 300px;
   }
 
   .survey-graphic {
