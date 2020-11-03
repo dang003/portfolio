@@ -22,7 +22,6 @@ body {
 }
 
 
-/* Colors: #141414 (dark blue) #FFFCC0 (yellow) #EFEFEF (white) #588489 (red)  */
 /* Colors: #EFEFEF (cultured) (rgba(239, 239, 239, 0.6)) #FFFCC0 (buttercream) (rgba(255, 252, 192, 0.6)) #141414 (Jet)(rgba(20, 20, 20, .25))  */
 
 /** Typography **/
@@ -601,14 +600,6 @@ section {
 .vibe-text h6 {
   font-size: 1.8rem;
   line-height: 2.7rem;
-}
-
-#approved {
-  display: none;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  z-index: 0;
 }
 
 .attribute {
@@ -1437,9 +1428,6 @@ span {
     width: 65%;
   }
 
-  #approved {
-    display: block;
-  }
 
 
   /** CASE STUDY **/
