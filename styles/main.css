@@ -174,10 +174,10 @@ nav {
   border-radius: 3px;
   color: inherit;
   display: flex;
-  height: 56px;
+  height: 5rem;
   justify-content: center;
   text-decoration: none;
-  width: 200px;
+  width: 18rem;
 }
 
 .CONTACT a {
@@ -710,6 +710,17 @@ section {
   background-color: #EFEFEF;
 }
 
+.top-proto-btn {
+  border: 1px solid #FFFCC0;
+  color: #FFFCC0;
+  margin: 3rem auto 1rem auto;
+}
+
+.top-proto-btn:hover {
+  background-color: #FFFCC0;
+  color: #141414;
+}
+
 /** DELIVERABLES AND TOOLS **/
 
 .deliv-and-tools {
@@ -912,8 +923,9 @@ span {
   width: 90%;
 }
 
+
 .prototype-btn {
-  border: 2px solid #FFFCC0;
+  border: 1px solid #FFFCC0;
   color: #FFFCC0;
   margin: 3rem auto 0 auto;
 }
