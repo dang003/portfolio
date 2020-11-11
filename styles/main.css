@@ -362,7 +362,7 @@ section {
 
 .home-header-container {
   max-width: 1600px;
-  margin: 0 auto;
+  margin: 0 auto 7rem auto;
   padding: 2rem;
   position: relative;
   width: 100%;
@@ -600,8 +600,11 @@ section {
 }
 
 .vibe-text {
-  margin: 0 auto;
-  padding: 5rem 2rem 2rem 2rem;
+  background-color: #EFEFEF;
+  border-radius: 0px;
+  color: #141414;
+  margin: 5rem auto;
+  padding: 4rem 3rem 1rem 3rem;
   max-width: 740px;
 }
 
@@ -1252,6 +1255,10 @@ span {
     height: 80vh;
   }
 
+  .vibe-text {
+    border-radius: 5px;
+  }
+
   .project-logo {
     display: inline;
     height: 50px;
@@ -1472,7 +1479,6 @@ span {
     right: 0;
     width: 65%;
   }
-
 
 
   /** CASE STUDY **/
