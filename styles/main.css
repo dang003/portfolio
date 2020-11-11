@@ -470,17 +470,21 @@ section {
   position: relative;
 }
 
-.project-3 {
-  background-image: linear-gradient(to bottom right, #FCF0EE, #E3D7D5);
+#project-4 {
+  background: linear-gradient(109.72deg, #593E36 0%, #69544E 100%);
+}
+
+#project-3 {
+  background: linear-gradient(to bottom right, #FCF0EE, #E3D7D5);
   color: #141414;
 }
 
-.project-2 {
-  background-image: linear-gradient(to bottom right, #2848BD, #3057E3);
+#project-2 {
+  background: linear-gradient(to bottom right, #2848BD, #3057E3);
 }
 
-.project-1 {
-  background-image: linear-gradient(to bottom right, #ECECEC, #D4D4D4);
+#project-1 {
+  background: linear-gradient(to bottom right, #ECECEC, #D4D4D4);
   color: #141414;
 }
 
@@ -587,6 +591,10 @@ section {
   box-shadow: 0px 0px 12px rgba(20, 20, 20, 0.35);
 }
 
+.no-bg {
+  margin: 3rem 0;
+}
+
 .CYD-slideshow-container {
   position: relative;
 }
@@ -665,6 +673,15 @@ section {
 
 #cargo-bg {
   background-image: url("../images/cargo/Cargo-BG-Slant.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100vw;
+  height: 100%;
+}
+
+#NL-bg {
+  background-image: url("../images/Newlife/NL-Header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1042,7 +1059,9 @@ span {
   width: 100%;
 }
 
-.ai-section {
+/** PHOTO SUBTITLE **/
+
+.PS-section {
   position: relative;
   margin: 3rem auto;
   display: flex;
@@ -1051,11 +1070,12 @@ span {
   align-items: center;
 }
 
-.ai-text {
+.PS-text {
   text-align: center;
+  font-size: 1.6rem;
 }
 
-.about-image {
+.PS-image {
   width: 100%;
   max-width: inherit;
   margin-bottom: 1rem;
@@ -1258,7 +1278,8 @@ span {
   .display-project-text {
     background-color: transparent;
     color: #141414;
-    width: 320px;
+    width: 40%;
+    min-width: 300px;
   }
 
   .light {
@@ -1273,6 +1294,16 @@ span {
   .invert-btn:hover {
     background-color: #141414;
     color: #EFEFEF;
+  }
+
+  .white-btn {
+    border: 1px solid #EFEFEF;
+    color: #EFEFEF;
+  }
+
+  .white-btn:hover {
+    background-color: #EFEFEF;
+    color: #141414;
   }
 
   /** About page **/
@@ -1424,12 +1455,14 @@ span {
   }
 
   .project-section {
+    border-radius: 4px;
     margin: 2rem 2rem;
   }
 
   .display-project-text {
     margin-left: 4%;
-    width: 360px;
+    max-width: 380px;
+    width: 30%;
   }
 
   .display-project-image {
