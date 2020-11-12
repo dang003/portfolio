@@ -241,11 +241,11 @@ footer {
 }
 
 .social-media-links li:hover {
-  text-shadow: 0 0 10px #EFEFEF;
+  text-shadow: 0 0 10px #FFFCC0;
 }
 
-.fab {
-  color: #EFEFEF;
+.fa {
+  color: #FFFCC0;
   font-size: 2rem; /** 20px **/
 }
 
@@ -254,7 +254,7 @@ footer {
   color: #141414;
 }
 
-.light-footer .fab {
+.light-footer .fa {
   color: #141414;
 }
 
@@ -604,8 +604,8 @@ section {
   border-radius: 0px;
   color: #141414;
   margin: 5rem auto;
-  padding: 4rem 3rem 1rem 3rem;
-  max-width: 740px;
+  padding: 4rem 4rem 1rem 4rem;
+  max-width: 840px;
 }
 
 .vibe-text h6 {
