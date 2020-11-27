@@ -13,7 +13,7 @@ body {
   height: 100%;
   margin: 0 auto;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 .container {
@@ -378,17 +378,22 @@ section {
 }
 
 .CYD-img {
-  height: 70vh;
+  height: 80vh;
   min-height: 300px;
+}
+
+.CYD-name {
+  height: 6rem;
 }
 
 .CYD-slide-text {
   width: 40vw;
+  padding-top: 3rem;
 }
 
 .CYD-slide-text h6 {
-  width: 35rem;
-  height: 8rem;
+  width: 40rem;
+  height: 12rem;
 }
 
 .CYD-arrows {
