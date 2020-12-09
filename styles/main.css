@@ -347,7 +347,7 @@ section {
 
 /** CHOOSE YOUR DAN **/
 
-.home-header {
+.about-header {
   background-image: url("../images/CYD/arcade.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -368,15 +368,18 @@ section {
   width: 100%;
 }
 
-.home-title {
+/**home**/
+
+.about-title {
   color: #FFFCC0;
   margin: 3% 8% 30px 8%;
   text-align: center;
 }
 
-.home-title h4 {
+.about-title h4 {
   font-weight: 400;
 }
+/**/
 
 .CYD-slideshow-container {
   margin: 0 auto;
