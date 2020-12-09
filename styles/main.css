@@ -1010,7 +1010,7 @@ span {
 }
 
 
-/******* ABOUT PAGE CSS *******/
+/******* HOMEPAGE CSS *******/
 
 /** INTRODUCTION **/
 
@@ -1037,22 +1037,18 @@ span {
   z-index: 2;
 }
 
-.header-line {
-  margin-top: 2rem;
-}
-
-.top-sm-links {
-  justify-content: left;
-  margin-top: 2rem;
-}
-
-.top-sm-links li {
-  margin-left: 0;
-  margin-right: 20px;
-}
-
 .sub-header {
   margin-top: 20px;
+}
+
+.home-header-link {
+  text-decoration: none;
+  color: #EFEFEF;
+}
+
+.home-header-link:hover {
+  text-decoration: none;
+  text-shadow: 0 0 4px #EFEFEF;
 }
 
 .transition {
