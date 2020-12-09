@@ -182,9 +182,9 @@ nav {
 
 .CONTACT a {
   align-items: center;
-  border: 1px solid #FFFCC0;
+  border: 1px solid #EFEFEF;
   border-radius: 3px;
-  color: #FFFCC0;
+  color: #EFEFEF;
   display: flex;
   justify-content: center;
   margin: 2rem 0;
@@ -241,11 +241,11 @@ footer {
 }
 
 .social-media-links li:hover {
-  text-shadow: 0 0 10px #FFFCC0;
+  text-shadow: 0 0 10px #EFEFEF;
 }
 
 .fa {
-  color: #FFFCC0;
+  color: #EFEFEF;
   font-size: 2rem; /** 20px **/
 }
 
@@ -343,109 +343,56 @@ section {
   margin: 10rem auto;
 }
 
+
 /******* HOMEPAGE CSS *******/
 
-/** CHOOSE YOUR DAN **/
+/** INTRODUCTION **/
 
-.about-header {
-  background-image: url("../images/CYD/arcade.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.home-header {
+  color: #efefef;
   display: flex;
-  flex-direction: column;
-  height: 100%;
+  align-items: center;
   justify-content: center;
-  position: relative;
-  width: 100%;
-}
-
-.about-header-container {
-  max-width: 1600px;
-  margin: 0 auto 7rem auto;
-  padding: 2rem;
-  position: relative;
-  width: 100%;
-}
-
-.about-title {
-  color: #FFFCC0;
-  margin: 3% 8% 30px 8%;
-  text-align: center;
-}
-
-.about-title h4 {
-  font-weight: 400;
-}
-/**/
-
-.CYD-slideshow-container {
+  height: 80vh;
   margin: 0 auto;
-  max-width: 450px;
   position: relative;
+}
+
+.home-header-container {
+  max-width: 1600px;
+  padding: 2rem;
+}
+
+.top-me {
+  height: 80%;
+  box-shadow: 0 0 30px rgba(239, 239, 239, 0.3);
+}
+
+.home-header-text {
+  padding: 5rem 0 10rem 2rem;
+  max-width: 600px;
   z-index: 2;
 }
 
-.mySlides {
-  display: none;
+.sub-header {
+  margin-top: 20px;
 }
 
-.text-center {
-  text-align: center;
+.home-header-link {
+  text-decoration: none;
+  color: #EFEFEF;
+  margin: 1px;
 }
 
-.CYD-slide-text {
-  margin: 8% auto;
-  height: 140px;
+.home-header-link:hover {
+  text-decoration: none;
+  text-shadow: 0 0 4px #EFEFEF;
 }
 
-.CYD-prev, .CYD-next {
-  border-radius: 0 3px 3px 0;
-  color: #FFFCC0;
-  cursor: pointer;
-  font-size: 3.6rem;
-  font-weight: bold;
-  margin: 0 4%;
-  padding: 5px 5px;
+.transition {
   position: absolute;
-  top: 20%;
-  user-select: none;
-}
-
-.CYD-next {
-  right: 0;
-}
-
-.CYD-prev:hover, .CYD-next:hover {
-  text-shadow: 0 0 30px #FFFCC0;
-}
-
-.scroll-please {
-  display: none;
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  max-width: 4rem;
-}
-
-.scroll-please:hover {
-  box-shadow: 0 0 12px #FFFCC0;
-}
-
-.intro-set {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  margin-top: 1rem;
-}
-
-.intro-icon {
-  max-width: 3rem;
-  margin-right: 2rem;
-}
-
-.intro-icon:hover {
-  box-shadow: 0 0 8px #FFFCC0;
+  bottom: 0;
+  width: 100%;
 }
 
 /** PROJECTS **/
@@ -891,7 +838,8 @@ section {
 }
 
 span {
-  font-style: italic;
+  font-family: montserrat Alternates;
+  font-weight: 700;
 }
 
 /** USER STORIES **/
@@ -1010,51 +958,108 @@ span {
 }
 
 
-/******* HOMEPAGE CSS *******/
+/******* ABOUT PAGE CSS *******/
 
-/** INTRODUCTION **/
+/** CHOOSE YOUR DAN **/
 
 .about-header {
-  color: #EFEFEF;
-  height: 100%;
+  background-image: url("../images/CYD/arcade.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  margin: 0 auto;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
   position: relative;
+  width: 100%;
 }
 
-.top-me {
-  height: 80%;
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  box-shadow: 0 0 30px rgba(239, 239, 239, 0.3);
+.about-header-container {
+  max-width: 1600px;
+  margin: 0 auto 7rem auto;
+  padding: 2rem;
+  position: relative;
+  width: 100%;
 }
 
-.about-header-text {
-  padding: 5rem 0 10rem 2rem;
-  max-width: 360px;
+.about-title {
+  color: #FFFCC0;
+  margin: 3% 8% 30px 8%;
+  text-align: center;
+}
+
+.about-title h4 {
+  font-weight: 400;
+}
+
+.CYD-slideshow-container {
+  margin: 0 auto;
+  max-width: 450px;
+  position: relative;
   z-index: 2;
 }
 
-.sub-header {
-  margin-top: 20px;
+.mySlides {
+  display: none;
 }
 
-.home-header-link {
-  text-decoration: none;
-  color: #EFEFEF;
+.text-center {
+  text-align: center;
 }
 
-.home-header-link:hover {
-  text-decoration: none;
-  text-shadow: 0 0 4px #EFEFEF;
+.CYD-slide-text {
+  margin: 8% auto;
+  height: 140px;
 }
 
-.transition {
+.CYD-prev, .CYD-next {
+  border-radius: 0 3px 3px 0;
+  color: #FFFCC0;
+  cursor: pointer;
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: 0 4%;
+  padding: 5px 5px;
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  top: 20%;
+  user-select: none;
+}
+
+.CYD-next {
+  right: 0;
+}
+
+.CYD-prev:hover, .CYD-next:hover {
+  text-shadow: 0 0 30px #FFFCC0;
+}
+
+.scroll-please {
+  display: none;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  max-width: 4rem;
+}
+
+.scroll-please:hover {
+  box-shadow: 0 0 12px #FFFCC0;
+}
+
+.intro-set {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.intro-icon {
+  max-width: 3rem;
+  margin-right: 2rem;
+}
+
+.intro-icon:hover {
+  box-shadow: 0 0 8px #FFFCC0;
 }
 
 /** PHOTO SUBTITLE **/
