@@ -360,15 +360,13 @@ section {
   width: 100%;
 }
 
-.home-header-container {
+.about-header-container {
   max-width: 1600px;
   margin: 0 auto 7rem auto;
   padding: 2rem;
   position: relative;
   width: 100%;
 }
-
-/**home**/
 
 .about-title {
   color: #FFFCC0;
@@ -1019,11 +1017,9 @@ span {
 .about-header {
   color: #EFEFEF;
   height: 100%;
-  max-width: 70rem;
   display: flex;
   margin: 0 auto;
   position: relative;
-  margin-top: 2rem;
 }
 
 .top-me {
