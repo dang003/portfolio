@@ -8,8 +8,8 @@ html {
 }
 
 body {
-  background-color: #141414;
-  color: #EFEFEF;
+  background-color: #efefef;
+  color: #141414;
   height: 100%;
   margin: 0 auto;
   position: relative;
@@ -481,40 +481,14 @@ section {
   color: #141414;
 }
 
-/** WHAT I OFFER **/
-
-.offer-container {
-  align-items: center;
-  background-image: url("../images/office.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  padding: 2rem;
-  width: 100vw;
-}
-
-.offer-section {
-  display: flex;
-}
-
-.offer-content {
-  width: 50%;
-  max-width: 30rem;
-  padding: 2rem;
-  margin: 2rem;
-  text-align: left;
-}
-
 /** TESTIMONIALS **/
 
-.red-bg {
-  background-color: #588489;
-  background-image: url("https://www.transparenttextures.com/patterns/simple-dashed.png");
+.bevel {
+  border-radius: 20px;
+  background: #efefef;
+  box-shadow:  8px 8px 16px #a7a7a7,
+               -8px -8px 16px #ffffff;
+
 }
 
 .light-bg {
@@ -545,9 +519,15 @@ section {
   position: relative;
 }
 
+.ref-section {
+  padding: 5rem 2rem;
+  background-color: #efefef;
+}
+
 .vibe-text {
   background-color: #EFEFEF;
   border-radius: 0px;
+  box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.2);
   color: #141414;
   margin: 5rem auto;
   padding: 4rem 4rem 1rem 4rem;
@@ -560,9 +540,9 @@ section {
 }
 
 .attribute {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  text-align: right;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  text-align: left;
 }
 
 /**
@@ -1086,26 +1066,27 @@ span {
 
 .contact-section {
   margin: 0 auto;
-  padding: 3rem;
+  padding: 2rem 0;
 }
 
 .contact-form {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1200px;
+  padding: 2rem 4rem;
   position: relative;
 }
 
 .contact-shadow {
-  box-shadow: 0px 0px 20px rgba(239, 239, 239, 0.3);
+  box-shadow:  20px 20px 60px #cbcbcb;
 }
 
 .contact-area {
-  margin-left: 3rem;
+  margin-left: 2rem;
   width: 100%;
 }
 
 .contact-form-header {
-  margin: 0 3rem 2rem 3rem;
+  margin: 2rem 2rem;
 }
 
 .contact-form label {
@@ -1139,7 +1120,7 @@ span {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem; /* 14px */
   line-height: 2.2rem; /* 22px */
-  margin-bottom: 7rem;
+  margin-bottom: 6rem;
   padding: 1rem;
   resize: none;
   width: 80%;
@@ -1154,7 +1135,7 @@ span {
   font-family: raleway, sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
-  margin: 3rem;
+  margin: 2rem;
   padding: .8rem 1.8rem;
   position: absolute;
   width: max-content;
