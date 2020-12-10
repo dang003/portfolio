@@ -363,13 +363,13 @@ section {
 }
 
 .top-me {
-  height: 80%;
-  box-shadow: 0 0 30px rgba(239, 239, 239, 0.3);
+  height: 90%;
 }
 
 .home-header-text {
   padding: 5rem 4rem 10rem 2rem;
   max-width: 600px;
+  min-width: 360px;
   z-index: 2;
 }
 
