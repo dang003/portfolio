@@ -22,7 +22,7 @@ body {
 }
 
 
-/* Colors: #EFEFEF (cultured) (rgba(239, 239, 239, 0.6)) #FFFCC0 (buttercream) (rgba(255, 252, 192, 0.6)) #141414 (Jet)(rgba(20, 20, 20, .25))  */
+/* Colors: #EFEFEF (cultured) (rgba(239, 239, 239, 0.6)) / #FFFCC0 (buttercream) (rgba(255, 252, 192, 0.6)) / #141414 (Jet)(rgba(20, 20, 20, .25))  */
 
 /** Typography **/
 
@@ -353,7 +353,8 @@ section {
 .home-header {
   display: flex;
   align-items: center;
-  min-height: 60vh;
+  height: 80vh;
+  max-height: 800px;
   margin: 0 auto;
   position: relative;
 }
@@ -491,14 +492,6 @@ section {
 
 /** TESTIMONIALS **/
 
-.bevel {
-  border-radius: 20px;
-  background: #efefef;
-  box-shadow:  8px 8px 16px #a7a7a7,
-               -8px -8px 16px #ffffff;
-
-}
-
 .light-bg {
   background-color: #EFEFEF;
   border-radius: 5px;
@@ -577,12 +570,15 @@ section {
 /**** SPACING ****/
 
 .section-padding {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 
 .cs-first-section {
-  margin-top: 3rem;
+  margin-top: 5rem;
+}
+
+.cs-conc {
+  padding-bottom: 4rem;
 }
 
 /**** HEADER ****/
@@ -1059,6 +1055,7 @@ span {
 .hidden-link {
   text-decoration: none;
   color: inherit;
+  font-weight: bold;
 }
 
 /****** CONTACT PAGE *******/
@@ -1073,10 +1070,6 @@ span {
   max-width: 1200px;
   padding: 2rem 4rem;
   position: relative;
-}
-
-.contact-shadow {
-  box-shadow:  20px 20px 60px #cbcbcb;
 }
 
 .contact-area {
@@ -1356,7 +1349,6 @@ span {
     margin-top: 3rem;
   }
 
-
   /** RESEARCH **/
 
   .survey-container {
@@ -1417,6 +1409,10 @@ span {
 
   .contact-input {
     width: 50%
+  }
+
+  .contact-shadow {
+    box-shadow: 0 0 20px rgba(20, 20, 20, .25);
   }
 
 
@@ -1498,6 +1494,16 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  /*** CONTACT PAGE ***/
+
+  .contact-section {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }
