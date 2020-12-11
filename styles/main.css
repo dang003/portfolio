@@ -1070,6 +1070,7 @@ span {
   max-width: 1200px;
   padding: 2rem 4rem;
   position: relative;
+  border-radius: 5px;
 }
 
 .contact-area {
@@ -1227,7 +1228,6 @@ span {
 
   .vibe-text {
     border-radius: 5px;
-    box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.2);
   }
 
   .project-logo {
@@ -1411,8 +1411,9 @@ span {
     width: 50%
   }
 
-  .contact-shadow {
-    box-shadow: 0 0 20px rgba(20, 20, 20, .25);
+  .neu-shadow {
+    box-shadow:  10px 10px 20px #d7d7d7,
+                 -10px -10px 20px #ffffff;
   }
 
 
@@ -1501,6 +1502,7 @@ span {
   .contact-section {
     width: 100vw;
     height: 90vh;
+    margin: 5rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
