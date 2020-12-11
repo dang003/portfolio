@@ -353,27 +353,23 @@ section {
 .home-header {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 80vh;
+  min-height: 60vh;
   margin: 0 auto;
   position: relative;
 }
 
 .home-header-container {
-  padding: 5rem 4rem 10rem 2rem;
-  max-width: 600px;
-  min-width: 360px;
+  padding: 6rem 2rem;
+  max-width: 440px;
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
-.top-me {
-  height: 60%;
-}
-
 .home-header-text {
-  width: 100%;
+  width: 70%;
+  z-index: 2;
 }
 
 .home-sub-header {
@@ -391,6 +387,17 @@ section {
 .home-header-link:hover {
   text-decoration: none;
   text-shadow: 0px 0px 4px rgba(20, 20, 20, 0.25);
+}
+
+.illustration {
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  position: absolute;
+  right: 0;
+  width: 45%;
+  z-index: 1;
+  padding: 3rem 0;
 }
 
 /** PROJECTS **/
@@ -520,15 +527,9 @@ section {
   position: relative;
 }
 
-.ref-section {
-  padding: 5rem 2rem;
-  background-color: #efefef;
-}
-
 .vibe-text {
   background-color: #EFEFEF;
   border-radius: 0px;
-  box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.2);
   color: #141414;
   margin: 5rem auto;
   padding: 4rem 4rem 1rem 4rem;
@@ -658,13 +659,13 @@ section {
 }
 
 .top-proto-btn {
-  border: 1px solid #FFFCC0;
-  color: #FFFCC0;
+  border: 1px solid #EFEFEF;
+  color: #EFEFEF;
   margin: 3rem auto 1rem auto;
 }
 
 .top-proto-btn:hover {
-  background-color: #FFFCC0;
+  background-color: #EFEFEF;
   color: #141414;
 }
 
@@ -1223,17 +1224,17 @@ span {
     height: 100%;
   }
 
-  .scroll-please {
-    display: block;
-    opacity: .6;
+  .home-header-container {
+    max-width: 520px;
   }
 
-  .offer-container {
-    height: 80vh;
+  .ref-section {
+    padding: 3rem 2rem;
   }
 
   .vibe-text {
     border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.2);
   }
 
   .project-logo {
@@ -1255,6 +1256,11 @@ span {
   }
 
   .display-project-image {
+    right: 0;
+    width: 30%;
+  }
+
+  .illustration {
     right: 0;
     width: 50%;
   }
@@ -1432,10 +1438,20 @@ span {
 
 /** HOMEPAGE **/
 
-  .scroll-please {
-    opacity: 1;
-    bottom: 3rem;
-    left: 3rem;
+  .home-header {
+    max-width: 1200px;
+  }
+
+  .home-header-container {
+    max-width: 680px;
+  }
+
+  .illustration {
+    max-width: 50rem;
+    object-fit: contain;
+    object-position: center;
+    right: 0;
+    width: 55%;
   }
 
   .project-section {
@@ -1456,7 +1472,6 @@ span {
     right: 0;
     width: 65%;
   }
-
 
   /** CASE STUDY **/
 
