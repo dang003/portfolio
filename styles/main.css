@@ -948,6 +948,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #141414;
   color: #EFEFEF;
   display: flex;
   flex-direction: column;
