@@ -616,7 +616,6 @@ section {
   height: 100%;
 }
 
-
 .light-main {
   background-color: #EFEFEF;
   color: #141414;
@@ -896,6 +895,12 @@ span {
   width: 90%;
 }
 
+.cs-sub {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
 .bot-margin {
   margin-bottom: 0;
 }
@@ -1042,12 +1047,12 @@ span {
 .PS-text {
   text-align: center;
   font-size: 1.6rem;
+  margin-top: 2rem;
 }
 
 .PS-image {
   width: 100%;
   max-width: inherit;
-  margin-bottom: 1rem;
 }
 
 /** BOTTOM LINKS **/
@@ -1388,7 +1393,7 @@ span {
     margin: 1rem auto;
   }
 
-  /** CARGO IMAGES **/
+  /** IMAGES **/
 
   #bot-mockup {
     height: 435px;
