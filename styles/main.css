@@ -753,36 +753,34 @@ section {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding-bottom: 5rem;
 }
 
 .graphic1, .graphic2 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   padding-top: 3rem;
   position: relative;
 }
 
 .txtandgraph {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin: 3rem;
 }
 
 .survey-graphic {
   display: block;
-  height: 40%;
+  height: 35%;
   margin: 1rem auto;
   max-width: 400px;
-  width: 40%;
+  padding-right: 3rem;
+  width: 35%;
 }
 
 .survey-text {
   margin: 0 auto;
-  max-width: 35rem;
   padding: 2rem 1rem 0 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 /** PERSONA **/
@@ -913,24 +911,24 @@ span {
 .virt-research-list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .virt-research-list li {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 2rem;
   text-align: center;
 }
 
 .research-icon {
-  margin-bottom: 2rem;
-  max-height: 200px;
-  max-width: 200px;
-  width: 100%;
+  height: 75px;
+  width: 75px;
+}
+
+.research-text {
+  margin-left: 2rem;
 }
 
 /**** CARGO ****/
@@ -1359,21 +1357,29 @@ span {
 
   /** RESEARCH **/
 
-  .survey-container {
-    flex-direction: row;
-  }
-
   .graphic1, .graphic2 {
-    width: 300px;
   }
 
   .survey-graphic {
-    height: 50%;
-    width: 50%;
+    width: 200px;
   }
 
   .virt-research-list {
     flex-direction: row;
+  }
+
+  .virt-research-list li {
+    flex-direction: column;
+  }
+
+  .research-icon {
+    height: 150px;
+    width: 150px;
+  }
+
+  .research-text {
+    padding: 2rem 0;
+    margin-left: 0;
   }
 
   .personas {
