@@ -364,8 +364,6 @@ section {
   max-width: 440px;
   width: 100%;
   position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
 .home-header-text {
@@ -382,11 +380,15 @@ section {
   text-decoration: none;
   color: #141414;
   margin: 5px 0;
-  max-width: 100%;
+  width: 75%;
 }
 
-.home-header-link:hover {
-  text-decoration: none;
+.home-header-link h3 {
+  display: inline-block;
+}
+
+
+.home-header-link h3:hover {
   text-shadow: 0px 0px 4px rgba(20, 20, 20, 0.25);
 }
 
