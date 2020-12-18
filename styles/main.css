@@ -27,54 +27,60 @@ body {
 /** Typography **/
 
 h1 {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   font-size: 3.6rem;
+  font-weight: 800;
+  letter-spacing: 1px;
   line-height: 5.2rem;
 }
 
 h2 {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
   line-height: 4.8rem;
 }
 
 h3 {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-}
-
-h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   font-size: 2.8rem;
-  font-weight: 700; /* bold */
+  font-weight: 800; /* bold */
+  letter-spacing: 1px;
   line-height: 4.2rem;
 }
 
-h5 {
-  font-family: 'Raleway', sans-serif;
+h4 {
+  font-family: 'proxima-nova', sans-serif;
   font-size: 1.8rem;
-  font-weight: 700; /* bold */
-  line-height: 2.7rem; /* 27px */
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 2.4rem;
 }
 
-h6 {
-  font-family: 'Raleway', sans-serif;
+
+h5 {
+  font-family: 'brandon-grotesque', sans-serif;
   font-size: 1.8rem;
-  font-weight: 400; /* regular */
-  line-height: 2.7rem;
+  font-weight: 700; /* bold */
+  letter-spacing: 1px;
+  line-height: 2.4rem; /* 27px */
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem; /* 16px */
+  font-family: 'brandon-grotesque', sans-serif;
+  font-size: 1.8rem; /* 16px */
   font-weight: 400;
-  line-height: 2.4rem; /* 24px */
+  line-height: 2.7rem; /* 24px */
 }
 
 .small {
   font-size: 1.6rem;
   line-height: 2.4rem;
+}
+
+.thin {
+  font-weight: 400;
 }
 
 .text-box {
@@ -368,6 +374,7 @@ section {
 
 .home-header-text {
   width: 70%;
+  margin: 0 2rem;
   z-index: 2;
 }
 
@@ -383,12 +390,12 @@ section {
   width: 75%;
 }
 
-.home-header-link h3 {
+.home-header-link h4 {
   display: inline-block;
 }
 
 
-.home-header-link h3:hover {
+.home-header-link h4:hover {
   text-shadow: 0px 0px 4px rgba(20, 20, 20, 0.25);
 }
 
@@ -456,7 +463,7 @@ section {
 }
 
 .display-project-text {
-  background-color: rgba(20, 20, 20, 0.75);
+  background-color: rgba(20, 20, 20, 0.9);
   color: #EFEFEF;
   display: block;
   margin: 0;
@@ -476,19 +483,19 @@ section {
 
 .case-study-btn {
     align-items: center;
-    border: 1px solid #FFFCC0;
+    border: 1px solid #EFEFEF;
     border-radius: 3px;
-    color: #FFFCC0;
+    color: #EFEFEF;
     display: flex;
     height: 4.3rem;
     justify-content: center;
     margin-top: 3rem;
     text-decoration: none;
-    width: 18rem;
+    width: 16rem;
 }
 
 .case-study-btn:hover {
-  background-color: #FFFCC0;
+  background-color: #EFEFEF;
   color: #141414;
 }
 
@@ -711,7 +718,7 @@ section {
   width: 100%;
 }
 
-.sticky-nav a, .sticky-nav h6 {
+.sticky-nav a, #sticky-nav-title {
   color: #EFEFEF;
   display: block;
   padding: 20px 30px;
@@ -813,14 +820,14 @@ section {
 }
 
 span {
-  font-family: montserrat Alternates;
+  font-family: 'proxima nova';
   font-weight: 700;
 }
 
 /** USER STORIES **/
 
 .stories-table {
-  font-family: raleway, sans-serif;
+  font-family: 'brandon grotesque', sans-serif;
   font-size: 1.4rem; /* 24 px */
   font-weight: 400;
   line-height: 2.8rem; /* 28px */
@@ -1089,7 +1096,7 @@ span {
 }
 
 .contact-form label {
-  font-family: raleway, sans-serif;
+  font-family: 'brandon grotesque', sans-serif;
   font-size: 2rem; /* 20 px */
   font-weight: 400;
   line-height: 3.2rem; /* 32px */
@@ -1101,8 +1108,8 @@ span {
   border-radius: 3px;
   color: #141414;
   display: block;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem; /* 14px */
+  font-family: 'brandon grotesque', sans-serif;
+  font-size: 1.6em; /* 14px */
   height: 4rem;
   line-height: 2.2rem; /* 22px */
   margin-bottom: 1.8rem;
@@ -1116,10 +1123,10 @@ span {
   border-radius: 3px;
   color: #141414;
   display: block;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem; /* 14px */
+  font-family: 'brandon grotesque', sans-serif;
+  font-size: 1.6rem; /* 14px */
   line-height: 2.2rem; /* 22px */
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
   padding: 1rem;
   resize: none;
   width: 80%;
@@ -1131,11 +1138,11 @@ span {
   bottom: 0;
   color: #141414;
   display: block;
-  font-family: raleway, sans-serif;
+  font-family: 'brandon grotesque', sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
-  margin: 2rem;
-  padding: .8rem 1.8rem;
+  margin: 3rem 2rem;
+  padding: .6rem 1.6rem;
   position: absolute;
   width: max-content;
 }
@@ -1256,7 +1263,7 @@ span {
 
   .display-project-image {
     right: 0;
-    width: 30%;
+    width: 50%;
   }
 
   .illustration {
@@ -1285,15 +1292,6 @@ span {
     color: #EFEFEF;
   }
 
-  .white-btn {
-    border: 1px solid #EFEFEF;
-    color: #EFEFEF;
-  }
-
-  .white-btn:hover {
-    background-color: #EFEFEF;
-    color: #141414;
-  }
 
   /** About page **/
 
