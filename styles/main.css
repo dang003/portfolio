@@ -302,7 +302,7 @@ section {
 }
 
 .paragraph-title {
-  margin-bottom: 5px;
+  margin: 2rem 0 1rem 0;
 }
 
 /** SECTION titles **/
@@ -769,6 +769,19 @@ section {
   padding: .5rem 0;
 }
 
+.cs-list-text {
+  margin: 1rem 0;
+}
+
+.cs-list-text li {
+  padding: 1rem 0;
+}
+
+.cs-list-title {
+  display: flex;
+  flex-direction: row;
+}
+
 .list-icon {
   color: #141414;
   margin: 8px 1rem 0 0;
@@ -975,6 +988,9 @@ span {
   margin: 0 2rem;
 }
 
+.solution-text h4 {
+  margin-bottom: 1rem;
+}
 
 /**** Virtuoso ****/
 
