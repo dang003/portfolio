@@ -358,8 +358,7 @@ section {
 .home-header {
   display: flex;
   align-items: center;
-  height: 80vh;
-  max-height: 800px;
+  height: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -369,6 +368,7 @@ section {
   max-width: 440px;
   width: 100%;
   position: relative;
+  z-index: 2;
 }
 
 .home-header-text {
@@ -499,25 +499,6 @@ section {
 }
 
 /** TESTIMONIALS **/
-
-.light-bg {
-  background-color: #EFEFEF;
-  border-radius: 5px;
-  color: #141414;
-  padding: 3rem 0;
-  margin: 3rem 0;
-  max-width: 100vw;
-  box-shadow: 0px 0px 12px rgba(20, 20, 20, 0.35);
-}
-
-.dark-bg {
-  background-color: #141414;
-  border-radius: 10px;
-  padding: 0;
-  margin: 2rem 0;
-  max-width: 100vw;
-  box-shadow: 0px 0px 12px rgba(20, 20, 20, 0.35);
-}
 
 .no-bg {
   margin: 3rem 0;
@@ -780,6 +761,10 @@ section {
   flex-direction: row;
 }
 
+.cs-list-link {
+  color: inherit;
+}
+
 .list-icon {
   color: #141414;
   margin: 8px 1rem 0 0;
@@ -929,12 +914,18 @@ span {
   display: flex;
   height: 100%;
   justify-content: center;
-  margin: 0 auto;
+  margin: 3rem auto;
   width: 100%;
 }
 
 .project-images-full {
   width: 100vw;
+  margin: 3rem 0;
+  height: 100%;
+}
+
+.image-shadow {
+  box-shadow: 0px 0px 12px rgba(20, 20, 20, 0.25);
 }
 
 .cs-sub {
@@ -963,27 +954,20 @@ span {
   margin: 1rem auto;
 }
 
-
 .phb-item {
   margin: 2rem auto;
 }
 
 .solution-display {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem auto;
-  max-width: 1000px;
-}
-
-.flex-reverse {
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
 .solution-img {
   width: 50vw;
   max-width: 360px;
   padding: 2rem;
+  margin: 0 auto;
 }
 
 .solution-text {
@@ -1027,8 +1011,7 @@ span {
 /**** CARGO ****/
 
 #enemy-logos {
-  height: 75%;
-  width: 75%;
+  padding: 2rem;
 }
 
 
@@ -1168,13 +1151,11 @@ span {
 
 .contact-section {
   margin: 0 auto;
-  padding: 2rem 0;
 }
 
 .contact-form {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 2rem 4rem;
   position: relative;
   border-radius: 5px;
 }
@@ -1219,7 +1200,6 @@ span {
   font-family: 'brandon grotesque', sans-serif;
   font-size: 1.6rem; /* 14px */
   line-height: 2.2rem; /* 22px */
-  margin-bottom: 8rem;
   padding: 1rem;
   resize: none;
   width: 80%;
@@ -1236,7 +1216,6 @@ span {
   font-weight: 400;
   margin: 3rem 2rem;
   padding: .6rem 1.6rem;
-  position: absolute;
   width: max-content;
 }
 
@@ -1324,6 +1303,10 @@ span {
     height: 100%;
   }
 
+  .home-header {
+    max-height: 80vh;
+  }
+
   .home-header-container {
     max-width: 520px;
   }
@@ -1407,13 +1390,6 @@ span {
     top: -14rem;
   }
 
-  .light-bg {
-    max-width: 900px;
-  }
-
-  .dark-bg {
-    max-width: 900px;
-  }
 
   /** HEADER **/
 
@@ -1507,10 +1483,31 @@ span {
   }
 
 
+  /** Adventurer's Assistant **/
+
+  .solution-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1000px;
+  }
+
+  .flex-reverse {
+    flex-direction: row-reverse;
+  }
+
   /**** CONTACT PAGE ****/
+
+  .contact-section {
+    padding: 2rem 0;
+    margin: 5rem;
+  }
 
   .contact-form {
     margin-top: 0;
+    padding: 1rem 3rem;
   }
 
   .contact-input {
