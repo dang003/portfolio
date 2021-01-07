@@ -1039,7 +1039,7 @@ span {
 }
 
 .about-title h4 {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .CYD-slideshow-container {
@@ -1162,7 +1162,7 @@ span {
 .contact-form label {
   font-family: 'neue-kabel', sans-serif;
   font-size: 2rem; /* 20 px */
-  font-weight: 400;
+  font-weight: 300;
   line-height: 3.2rem; /* 32px */
 }
 
@@ -1203,7 +1203,7 @@ span {
   display: block;
   font-family: 'neue-kabel', sans-serif;
   font-size: 1.8rem; /* 18px */
-  font-weight: 400;
+  font-weight: 300;
   margin: 3rem 2rem;
   padding: .6rem 1.6rem;
   width: max-content;
