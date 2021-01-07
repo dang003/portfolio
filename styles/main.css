@@ -27,51 +27,42 @@ body {
 /** Typography **/
 
 h1 {
-  font-family: 'proxima-nova', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 3.6rem;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-weight: 700; /* bold */
+  letter-spacing: 2px;
   line-height: 5.2rem;
 }
 
 h2 {
-  font-family: 'proxima-nova', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 3.2rem;
-  font-weight: 800;
+  font-weight: 700; /* bold */
   letter-spacing: 1px;
   line-height: 4.8rem;
 }
 
 h3 {
-  font-family: 'proxima-nova', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 2.8rem;
-  font-weight: 800; /* bold */
+  font-weight: 700; /* bold */
   letter-spacing: 1px;
   line-height: 4.2rem;
 }
 
 h4 {
-  font-family: 'proxima-nova', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-  line-height: 2.4rem;
-}
-
-
-h5 {
-  font-family: 'brandon-grotesque', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 1.8rem;
   font-weight: 700; /* bold */
   letter-spacing: 1px;
-  line-height: 2.4rem; /* 27px */
+  line-height: 2.8rem;
 }
 
 p {
-  font-family: 'brandon-grotesque', sans-serif;
-  font-size: 1.8rem; /* 16px */
-  font-weight: 400;
-  line-height: 2.7rem; /* 24px */
+  font-family: 'neue-kabel', sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 300;
+  line-height: 2.8rem; /* 28px */
 }
 
 .small {
@@ -80,7 +71,7 @@ p {
 }
 
 .thin {
-  font-weight: 400;
+  font-weight: 300!important;
 }
 
 .text-box {
@@ -177,29 +168,29 @@ nav {
 
 .btn {
   align-items: center;
-  border-radius: 3px;
   color: inherit;
   display: flex;
-  height: 4.8rem;
+  height: 4.3rem;
   justify-content: center;
   text-decoration: none;
   width: 16.8rem;
 }
 
-.CONTACT a {
+.CONTACT {
   align-items: center;
   border: 1px solid #EFEFEF;
   border-radius: 3px;
   color: #EFEFEF;
   display: flex;
+  height: 4.3rem;
   justify-content: center;
-  margin: 2rem 0;
-  padding: .7rem 2rem;
+  margin: 2rem auto;
   text-decoration: none;
-  width: max-content;
+  width: 12rem;
 }
 
-.CONTACT a:hover {
+.CONTACT:hover {
+  border: 1px solid #FFFCC0;
   background-color: #FFFCC0;
   color: #141414;
 }
@@ -233,10 +224,7 @@ footer {
   text-align: center;
   background-color: #141414;
   color: #EFEFEF;
-}
-
-#footer-contact {
-  display: inline-flex;
+  position: relative;
 }
 
 .social-media-links {
@@ -481,7 +469,7 @@ section {
 }
 
 .case-study-btn {
-    align-items: center;
+  align-items: center;
     border: 1px solid #EFEFEF;
     border-radius: 3px;
     color: #EFEFEF;
@@ -662,7 +650,8 @@ section {
 }
 
 .proto-dark {
-  border: 2px solid #141414;
+  border: 1px solid #141414;
+  border-radius: 3px;
   color: #141414;
   margin: 3rem auto 1rem auto;
 }
@@ -836,16 +825,16 @@ section {
 }
 
 span {
-  font-family: 'proxima nova';
+  font-family: 'neue-kabel';
   font-weight: 700;
 }
 
 /** USER STORIES **/
 
 .stories-table {
-  font-family: 'brandon grotesque', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 1.4rem; /* 24 px */
-  font-weight: 400;
+  font-weight: 300;
   line-height: 2.8rem; /* 28px */
   margin: 3rem auto;
   width: 100%;
@@ -891,9 +880,9 @@ span {
   margin-bottom: 3rem;
 }
 
-
 .prototype-btn {
   border: 1px solid #FFFCC0;
+  border-radius: 3px;
   color: #FFFCC0;
   margin: 0 auto;
 }
@@ -1171,7 +1160,7 @@ span {
 }
 
 .contact-form label {
-  font-family: 'brandon grotesque', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 2rem; /* 20 px */
   font-weight: 400;
   line-height: 3.2rem; /* 32px */
@@ -1183,7 +1172,7 @@ span {
   border-radius: 3px;
   color: #141414;
   display: block;
-  font-family: 'brandon grotesque', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 1.6em; /* 14px */
   height: 4rem;
   line-height: 2.2rem; /* 22px */
@@ -1198,7 +1187,7 @@ span {
   border-radius: 3px;
   color: #141414;
   display: block;
-  font-family: 'brandon grotesque', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 1.6rem; /* 14px */
   line-height: 2.2rem; /* 22px */
   padding: 1rem;
@@ -1212,7 +1201,7 @@ span {
   bottom: 0;
   color: #141414;
   display: block;
-  font-family: 'brandon grotesque', sans-serif;
+  font-family: 'neue-kabel', sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   margin: 3rem 2rem;
