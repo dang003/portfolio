@@ -166,49 +166,64 @@ nav {
 
 /** Buttons **/
 
-.btn {
-  align-items: center;
-  color: inherit;
-  display: flex;
-  height: 4.3rem;
-  justify-content: center;
-  text-decoration: none;
-  width: 16.8rem;
-}
-
-.CONTACT {
-  align-items: center;
-  border: 1px solid #EFEFEF;
+button {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
   border-radius: 3px;
-  color: #EFEFEF;
-  display: flex;
-  height: 4.3rem;
-  justify-content: center;
-  margin: 2rem auto;
-  text-decoration: none;
-  width: 12rem;
+  font-family: 'neue-kabel', sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 300;
+  margin: 2rem 0;
+  padding: 1.1rem 1.8rem;
 }
 
-.CONTACT:hover {
+.btn {
+  border: 1px solid #141414;
+  color: #141414;
+}
+
+.btn:hover {
+  background-color: #141414;
+  color: #EFEFEF;
+}
+
+.white-btn {
+  border: 1px solid #EFEFEF;
+  color: #EFEFEF;
+}
+
+.white-btn:hover {
+  background-color: #EFEFEF;
+  color: #141414;
+}
+
+.case-study-btn {
+  border: 1px solid #EFEFEF;
+  color: #EFEFEF;
+}
+
+.case-study-btn:hover {
+  background-color: #EFEFEF;
+  color: #141414;
+}
+
+.yellow-btn {
   border: 1px solid #FFFCC0;
+  color: #FFFCC0;
+}
+
+.yellow-btn:hover {
   background-color: #FFFCC0;
   color: #141414;
 }
 
-.content-btn {
-  border: 1px solid #141414;
-  border-radius: 3px;
-  color: #141414;
-  display: block;
-  margin: 2rem 0 1rem 0;
-  padding: 1rem 1.2rem;
-  text-decoration: none;
-  width: max-content;
+.flex-btn {
+  display: flex;
+  flex-direction: column;
 }
 
-.content-btn:hover {
-  background-color: #141414;
-  color: #EFEFEF;
+.flex-btn > a > .btn {
+  margin: .5rem;
 }
 
 /** header **/
@@ -290,6 +305,11 @@ section {
 
 .paragraph-title {
   margin: 2rem auto 1rem auto;
+}
+
+.prototype-section {
+  text-align: center;
+  padding-bottom: 4rem;
 }
 
 /** SECTION titles **/
@@ -468,24 +488,6 @@ section {
   display: none;
 }
 
-.case-study-btn {
-  align-items: center;
-    border: 1px solid #EFEFEF;
-    border-radius: 3px;
-    color: #EFEFEF;
-    display: flex;
-    height: 4.3rem;
-    justify-content: center;
-    margin-top: 3rem;
-    text-decoration: none;
-    width: 16rem;
-}
-
-.case-study-btn:hover {
-  background-color: #EFEFEF;
-  color: #141414;
-}
-
 /** TESTIMONIALS **/
 
 .no-bg {
@@ -624,41 +626,6 @@ section {
   margin: 0 auto;
   padding-bottom: 5rem;
   padding: 0 2rem 5rem 2rem;
-}
-
-/** VIEW PROTOTYPE BUTTON **/
-
-.prototype {
-  border: 2px solid #EFEFEF;
-  margin: 2rem auto 0 auto;
-}
-
-.prototype:hover {
-  color: #141414;
-  background-color: #EFEFEF;
-}
-
-.top-proto-btn {
-  border: 2px solid #EFEFEF;
-  color: #EFEFEF;
-  margin: 3rem auto 1rem auto;
-}
-
-.top-proto-btn:hover {
-  background-color: #EFEFEF;
-  color: #141414;
-}
-
-.proto-dark {
-  border: 1px solid #141414;
-  border-radius: 3px;
-  color: #141414;
-  margin: 3rem auto 1rem auto;
-}
-
-.proto-dark:hover {
-  background-color: #141414;
-  color: #EFEFEF;
 }
 
 /** DELIVERABLES AND TOOLS **/
@@ -845,15 +812,6 @@ span {
   padding: .5rem 1rem;
 }
 
-.flex-btn {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-btn > .content-btn {
-  margin: .5rem;
-}
-
 /**  BRANDING **/
 
 
@@ -878,18 +836,6 @@ span {
 .prototype-gif {
   width: 90%;
   margin-bottom: 3rem;
-}
-
-.prototype-btn {
-  border: 1px solid #FFFCC0;
-  border-radius: 3px;
-  color: #FFFCC0;
-  margin: 0 auto;
-}
-
-.prototype-btn:hover {
-  background-color: #FFFCC0;
-  color: #141414;
 }
 
 #conclusion {
@@ -1198,6 +1144,7 @@ span {
 .contact-btn {
   background-color: #EFEFEF;
   border: 1px solid #141414;
+  border-radius: 3px;
   bottom: 0;
   color: #141414;
   display: block;
@@ -1205,7 +1152,7 @@ span {
   font-size: 1.8rem; /* 18px */
   font-weight: 300;
   margin: 3rem 2rem;
-  padding: .6rem 1.6rem;
+  padding: 1rem 1.8rem;
   width: max-content;
 }
 
@@ -1348,12 +1295,12 @@ span {
     color: #EFEFEF;
   }
 
-  .invert-btn {
+  .case-study-btn {
     border: 1px solid #141414;
     color: #141414;
   }
 
-  .invert-btn:hover {
+  .case-study-btn:hover {
     background-color: #141414;
     color: #EFEFEF;
   }
@@ -1453,10 +1400,11 @@ span {
 
   .flex-btn {
     flex-direction: row;
+    justify-content: center;
   }
 
-  .flex-btn > .content-btn {
-    margin: 1rem auto;
+  .flex-btn > a > .btn {
+    margin: 1rem;
   }
 
   /** IMAGES **/
