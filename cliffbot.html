@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159718014-1"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'UA-159718014-1');
+      </script>
+      <meta charset="utf-8">
+      <meta name="description" content="A case study describing the thought process behind Adventurer's Assistant, a modern alternative to paper and pencil Dungeons and Dragons.">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Adventurer's Assistant Case Study | Dan Gallagher</title>
+      <!-- Title Icon -->
+      <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg" />
+      <!-- Open Graph (OG) -->
+      <meta property="og:image" content="images/dnd/AA_metaimg.png">
+      <!-- Fonts -->
+      <link rel="stylesheet" href="https://use.typekit.net/wkp1wfo.css">
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/a02749a14a.js" crossorigin="anonymous"></script>
+      <!-- Stylesheets -->
+      <link rel="stylesheet" href="styles/reset.css">
+      <link rel="stylesheet" href="styles/main.css">
+   </head>
+   <body class="container">
+      <!-- TOP NAVIGATION -->
+      <nav>
+         <div class="nav-contents">
+            <a href="index.html" id="myLogo">
+               <h1>dang.</h1>
+            </a>
+            <!-- hidden nav links -->
+            <div class="nav-text" id="myLinks">
+               <ul>
+                  <li>
+                     <a href="index.html#work">
+                        <h4>work.</h4>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="about.html">
+                        <h4>about.</h4>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="contact.html">
+                        <h4>contact.</h4>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <!-- Hamburger menu icon -->
+            <i class="burger fas fa-bars fa-3x"></i>
+         </div>
+      </nav>
+      <main class="light-main">
+         <header class="cs-header">
+           <div id="AA-bg"></div>
+           <div class="cs-hero-header">
+             <div id="overview" class="sticky-destination"></div>
+             <!-- Anchor for Sticky Nav (overview.) -->
+             <div class="cs-header-text">
+               <h3>Adventurer's Assistant</h3>
+               <h4 class="text-space">Case Study</h4>
+               <p class="text-space">Dungeons and Dragons has had a resurgence in popularity in the media. People were starting to see it appear in their favorite shows, like Stranger Things and Community. With this extra exposure, a lot of people became interested in playing D&D with no idea how to get started.</p>
+             </div>
+             <!-- Deliverables & Tools -->
+            <div class="deliv-and-tools">
+                <div class="deliverables">
+                   <h4>Deliverables</h4>
+                   <p>Wireframes<br>Branding<br>Hi-fi Mockups</p>
+                </div>
+                <div class="tools">
+                   <h4>Tools</h4>
+                   <p>Figma<br>maze.design</p>
+                </div>
+             </div>
+            </div>
+         </header>
+         <!-- Sticky Nav Bar -->
+         <div class="sticky-nav">
+            <div class="sticky-header">
+               <h4 id="sticky-nav-title">Jump to section</h4>
+               <i class="sticky-arrow fas fa-angle-down fa-3x"></i>
+            </div>
+            <div class="sticky-links">
+               <a href="#overview">
+                  <h4>overview.</h4>
+               </a>
+               <a href="#research">
+                  <h4>research.</h4>
+               </a>
+               <a href="#info">
+                  <h4>information architecture.</h4>
+               </a>
+               <a href="#design">
+                  <h4>design.</h4>
+               </a>
+               <a href="#next">
+                  <h4>next steps.</h4>
+               </a>
+            </div>
+         </div>
+         <!-- PROBLEM AND SOLUTION -->
+         <section class="section-padding cs-first-section">
+            <div class="probsol text-box">
+               <h3>problem.</h3>
+               <p class="text-space">Dungeons and Dragons has a significant barrier to entry. Players must read through the Player’s Handbook, a comprehensive guide to getting started with DnD. Even then, players still need to group up with others and find someone who is willing to play the role of DM.</p>
+            </div>
+            <div class="phb-section">
+            <h4>The Player's Handbook Covers...</h4>
+            <div class="phb-row">
+              <div class="phb-item">
+                <h4>Character Creation</h4>
+                <p>Do you want to be an elven wizard? A gnome barbarian? What skills do you learn at level 5? Everything you want to know about your character can be learned here.</p>
+              </div>
+              <div class="phb-item">
+                <h4>Combat Actions</h4>
+                <p>Including bonus actions, reactions, and free actions. You can attack, move, cast counterspell, and yell across the battlefield in one 6-second turn.</p>
+              </div>
+              <div class="phb-item">
+                <h4>Spellcasting</h4>
+                <p>Depending on your class, you have access to different spells. From using ingredients to reciting a ritual, how you cast a spell can vary greatly.</p>
+              </div>
+            </div>
+            <h4>…And a lot more!</h4>
+          </div>
+          <div class="solution text-box">
+             <h3>solution.</h3>
+             <p class="text-space">I created an app that streamlines the character creation process without needing to read through the Player’s Handbook. While my app doesn’t cover as much information, it gives new players a quick way to get started in D&D. The rest of the information can be learned through playing.</p>
+          </div>
+            <div class="solution-display">
+              <img src="../images/dnd/DnDBarb.png" class="solution-img" alt="Image showing Barbarian class description with rankings on difficulty, health, and magic">
+              <div class="solution-text">
+                <h4>Summaries of Every Class</h4>
+                <p>Don’t know the difference between a ranger and a druid? We’ve got you covered with summaries describing the most unique features of each class. Our stat analysis will let you compare options at a glance. This allows you to quickly decide which class is right for you.</p>
+              </div>
+            </div>
+            <div class="solution-display flex-reverse">
+              <img src="../images/dnd/DnDStats.png" class="solution-img" alt="Image showing step 2 of the character creation process: rolling your stats">
+              <div class="solution-text">
+                <h4>Step-by-Step Creation</h4>
+                <p>Creating a character is complicated. Do you start by rolling stats? Choosing a class? Building your background story? In Adventurer’s Assistant, we’ve broken it down into 5 simple steps. Anyone can follow along and create their new adventurer!</p>
+              </div>
+            </div>
+            <div class="solution-display">
+              <img src="../images/dnd/CharHome.png" class="solution-img" alt="Image showing the character homepage, with drag-able experience and health bars">
+              <div class="solution-text">
+                <h4>Keep Your Character Up-to-Date</h4>
+                <p>Creating the character is only a part of the fun. Get into fights, learn new spells, and level up as you play. Adventurer’s Assistant allows you to update your character throughout the game. You can focus on what really matters: adventuring!</p>
+              </div>
+            </div>
+          </section>
+          <section class="prototype-section">
+            <a href="https://www.figma.com/proto/HiZZTD1Nc0aMLIdZI1EKKc/DnD-Hi-Fi-Character-Creator?node-id=24%3A26&viewport=-55%2C1003%2C0.08828883618116379&scaling=scale-down" target="_blank">
+               <button class="btn">View Prototype</button>
+            </a>
+         </section>
+         <!-- RESEARCH -->
+         <div id="research" class="sticky-destination"></div>
+         <!-- Anchor for Sticky Nav (research.) -->
+         <section class="section-padding cs-first-section">
+            <h2 class="text-box title-spacing">research.</h2>
+            <div class="section-paragraph text-box">
+               <h4 class="paragraph-title">Competitive Analysis</h4>
+               <p>I researched a few popular D&D apps for character creation and information tracking. This helped me see how a digital character sheet might look. Here is what I found.</p>
+               <ul class="cs-list-text">
+                 <li>
+                   <div class="cs-list-title">
+                     <span class="list-icon"><i class="fas fa-circle"></i></span>
+                     <h4>Information Overload -</h4>
+                   </div>
+                   <p>Most screens were packed with information, I didn’t know where to look. I need to design a simple layout that users could understand right away.</p>
+                 </li>
+                 <li>
+                   <div class="cs-list-title">
+                   <span class="list-icon"><i class="fas fa-circle"></i></span>
+                   <h4>No Noobs Allowed -</h4>
+                 </div>
+                   <p>The apps' onboarding process expects you to have a prior knowledge of D&D. This shows these apps are targeting experienced players. New players don't have digital resources to get started.</p>
+                 </li>
+               </ul>
+            </div>
+            <div class="section-paragraph text-box">
+               <h4 class="paragraph-title">Card Sort</h4>
+               <p>To make my app usable in-game, I had to digitalize the standard 5e character sheet. To do this, I needed to understand how players separate different sections of the character sheet. I planned to use this information to design the nav bar, so users can jump around the app to the information they need.</p>
+            </div>
+         </section>
+         <!-- DESIGN -->
+         <div id="info" class="sticky-destination"></div>
+         <!-- Anchor for Sticky Nav (information architecture.) -->
+         <section class="section-padding">
+            <h2 class="text-box title-spacing">information architecture.</h2>
+            <div class="section-paragraph text-box">
+               <h4 class="paragraph-title">Core Functions</h4>
+               <ul class="cs-list-text">
+                 <li>
+                   <div class="cs-list-title">
+                     <span class="list-icon"><i class="fas fa-circle"></i></span>
+                     <h4>Character Creation -</h4>
+                   </div>
+                   <p>To get new users ready to play D&D, I had to create a simple character creation process. To me, "simple" meant able to complete without needing to reference outside resources.</p>
+                 </li>
+                 <li>
+                   <div class="cs-list-title">
+                   <span class="list-icon"><i class="fas fa-circle"></i></span>
+                   <h4>Gameplay -</h4>
+                 </div>
+                   <p>Once they have their character, players will have to update their information in-game. This could be adding new items, learning a new spell, or improving their stats.</p>
+                 </li>
+                 <li>
+                   <div class="cs-list-title">
+                   <span class="list-icon"><i class="fas fa-circle"></i></span>
+                   <h4>Customization -</h4>
+                 </div>
+                   <p>D&D fans are creative. I wanted my design to allow customization to spells, items, classes, or anything else. This was less of a priority, as new players will mostly stick to the rules as written.</p>
+                 </li>
+               </ul>
+            </div>
+            <div class="section-paragraph">
+               <h4 class="paragraph-title text-box">Wireframes</h4>
+               <p class="text-box">I created some wireframes and put them in front of new and experienced players to get their feedback.</p>
+               <img src="../images/dnd/dnd_WF.png" class="project-images-full" alt="Array of wireframes, showing the beginning idea of the app">
+             </div>
+             <div class="section-paragraph text-box">
+               <h4>User Feedback</h4>
+               <ul class="cs-list-text">
+                 <li>
+                   <div class="cs-list-title">
+                     <span class="list-icon"><i class="fas fa-circle"></i></span>
+                     <h4>Confusing Creation -</h4>
+                   </div>
+                   <p>New users liked the introduction to each class, but felt lost in later steps. I needed to revisit this section and provide more information.</p>
+                 </li>
+                 <li>
+                   <div class="cs-list-title">
+                   <span class="list-icon"><i class="fas fa-circle"></i></span>
+                   <h4>Complicated Screens -</h4>
+                 </div>
+                   <p>New users felt overwhelmed and confused when viewing some screens, like the ability scores screen. I realized I was still using certain aspects from the character sheet that isn’t familiar to new users.</p>
+                 </li>
+                 <li>
+                   <div class="cs-list-title">
+                   <span class="list-icon"><i class="fas fa-circle"></i></span>
+                   <h4>Clear Navigation -</h4>
+                 </div>
+                   <p>Experienced users said the character sheet navigation is easy to understand, and they had quick access to all the information they wanted.</p>
+                 </li>
+               </ul>
+            </div>
+             <div class="section-paragraph text-box">
+               <h4>Refined Design Goals</h4>
+               <ul class="cs-list-text">
+                 <li>
+                   <div class="cs-list-title">
+                     <span class="list-icon"><i class="fas fa-circle"></i></span>
+                     <h4>Simplify Screens -</h4>
+                   </div>
+                   <p>New users are having trouble finding and understanding information. I needed to redesign certain screens and elements.</p>
+                 </li>
+                 <li>
+                   <div class="cs-list-title">
+                   <span class="list-icon"><i class="fas fa-circle"></i></span>
+                   <h4>Explain the Process -</h4>
+                 </div>
+                   <p>A new user reads the summaries and decides they want to be a cleric. Where do they go from there? What race should they choose, what background? I needed to provide more information for each choice users have to make.</p>
+                 </li>
+               </ul>
+            </div>
+           </section>
+         <!-- PHOTOGRAPHY -->
+         <div id="design" class="sticky-destination"></div>
+         <!-- Anchor for Sticky Nav (design.) -->
+         <section class="section-padding">
+            <h2 class="text-box title-spacing">design.</h2>
+            <div class="section-paragraph">
+               <h4 class="paragraph-title text-box">Character Creation Process</h4>
+               <img src="../images/dnd/CharCreation.png" class="project-images-full" alt="Mockups of the app's Character Creation Process">
+             </div>
+             <div class="section-paragraph text-box">
+               <ul class="cs-list-text">
+                 <li>
+                   <div class="cs-list-title">
+                     <span class="list-icon"><i class="fas fa-circle"></i></span>
+                     <h4>Summarize Character Choices -</h4>
+                   </div>
+                   <p>I added summarized information for each step of the process. Sure, I know the difference between a dwarf and a gnome (and could talk at length about it), but a new player might need further explanation.</p>
+                 </li>
+                 <li>
+                   <div class="cs-list-title">
+                   <span class="list-icon"><i class="fas fa-circle"></i></span>
+                   <h4>Interactive Process -</h4>
+                 </div>
+                   <p>I added animations to some sections, like the proficiencies and languages section. This enforces the idea that a highlighted skill is what you’re good at. This ties in with the same section on the character sheet.</p>
+                 </li>
+               </ul>
+             </div>
+             <div class="section-paragraph">
+                <h4 class="paragraph-title text-box">Digital Character Sheet</h4>
+                <img src="../images/dnd/DnDCharSheet.png" class="project-images-full" alt="Mockups of the app's Digital Character Sheet">
+              </div>
+              <div class="section-paragraph text-box">
+                <ul class="cs-list-text">
+                  <li>
+                    <div class="cs-list-title">
+                      <span class="list-icon"><i class="fas fa-circle"></i></span>
+                      <h4>Let it Breathe -</h4>
+                    </div>
+                    <p>I gave more space to text in general, giving each item its own box. I added a slight space between boxes to signify separate elements. This will help users understand information on the screen.</p>
+                  </li>
+                  <li>
+                    <div class="cs-list-title">
+                    <span class="list-icon"><i class="fas fa-circle"></i></span>
+                    <h4>Highlighted Proficiency -</h4>
+                  </div>
+                    <p>For proficient abilities, I highlighted the whole box with red. This is a step away from the classic character sheet. This change makes it easier for new players to understand their proficiencies.</p>
+                  </li>
+                </ul>
+              </div>
+         </section>
+         <section class="prototype-section">
+             <a href="https://www.figma.com/proto/HiZZTD1Nc0aMLIdZI1EKKc/DnD-Hi-Fi-Character-Creator?node-id=24%3A26&viewport=-55%2C1003%2C0.08828883618116379&scaling=scale-down" target="_blank">
+                <button class="btn">View Prototype</button>
+             </a>
+         </section>
+         <!-- FINAL CHANGES -->
+         <div id="next" class="sticky-destination"></div>
+         <!-- Anchor for Sticky Nav (next steps.) -->
+         <section class="section-padding">
+            <h2 class="text-box title-spacing">next steps.</h2>
+            <div class="section-paragraph text-box">
+              <p>This is where I stopped with this project. D&D is a big hobby of mine, and it was a lot of fun trying to improve the player experience. If I was taking this project all the way, here’s what I would do next.</p>
+              <ul class="cs-list-text">
+                <li>
+                  <div class="cs-list-title">
+                    <span class="list-icon"><i class="fas fa-circle"></i></span>
+                    <h4>Usability Testing -</h4>
+                  </div>
+                  <p>I would give users a few tasks with my prototype to see if there are any issues that come up. My project targets new players, so I would look for people with little experience playing D&D.</p>
+                </li>
+                <li>
+                  <div class="cs-list-title">
+                  <span class="list-icon"><i class="fas fa-circle"></i></span>
+                  <h4>Success Metrics -</h4>
+                </div>
+                  <p>I would break down my design goals into measurable ones and question users after they are done testing the prototype. To measure the character creation process, I might ask, “How would you rate your understanding of the D&D character you created?”</p>
+                </li>
+                <li>
+                  <div class="cs-list-title">
+                  <span class="list-icon"><i class="fas fa-circle"></i></span>
+                  <h4>Make Adjustments -</h4>
+                </div>
+                  <p>From testing and interviews, I would be able to analyze a lot of user feedback. Finding any problems and addressing them would elevate my design to the next level!</p>
+                </li>
+              </ul>
+            </div>
+         </section>
+         <!-- CONCLUSION -->
+         <section class="section-padding cs-conc">
+            <h2 class="text-box title-spacing">conclusion.</h2>
+            <div class="section-paragraph text-box" id="conclusion">
+               <p>Design is all about problem-solving. Whenever I encounter a problem in something I do, I want to fix it. This was my attempt of creating a solution for one of my hobbies. It shouldn’t be so hard to get started in D&D, and I have a lot of ideas about lowering the barrier to entry. This app would allow a large group of new players to play D&D, which would mean a lot more content for fans! If you're interested in optimizing the D&D player experience, please reach out - I'd love to talk.</p>
+            </div>
+         </section>
+      </main>
+      <!-- FOOTER -->
+      <footer>
+         <h2>i'm available.</h2>
+         <a href="contact.html">
+           <button class="white-btn">Contact</button>
+         </a>
+         <ul class="social-media-links">
+           <li>
+              <a href="https://www.linkedin.com/in/dang" target="_blank">
+              <i class="fa fa-linkedin"></i>
+              </a>
+           </li>
+           <li>
+              <a href="https://dribbble.com/dang003" target="_blank">
+              <i class="fa fa-dribbble"></i>
+              </a>
+           </li>
+           <li>
+              <a href="https://www.instagram.com/_dang_designs_" target="_blank">
+              <i class="fa fa-instagram"></i>
+              </a>
+           </li>
+         </ul>
+      </footer>
+      <script src="scripts/main.js"></script>
+   </body>
+</html>
