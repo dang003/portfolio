@@ -603,6 +603,30 @@ section {
   height: 80vh;
 }
 
+#Cliff-bg {
+  background-image: url("../images/cliff/CliffHero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text-image {
+  max-height: 6rem;
+  margin-right: 2rem;
+}
+
 .light-main {
   background-color: #EFEFEF;
   color: #141414;
@@ -613,7 +637,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 0 2rem;
 }
 
 .cs-header-text {
@@ -794,6 +818,28 @@ section {
 span {
   font-family: 'neue-kabel';
   font-weight: 700;
+}
+
+/** CONVERSATION PERSONAS **/
+
+.persona-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.persona-img {
+  width: 30rem;
+  height: 30rem;
+  padding: 2rem;
+}
+
+.persona-info {
+  max-width: 640px;
+  padding: 2rem 2rem;
 }
 
 /** USER STORIES **/
@@ -1340,12 +1386,12 @@ span {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 10rem 3rem;
+    padding: 5rem 2rem 2rem 2rem;
   }
 
   .cs-header-text {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
   }
 
   .deliv-and-tools {
@@ -1516,7 +1562,7 @@ span {
   /** HEADER **/
 
   .cs-hero-header {
-    padding: 10rem 5rem;
+    padding: 5rem 0;
   }
 
   .prototype {
@@ -1556,6 +1602,13 @@ span {
     max-width: 360px;
     padding: 0 2rem;
   }
+
+  /*** CONVERSATION DESIGN ***/
+
+  /** PERSONAS **/
+
+  .persona-container {
+    flex-direction: row;
 
   /*** CONTACT PAGE ***/
 

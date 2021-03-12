@@ -11,7 +11,7 @@
          gtag('config', 'UA-159718014-1');
       </script>
       <meta charset="utf-8">
-      <meta name="description" content="A case study describing the thought process behind Adventurer's Assistant, a modern alternative to paper and pencil Dungeons and Dragons.">
+      <meta name="description" content="A conversation design case study for a Zoo's chatbot">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Adventurer's Assistant Case Study | Dan Gallagher</title>
       <!-- Title Icon -->
@@ -59,26 +59,38 @@
       </nav>
       <main class="light-main">
          <header class="cs-header">
-           <div id="AA-bg"></div>
+           <div id="Cliff-bg">
+             <div class="hero-text">
+               <img src="../images/cliff/Cliff-icon.png" class="hero-text-image" alt="Cliff's bot icon">
+               <h2>Chat with Cliff</h2>
+             </div>
+           </div>
            <div class="cs-hero-header">
              <div id="overview" class="sticky-destination"></div>
              <!-- Anchor for Sticky Nav (overview.) -->
              <div class="cs-header-text">
-               <h3>Adventurer's Assistant</h3>
-               <h4 class="text-space">Case Study</h4>
-               <p class="text-space">Dungeons and Dragons has had a resurgence in popularity in the media. People were starting to see it appear in their favorite shows, like Stranger Things and Community. With this extra exposure, a lot of people became interested in playing D&D with no idea how to get started.</p>
+               <h3>Brookfield Zoo Chatbot</h3>
+               <h4 class="text-space">Conversation Design Case Study</h4>
+               <p class="text-space">Growing up in the greater Chicagoland area, I used to visit Brookfield Zoo often. Now, as a conversation designer, I saw an opportunity for a unique bot persona that can help families navigate around and encourage kids to learn more about animals. This chatbot is able to show off the zoo’s brand to families and gives them a new reason to be excited to visit.</p>
              </div>
              <!-- Deliverables & Tools -->
             <div class="deliv-and-tools">
                 <div class="deliverables">
                    <h4>Deliverables</h4>
-                   <p>Wireframes<br>Branding<br>Hi-fi Mockups</p>
+                   <p>User & Bot Personas<br>Conversation Flows<br>Happy Path Prototypes</p>
                 </div>
                 <div class="tools">
                    <h4>Tools</h4>
-                   <p>Figma<br>maze.design</p>
+                   <p>Figma<br>Whimsical</p>
                 </div>
              </div>
+            </div>
+            <div class="project-header">
+               <!-- Problem & Solution -->
+               <div class="section-padding text-box">
+                  <h3>project goal.</h3>
+                  <p class="text-space">Brookfield Zoo wants to connect with their visitors, facilitate their trip, and pique their interest with animals and shows they can see. The goal for this chatbot was to help visitors navigate the zoo, persuade them to go to shows and events, and teach them something new about the animals they can meet.</p>
+               </div>
             </div>
          </header>
          <!-- Sticky Nav Bar -->
@@ -91,186 +103,90 @@
                <a href="#overview">
                   <h4>overview.</h4>
                </a>
-               <a href="#research">
-                  <h4>research.</h4>
+               <a href="#discovery">
+                  <h4>discovery.</h4>
                </a>
                <a href="#info">
-                  <h4>information architecture.</h4>
+                  <h4>personas.</h4>
                </a>
                <a href="#design">
-                  <h4>design.</h4>
+                  <h4>happy path.</h4>
                </a>
                <a href="#next">
                   <h4>next steps.</h4>
                </a>
             </div>
          </div>
-         <!-- PROBLEM AND SOLUTION -->
+         <!-- DISCOVERY -->
+         <div id="discovery" class="sticky-destination"></div>
+         <!-- Anchor for Sticky Nav (discovery.) -->
          <section class="section-padding cs-first-section">
-            <div class="probsol text-box">
-               <h3>problem.</h3>
-               <p class="text-space">Dungeons and Dragons has a significant barrier to entry. Players must read through the Player’s Handbook, a comprehensive guide to getting started with DnD. Even then, players still need to group up with others and find someone who is willing to play the role of DM.</p>
-            </div>
-            <div class="phb-section">
-            <h4>The Player's Handbook Covers...</h4>
-            <div class="phb-row">
-              <div class="phb-item">
-                <h4>Character Creation</h4>
-                <p>Do you want to be an elven wizard? A gnome barbarian? What skills do you learn at level 5? Everything you want to know about your character can be learned here.</p>
+            <h2 class="text-box title-spacing">discovery.</h2>
+              <div class="section-paragraph text-box">
+               <h4 class="paragraph-title">Company Research</h4>
+               <p>To better understand the company mission and brand, I completed research through their website at https://www.czs.org/Brookfield-ZOO/Home.aspx. If I took this project into development, I would conduct interviews with stakeholders and team members to get a better understanding of the company’s needs and any information they have on their customers.</p>
               </div>
-              <div class="phb-item">
-                <h4>Combat Actions</h4>
-                <p>Including bonus actions, reactions, and free actions. You can attack, move, cast counterspell, and yell across the battlefield in one 6-second turn.</p>
+              <div class="section-paragraph text-box">
+               <h4 class="paragraph-title">Why Design a Chatbot?</h4>
+               <p>In this stage, I had to figure out the scope and expectations for my project. I evaluated using chat or voice interfaces, open-ended conversations or more linear options, and what deliverables to expect for the MVP.</p>
+               <br>
+               <p>I decided on using a chatbot for a few reasons. For one, chatbots can be a great way to show your brand’s personality and connect with your users. Also, this experience is designed for use in a zoo, using a voice interface could pick up input from strangers (or monkeys) being a little too loud nearby.</p>
               </div>
-              <div class="phb-item">
-                <h4>Spellcasting</h4>
-                <p>Depending on your class, you have access to different spells. From using ingredients to reciting a ritual, how you cast a spell can vary greatly.</p>
+              <div class="section-paragraph text-box">
+               <h4 class="paragraph-title">Identifying Use Cases</h4>
+               <p>I had to understand what people wanted to do during their trip to the zoo, frustration points, and what a chatbot could help them with. Should the bot be more service-oriented, or persuasive? I decided on creating 3 use cases that could show off the company’s personality and help their customers enjoy their visit.</p>
               </div>
-            </div>
-            <h4>…And a lot more!</h4>
-          </div>
-          <div class="solution text-box">
-             <h3>solution.</h3>
-             <p class="text-space">I created an app that streamlines the character creation process without needing to read through the Player’s Handbook. While my app doesn’t cover as much information, it gives new players a quick way to get started in D&D. The rest of the information can be learned through playing.</p>
-          </div>
-            <div class="solution-display">
-              <img src="../images/dnd/DnDBarb.png" class="solution-img" alt="Image showing Barbarian class description with rankings on difficulty, health, and magic">
-              <div class="solution-text">
-                <h4>Summaries of Every Class</h4>
-                <p>Don’t know the difference between a ranger and a druid? We’ve got you covered with summaries describing the most unique features of each class. Our stat analysis will let you compare options at a glance. This allows you to quickly decide which class is right for you.</p>
-              </div>
-            </div>
-            <div class="solution-display flex-reverse">
-              <img src="../images/dnd/DnDStats.png" class="solution-img" alt="Image showing step 2 of the character creation process: rolling your stats">
-              <div class="solution-text">
-                <h4>Step-by-Step Creation</h4>
-                <p>Creating a character is complicated. Do you start by rolling stats? Choosing a class? Building your background story? In Adventurer’s Assistant, we’ve broken it down into 5 simple steps. Anyone can follow along and create their new adventurer!</p>
-              </div>
-            </div>
-            <div class="solution-display">
-              <img src="../images/dnd/CharHome.png" class="solution-img" alt="Image showing the character homepage, with drag-able experience and health bars">
-              <div class="solution-text">
-                <h4>Keep Your Character Up-to-Date</h4>
-                <p>Creating the character is only a part of the fun. Get into fights, learn new spells, and level up as you play. Adventurer’s Assistant allows you to update your character throughout the game. You can focus on what really matters: adventuring!</p>
-              </div>
-            </div>
           </section>
-          <section class="prototype-section">
-            <a href="https://www.figma.com/proto/HiZZTD1Nc0aMLIdZI1EKKc/DnD-Hi-Fi-Character-Creator?node-id=24%3A26&viewport=-55%2C1003%2C0.08828883618116379&scaling=scale-down" target="_blank">
-               <button class="btn">View Prototype</button>
-            </a>
-         </section>
-         <!-- RESEARCH -->
-         <div id="research" class="sticky-destination"></div>
-         <!-- Anchor for Sticky Nav (research.) -->
-         <section class="section-padding cs-first-section">
-            <h2 class="text-box title-spacing">research.</h2>
-            <div class="section-paragraph text-box">
-               <h4 class="paragraph-title">Competitive Analysis</h4>
-               <p>I researched a few popular D&D apps for character creation and information tracking. This helped me see how a digital character sheet might look. Here is what I found.</p>
-               <ul class="cs-list-text">
-                 <li>
-                   <div class="cs-list-title">
-                     <span class="list-icon"><i class="fas fa-circle"></i></span>
-                     <h4>Information Overload -</h4>
-                   </div>
-                   <p>Most screens were packed with information, I didn’t know where to look. I need to design a simple layout that users could understand right away.</p>
-                 </li>
-                 <li>
-                   <div class="cs-list-title">
-                   <span class="list-icon"><i class="fas fa-circle"></i></span>
-                   <h4>No Noobs Allowed -</h4>
-                 </div>
-                   <p>The apps' onboarding process expects you to have a prior knowledge of D&D. This shows these apps are targeting experienced players. New players don't have digital resources to get started.</p>
-                 </li>
-               </ul>
-            </div>
-            <div class="section-paragraph text-box">
-               <h4 class="paragraph-title">Card Sort</h4>
-               <p>To make my app usable in-game, I had to digitalize the standard 5e character sheet. To do this, I needed to understand how players separate different sections of the character sheet. I planned to use this information to design the nav bar, so users can jump around the app to the information they need.</p>
-            </div>
-         </section>
-         <!-- DESIGN -->
+         <!-- PERSONAS -->
          <div id="info" class="sticky-destination"></div>
-         <!-- Anchor for Sticky Nav (information architecture.) -->
+         <!-- Anchor for Sticky Nav (personas.) -->
          <section class="section-padding">
-            <h2 class="text-box title-spacing">information architecture.</h2>
-            <div class="section-paragraph text-box">
-               <h4 class="paragraph-title">Core Functions</h4>
-               <ul class="cs-list-text">
-                 <li>
-                   <div class="cs-list-title">
-                     <span class="list-icon"><i class="fas fa-circle"></i></span>
-                     <h4>Character Creation -</h4>
-                   </div>
-                   <p>To get new users ready to play D&D, I had to create a simple character creation process. To me, "simple" meant able to complete without needing to reference outside resources.</p>
-                 </li>
-                 <li>
-                   <div class="cs-list-title">
-                   <span class="list-icon"><i class="fas fa-circle"></i></span>
-                   <h4>Gameplay -</h4>
-                 </div>
-                   <p>Once they have their character, players will have to update their information in-game. This could be adding new items, learning a new spell, or improving their stats.</p>
-                 </li>
-                 <li>
-                   <div class="cs-list-title">
-                   <span class="list-icon"><i class="fas fa-circle"></i></span>
-                   <h4>Customization -</h4>
-                 </div>
-                   <p>D&D fans are creative. I wanted my design to allow customization to spells, items, classes, or anything else. This was less of a priority, as new players will mostly stick to the rules as written.</p>
-                 </li>
-               </ul>
-            </div>
-            <div class="section-paragraph">
-               <h4 class="paragraph-title text-box">Wireframes</h4>
-               <p class="text-box">I created some wireframes and put them in front of new and experienced players to get their feedback.</p>
-               <img src="../images/dnd/dnd_WF.png" class="project-images-full" alt="Array of wireframes, showing the beginning idea of the app">
+            <h2 class="text-box title-spacing">personas.</h2>
+             <h4 class="paragraph-title text-box">User Personas</h4>
+             <div class="persona-container">
+               <img src="../images/cliff/persona-img1.png" class="persona-img" alt="">
+               <div class="persona-info">
+                 <h3>Carmen Mendez</h3>
+                 <br>
+                 <h4>Biography</h4>
+                 <p>Carmen and her husband have 2 kids: a 6 year-old and a 2 year-old. They hire a nanny to look after their 2 year-old while they’re at work. Because they’re busy during the week, they try to make their weekends special with their children.</p>
+                 <br>
+                 <h4>Needs</h4>
+                 <p>- An entertaining and educational experience for her children. She wants them to be happy and learn something.</p>
+                 <p>- An efficient, helpful interface. She wants to spend her time with her family, not on her phone.</p>
+                 <p>- It’s important to her that her children are exposed to positive influences.</p>
+               </div>
+           </div>
+           <div class="persona-container">
+             <img src="../images/cliff/persona-img2.png" class="persona-img" alt="">
+             <div class="persona-info">
+               <h3>Maria Wendt</h3>
+               <br>
+               <h4>Biography</h4>
+               <p>Maria has been an elementary teacher for 21 years, and has loved seeing how technology has affected the structure of education. She's looking forward to visiting the zoo with her class next week because it's a chance for her students to have fun and learn something new.</p>
+               <br>
+               <h4>Needs</h4>
+               <p>- Personalized reccomendations for events that accomodate large groups.</p>
+               <p>- A kid-friendly experience that will help inspire her students to learn more about animals.</p>
+               <p>- An efficient interface that can help her navigate the zoo to maximize her time on the field trip.</p>
              </div>
-             <div class="section-paragraph text-box">
-               <h4>User Feedback</h4>
-               <ul class="cs-list-text">
-                 <li>
-                   <div class="cs-list-title">
-                     <span class="list-icon"><i class="fas fa-circle"></i></span>
-                     <h4>Confusing Creation -</h4>
-                   </div>
-                   <p>New users liked the introduction to each class, but felt lost in later steps. I needed to revisit this section and provide more information.</p>
-                 </li>
-                 <li>
-                   <div class="cs-list-title">
-                   <span class="list-icon"><i class="fas fa-circle"></i></span>
-                   <h4>Complicated Screens -</h4>
-                 </div>
-                   <p>New users felt overwhelmed and confused when viewing some screens, like the ability scores screen. I realized I was still using certain aspects from the character sheet that isn’t familiar to new users.</p>
-                 </li>
-                 <li>
-                   <div class="cs-list-title">
-                   <span class="list-icon"><i class="fas fa-circle"></i></span>
-                   <h4>Clear Navigation -</h4>
-                 </div>
-                   <p>Experienced users said the character sheet navigation is easy to understand, and they had quick access to all the information they wanted.</p>
-                 </li>
-               </ul>
-            </div>
-             <div class="section-paragraph text-box">
-               <h4>Refined Design Goals</h4>
-               <ul class="cs-list-text">
-                 <li>
-                   <div class="cs-list-title">
-                     <span class="list-icon"><i class="fas fa-circle"></i></span>
-                     <h4>Simplify Screens -</h4>
-                   </div>
-                   <p>New users are having trouble finding and understanding information. I needed to redesign certain screens and elements.</p>
-                 </li>
-                 <li>
-                   <div class="cs-list-title">
-                   <span class="list-icon"><i class="fas fa-circle"></i></span>
-                   <h4>Explain the Process -</h4>
-                 </div>
-                   <p>A new user reads the summaries and decides they want to be a cleric. Where do they go from there? What race should they choose, what background? I needed to provide more information for each choice users have to make.</p>
-                 </li>
-               </ul>
-            </div>
+         </div>
+         <h4 class="paragraph-title text-box">Bot Persona</h4>
+         <div class="persona-container">
+           <img src="../images/cliff/Cliff-icon.png" class="persona-img" alt="">
+           <div class="persona-info">
+             <h3>Cliff</h3>
+             <h4>The Adventurer</h4>
+             <br>
+             <h4>Biography</h4>
+             <p>Cliff studied zoology at the University of Miami. After graduating, he traveled abroad to help protect various endangered species. He knows a lot about the world and is warm and friendly, especially with children. Cliff grew up hiking, camping, and visiting national parks. Cliff is a vegetarian.</p>
+             <br>
+             <h4>Personality</h4>
+             <p>- Tone of Voice: Enthusiastic, Educational, Fun, Friendly, passionate, Happy, Informal</p>
+             <p>- Sounds Like: Talks quickly, but clearly. High energy, and excited to talk about animals.</p>
+             <p>- Types Like: Likes using exclamation marks. Uses images to educate. Quick responder, but takes some time to think.</p>
+           </div>
+         </div>
            </section>
          <!-- PHOTOGRAPHY -->
          <div id="design" class="sticky-destination"></div>
@@ -299,6 +215,38 @@
                  </li>
                </ul>
              </div>
+             <section class="prototype-section">
+                 <a href="https://www.figma.com/proto/HiZZTD1Nc0aMLIdZI1EKKc/DnD-Hi-Fi-Character-Creator?node-id=24%3A26&viewport=-55%2C1003%2C0.08828883618116379&scaling=scale-down" target="_blank">
+                    <button class="btn">View Prototype</button>
+                 </a>
+             </section>
+            <div class="section-paragraph">
+               <h4 class="paragraph-title text-box">Character Creation Process</h4>
+               <img src="../images/dnd/CharCreation.png" class="project-images-full" alt="Mockups of the app's Character Creation Process">
+             </div>
+             <div class="section-paragraph text-box">
+               <ul class="cs-list-text">
+                 <li>
+                   <div class="cs-list-title">
+                     <span class="list-icon"><i class="fas fa-circle"></i></span>
+                     <h4>Summarize Character Choices -</h4>
+                   </div>
+                   <p>I added summarized information for each step of the process. Sure, I know the difference between a dwarf and a gnome (and could talk at length about it), but a new player might need further explanation.</p>
+                 </li>
+                 <li>
+                   <div class="cs-list-title">
+                   <span class="list-icon"><i class="fas fa-circle"></i></span>
+                   <h4>Interactive Process -</h4>
+                 </div>
+                   <p>I added animations to some sections, like the proficiencies and languages section. This enforces the idea that a highlighted skill is what you’re good at. This ties in with the same section on the character sheet.</p>
+                 </li>
+               </ul>
+             </div>
+             <section class="prototype-section">
+                 <a href="https://www.figma.com/proto/HiZZTD1Nc0aMLIdZI1EKKc/DnD-Hi-Fi-Character-Creator?node-id=24%3A26&viewport=-55%2C1003%2C0.08828883618116379&scaling=scale-down" target="_blank">
+                    <button class="btn">View Prototype</button>
+                 </a>
+             </section>
              <div class="section-paragraph">
                 <h4 class="paragraph-title text-box">Digital Character Sheet</h4>
                 <img src="../images/dnd/DnDCharSheet.png" class="project-images-full" alt="Mockups of the app's Digital Character Sheet">
@@ -321,11 +269,11 @@
                   </li>
                 </ul>
               </div>
-         </section>
-         <section class="prototype-section">
-             <a href="https://www.figma.com/proto/HiZZTD1Nc0aMLIdZI1EKKc/DnD-Hi-Fi-Character-Creator?node-id=24%3A26&viewport=-55%2C1003%2C0.08828883618116379&scaling=scale-down" target="_blank">
-                <button class="btn">View Prototype</button>
-             </a>
+              <section class="prototype-section">
+                  <a href="https://www.figma.com/proto/HiZZTD1Nc0aMLIdZI1EKKc/DnD-Hi-Fi-Character-Creator?node-id=24%3A26&viewport=-55%2C1003%2C0.08828883618116379&scaling=scale-down" target="_blank">
+                     <button class="btn">View Prototype</button>
+                  </a>
+              </section>
          </section>
          <!-- FINAL CHANGES -->
          <div id="next" class="sticky-destination"></div>
