@@ -301,6 +301,7 @@ section {
 
 .section-paragraph {
   margin: 3rem auto;
+  width: 100%;
 }
 
 .paragraph-title {
@@ -439,6 +440,10 @@ section {
   margin: 2rem 0;
   max-height: 900px;
   position: relative;
+}
+
+#project-5 {
+  background: linear-gradient(109.72deg, #FFCA91 0%, #F7B368 100%);
 }
 
 #project-4 {
@@ -892,6 +897,7 @@ span {
 
 .project-images {
   align-items: center;
+  border-radius: 3px;
   display: flex;
   height: 100%;
   justify-content: center;
@@ -900,9 +906,10 @@ span {
 }
 
 .project-images-full {
+  display: block;
+  margin: 3rem auto;
+  max-width: 1400px;
   width: 100vw;
-  margin: 3rem 0;
-  height: 100%;
 }
 
 .image-shadow {
