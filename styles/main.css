@@ -128,7 +128,7 @@ nav {
 }
 
 .nav-text a {
-  color: #FFFCC0;
+  color: #efefef;
   display: block;
   padding: 1.6rem 1.4rem;
   text-align: right;
@@ -136,18 +136,18 @@ nav {
 }
 
 .nav-text a:hover {
-  text-shadow: 0 0 10px #FFFCC0;
+  text-shadow: 0 0 10px #efefef;
 }
 
 .burger {
-  color: #FFFCC0;
+  color: #efefef;
   cursor: pointer;
   position: absolute;
   right: 8%;
 }
 
 .burger:hover {
-  text-shadow: 0 0 30px #FFFCC0;
+  text-shadow: 0 0 20px #efefef;
 }
 
 .active {
@@ -157,7 +157,7 @@ nav {
 .currentlink a{
   padding: 0;
   margin: 1.6rem 1.4rem;
-  color: #EFEFEF;
+  color: #FFFCC0;
 }
 
 .currentlink a:hover {
@@ -297,6 +297,7 @@ section {
 .dark-section {
   background-color: #141414;
   color: #EFEFEF;
+  padding: 2rem 0
 }
 
 .section-paragraph {
@@ -420,9 +421,46 @@ section {
 
 /** PROJECTS **/
 
+#filterBtnContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+}
+
+.filterDiv {
+  display: none;
+}
+
+.filterShow {
+  display: block;
+}
+
+.filter-btn {
+  background-color: #efefef;
+  color: #141414;
+  margin: 1rem;
+}
+
+.filter-btn:hover {
+  background-color: rgba(239, 239, 239, 0.8);
+  color: #141414;
+}
+
+.filter-active {
+  background-color: #FFFCC0;
+  color: #141414;
+}
+
+.filter-active:hover {
+  background-color: #FFFCC0;
+  color: #141414;
+}
+
 .projects-container {
   position: relative;
-  max-width: 1600px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 1rem 0;
 }
@@ -436,9 +474,9 @@ section {
   align-items: center;
   background-color: #141414;
   display: flex;
-  height: 85vh;
+  height: 80vh;
   margin: 2rem 0;
-  max-height: 900px;
+  max-height: 50rem;
   position: relative;
 }
 
@@ -475,7 +513,7 @@ section {
 }
 
 .display-project-text {
-  background-color: rgba(20, 20, 20, 0.9);
+  background-color: rgba(20, 20, 20, 0.8);
   color: #EFEFEF;
   display: block;
   margin: 0;
@@ -1139,7 +1177,7 @@ span {
 
 .contact-section {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .contact-form {
@@ -1150,12 +1188,11 @@ span {
 }
 
 .contact-area {
-  margin-left: 2rem;
   width: 100%;
 }
 
 .contact-form-header {
-  margin: 2rem 2rem;
+  margin: 2rem 0;
 }
 
 .contact-form label {
@@ -1204,7 +1241,7 @@ span {
   font-family: 'neue-kabel', sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 300;
-  margin: 3rem 2rem;
+  margin: 3rem 0;
   padding: 1rem 1.8rem;
   width: max-content;
 }
@@ -1289,6 +1326,11 @@ span {
   /**** HOMEPAGE ****/
 
 
+  #filterBtnContainer {
+    margin: 3rem auto 0 auto;
+    justify-content: center;
+  }
+
   .CYD-slide-text {
     height: 100%;
   }
@@ -1325,6 +1367,10 @@ span {
     left: 3rem;
     position: absolute;
     top: 3rem;
+  }
+
+  .project-section {
+    height: 90vh;
   }
 
   .display-project-image {
@@ -1504,12 +1550,6 @@ span {
     width: 50%
   }
 
-  .neu-shadow {
-    box-shadow:  10px 10px 20px #d7d7d7,
-                 -10px -10px 20px #ffffff;
-  }
-
-
 }
 
 @media only screen and (min-width: 992px) {
@@ -1545,26 +1585,54 @@ span {
     width: 55%;
   }
 
+  #filterBtnContainer {
+    justify-content: flex-start;
+    width: 94%;
+    max-width: 1300px;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .filterShow {
+    display: block;
+    width: 48%;
+  }
+
   .project-section {
     border-radius: 4px;
-    margin: 2rem 2rem;
+    margin: 2rem;
+    min-width: 44%;
   }
 
   .display-project-text {
+    background-color: rgba(20, 20, 20, .8);
+    color: #EFEFEF;
     margin-left: 4%;
-    max-width: 380px;
-    width: 30%;
+    width: 380px;
+    border-radius: 4px;
   }
 
   .display-project-image {
-    max-width: 80rem;
-    object-fit: contain;
-    object-position: center;
     right: 0;
-    width: 65%;
+    width: 70%;
   }
 
-  /** CASE STUDY **/
+  .case-study-btn {
+    border: 1px solid #EFEFEF;
+    color: #EFEFEF;
+  }
+
+  .case-study-btn:hover {
+    background-color: #EFEFEF;
+    color: #141414;
+  }
+
+  /**** CASE STUDY ****/
 
   /** HEADER **/
 
@@ -1616,14 +1684,6 @@ span {
 
   .persona-container {
     flex-direction: row;
-
-  /*** CONTACT PAGE ***/
-
-  .contact-section {
-    margin: 3rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
 }
