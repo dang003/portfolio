@@ -58,7 +58,7 @@
       </div>
    </nav>
    <main class="light-main">
-     <header>
+     <header class="cs-header">
         <div class="cs-hero-header">
           <div id="overview" class="sticky-destination"></div>
           <!-- Anchor for Sticky Nav (overview.) -->
@@ -89,9 +89,9 @@
          </div>
       </header>
       <!-- Sticky Nav Bar -->
-      <div class="light-sticky-nav">
+      <div class="sticky-nav">
          <div class="sticky-header">
-            <h4 id="sticky-nav-title" class="light-sticky-nav-title">Jump to section</h4>
+            <h4 id="sticky-nav-title">Jump to section</h4>
             <i class="sticky-arrow fas fa-angle-down fa-3x"></i>
          </div>
          <div class="sticky-links">
@@ -101,14 +101,11 @@
             <a href="#research">
                <h4>research.</h4>
             </a>
-            <a href="#personas">
-               <h4>personas.</h4>
+            <a href="#idea">
+               <h4>ideation.</h4>
             </a>
-            <a href="#happy">
-               <h4>happy path.</h4>
-            </a>
-            <a href="#next">
-               <h4>next steps.</h4>
+            <a href="#create">
+               <h4>creation.</h4>
             </a>
          </div>
       </div>
@@ -152,64 +149,118 @@
             <p>Here are 3 possible flows a business owner might go through when using Uline. I used these to better understand the process and identify potential pain points.</p>
             <br>
             <br>
-            <p><span>Add to Cart</span></p>
+            <h4>Add to Cart</h4>
             <img src="../images/Uline/OrderUJ.png" class="project-images image-shadow" alt="Completed Design Canvas for Navigation">
-            <h4><span>Order from Shopping List</span></h4>
+            <h4>Order from Shopping List</h4>
             <img src="../images/Uline/ListUJ.png" class="project-images image-shadow" alt="Completed Design Canvas for Navigation">
-            <h4><span>Contact Us</span></h4>
+            <h4>Contact Us</h4>
             <img src="../images/Uline/ContactUJ.png" class="project-images image-shadow" alt="Completed Design Canvas for Navigation">
            </div>
            <div class="section-paragraph text-box">
             <h4 class="paragraph-title">Competitive Analysis</h4>
             <p>To get a better understanding of the competitive landscape, I completed a competitive analysis. Here is a summary of my findings.</p>
-            <div class="UCA-section">
-              <div class="UCA-row">
-                <div class="UCA-block">
-                  <h4>Grainger</h4>
-                  <p>Pros:</p>
-                  <p>- A lot of features</p>
-                  <p>- Filters available while browsing</p>
-                  <br>
-                  <p>Cons:</p>
-                  <p>Small text, hard to read</p>
-                  <p>Some features are hard to find</p>
-                </div>
-                <div class="UCA-block">
-                  <h4>Amazon</h4>
-                  <p>Pros:</p>
-                  <p>- Variety of products/sellers</p>
-                  <p>- User reviews on items</p>
-                  <p>- ‘Subscribe and Save’</p>
-                  <br>
-                  <p>Cons:</p>
-                  <p>Need account to checkout</p>
-                  <p>Customer support not a priority</p>
-                </div>
-                <div class="UCA-row">
-                  <div class="UCA-block">
-                    <h4>Grainger</h4>
-                    <p>Pros:</p>
-                    <p>- A lot of features</p>
-                    <p>- Filters available while browsing</p>
-                    <br>
-                    <p>Cons:</p>
-                    <p>Small text, hard to read</p>
-                    <p>Some features are hard to find</p>
-                  </div>
-                  <div class="UCA-block">
-                    <h4>Grainger</h4>
-                    <p>Pros:</p>
-                    <p>- A lot of features</p>
-                    <p>- Filters available while browsing</p>
-                    <br>
-                    <p>Cons:</p>
-                    <p>Small text, hard to read</p>
-                    <p>Some features are hard to find</p>
-                  </div>
-              </div>
-            </div>
-           </div>
+            <table class="UCA-table">
+              <tr>
+                <th>Grainger</th>
+                <th>Amazon</th>
+              </tr>
+              <tr>
+                <td>Pros: <br>- A lot of features</br>- Filters available when browsing</td>
+                <td>Pros: <br>- Variety of products/sellers</br>- User reviews on items<br>- ‘Subscribe and Save’ feature</td>
+              </tr>
+              <tr>
+                <td>Cons: <br>- Small text, hard to read</br>- Some features are hard to find</td>
+                <td>Cons: <br>- Need account to checkout</br>- Customer support not a priority</td>
+              </tr>
+              <tr>
+                <th>Global Industrial</th>
+                <th>Fastenal</th>
+              </tr>
+              <tr>
+                <td>Pros: <br>- ‘Auto-reorder’ function</br>- User ratings available for certain items</td>
+                <td>Pros: <br>- Clean, consistent UI</br>- ‘Add to cart’ and checkout functions are intuitive</td>
+              </tr>
+              <tr>
+                <td>Cons: <br>- Inconsistent UI</br>- Search bar doesn’t react to input</td>
+                <td>Cons: <br>- Search can’t decipher typos</br>- Some features are not intuitive</td>
+              </tr>
+            </table>
+            <a href="https://docs.google.com/document/d/1SjsZszs6E9EalO4Lasj9aSrXJeV5QJuBEjNibCLUxWs/edit?usp=sharing" target="_blank">
+              <button class="btn">View Competitive Analysis</button>
+            </a>
        </section>
-
+       <!-- Ideation -->
+       <div id="idea" class="sticky-destination"></div>
+       <!-- Anchor for Sticky Nav (ideation.) -->
+       <section class="section-padding">
+          <h2 class="text-box title-spacing">ideation.</h2>
+          <div class="section-paragraph text-box">
+            <h4>Problems</h4>
+            <p>From my research, I was able to identify 3 problems that users might run into while using the site.</p>
+            <br>
+            <ol>
+              <li><p>1. Users have trouble finding the ‘Add to Cart’ button.</p></li>
+              <li><p>2. Customers have to log into the site to reorder every time.</p></li>
+              <li><p>3. Support is hard to find for customers who don’t want to call.</p></li>
+            </ol>
+          </div>
+          <div class="section-paragraph text-box">
+            <h4>Solutions</h4>
+            <p>With a few problems outlined, I brainstormed some solutions we could implement to improve the customer experience.</p>
+            <br>
+            <ol>
+              <li><p>1. Create more opportunities to include the ‘Add to Cart’ button.</p></li>
+              <li><p>2. Create a feature for users to set up a recurring order every few weeks or months.</p></li>
+              <li><p>3. ‘Chat with Live Agent’ already exists, we can make it more accessible.</p></li>
+            </ol>
+          </div>
+          <div class="section-paragraph text-box">
+            <h4>Choosing a solution</h4>
+            <p>Out of the 3 solutions, I chose to create an <span>Automatic Reorder</span> feature for shopping lists.</p>
+            <p>Instead of logging onto the site every time they need to buy something, customers can use this feature to place an order automatically every few weeks or months. We don’t want to surprise users with extra charges or orders, so I decided to make this a feature they have to set up or activate in a list’s settings.</p>
+          </div>
+        </section>
+        <!-- Creation -->
+        <div id="create" class="sticky-destination"></div>
+        <!-- Anchor for Sticky Nav (creation.) -->
+        <section class="section-padding">
+           <h2 class="text-box title-spacing">creation.</h2>
+           <div class="section-paragraph text-box">
+             <h4>User Flow</h4>
+             <p>This user flow shows two possible paths customers can take to set up Automatic Ordering. One by creating a new list, and the other is for changing an existing list’s settings.</p>
+             <img src="../images/Uline/SuborderUF.png" class="project-images image-shadow" alt="Completed Design Canvas for Navigation">
+           </div>
+           <div class="section-paragraph text-box">
+             <h4>Mockups</h4>
+             <p>This user flow shows two possible paths customers can take to set up Automatic Ordering. One by creating a new list, and the other is for changing an existing list’s settings.</p>
+             <img src="../images/Uline/SuborderUF.png" class="project-images image-shadow" alt="Completed Design Canvas for Navigation">
+           </div>
+           </section>
+      </main>
+        <!-- FOOTER -->
+        <footer class="footer">
+           <h2>i'm available.</h2>
+            <a href="contact.html">
+              <button class="white-btn">Contact</button>
+            </a>
+           <ul class="social-media-links">
+              <li>
+                 <a href="https://www.linkedin.com/in/dang" target="_blank">
+                 <i class="fa fa-linkedin"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="https://dribbble.com/dang003" target="_blank">
+                 <i class="fa fa-dribbble"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="https://www.instagram.com/_dang_designs_" target="_blank">
+                 <i class="fa fa-instagram"></i>
+                 </a>
+              </li>
+           </ul>
+        </footer>
+        <script src="scripts/main.js"></script>
   </body>
 </html>

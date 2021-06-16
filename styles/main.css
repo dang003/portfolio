@@ -731,16 +731,6 @@ section {
   z-index: 2;
 }
 
-.light-sticky-nav {
-  background-color: #EFEFEF;
-  border-bottom: 2px solid #141414;
-  box-shadow: 0px 12px 12px rgba(20, 20, 20, 0.1);
-  overflow: hidden;
-  position: sticky;
-  top: 7rem;
-  z-index: 2;
-}
-
 .sticky-header {
   align-items: center;
   display: flex;
@@ -750,16 +740,8 @@ section {
   width: 100%;
 }
 
-.sticky-nav a, .sticky-nav-title {
+.sticky-nav a, #sticky-nav-title {
   color: #EFEFEF;
-  display: block;
-  padding: 20px 30px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.light-sticky-nav a, .light-sticky-nav-title {
-  color: #141414;
   display: block;
   padding: 20px 30px;
   text-align: center;
@@ -768,10 +750,6 @@ section {
 
 .sticky-nav a:hover {
   text-shadow: 0 0 15px rgba(239, 239, 239, 0.6);
-}
-
-.light-sticky-nav a:hover {
-  text-shadow: 0 0 15px rgba(20, 20, 20, .4);
 }
 
 .sticky-links {
@@ -985,6 +963,29 @@ span {
 
 .bot-margin {
   margin-bottom: 0;
+}
+
+
+/**** ULINE ****/
+
+.UCA-table {
+  width: 100%;
+  font-family: 'neue-kabel', sans-serif;
+}
+
+.UCA-table th {
+  font-size: 1.8rem;
+  font-weight: 700; /* bold */
+  line-height: 2.8rem;
+  padding-top: 3rem;
+}
+
+.UCA-table td {
+  font-size: 1.8rem;
+  font-weight: 400; /* bold */
+  line-height: 2.8rem;
+  width: 45vw;
+  padding: 5px 0;
 }
 
 
@@ -1550,6 +1551,7 @@ span {
   .prototype-gif {
     max-width: 60%;
   }
+
 
 
   /** Adventurer's Assistant **/
