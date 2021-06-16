@@ -1591,22 +1591,9 @@ span {
     max-width: 1300px;
   }
 
-  .projects-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
-  .filterShow {
-    display: block;
-    width: 48%;
-  }
-
   .project-section {
     border-radius: 4px;
     margin: 2rem;
-    min-width: 44%;
   }
 
   .display-project-text {
