@@ -966,10 +966,39 @@ span {
 }
 
 
+/**** ULINE ****/
+
+.UCA-table {
+  width: 100%;
+  font-family: 'neue-kabel', sans-serif;
+}
+
+.UCA-table th {
+  font-size: 1.8rem;
+  font-weight: 700; /* bold */
+  line-height: 2.8rem;
+  padding-top: 3rem;
+}
+
+.UCA-table td {
+  font-size: 1.8rem;
+  font-weight: 400; /* bold */
+  line-height: 2.8rem;
+  width: 45vw;
+  padding: 5px 0;
+}
+
+
 /**** Adeventurer's Assistant ****/
 
 .phb-section {
   margin: 6rem auto 1rem auto;
+  max-width: 640px;
+  padding: 0 2rem;
+}
+
+.uline-section {
+  margin: 2rem auto;
   max-width: 640px;
   padding: 0 2rem;
 }
@@ -981,6 +1010,10 @@ span {
 }
 
 .phb-item {
+  margin: 2rem auto;
+}
+
+.uline-item {
   margin: 2rem auto;
 }
 
@@ -1520,6 +1553,7 @@ span {
   }
 
 
+
   /** Adventurer's Assistant **/
 
   .solution-display {
@@ -1650,8 +1684,15 @@ span {
 
   .phb-section {
     width: 90vw;
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 0 2rem;
+  }
+
+  .uline-section {
+    width: 90vw;
+    max-width: 1200px;
+    padding: 0 2rem;
+    display: flex;
   }
 
   .phb-row {
@@ -1659,10 +1700,22 @@ span {
     flex-direction: row;
   }
 
+  .phb-column {
+    display: flex;
+    flex-direction: column;
+  }
+
   .phb-item {
     width: 30vw;
     max-width: 360px;
     padding: 0 2rem;
+  }
+
+  .uline-item {
+    width: 44vw;
+    max-width: 550px;
+    padding: 1rem 2rem;
+    margin: 0 0;
   }
 
   /*** CONVERSATION DESIGN ***/
