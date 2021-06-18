@@ -480,25 +480,25 @@ section {
   position: relative;
 }
 
-#project-5 {
+#project-zoo {
   background: linear-gradient(109.72deg, #FFCA91 0%, #F7B368 100%);
 }
 
-#project-4 {
+#project-newlife {
   background: linear-gradient(109.72deg, #593E36 0%, #69544E 100%);
 }
 
-#project-3 {
+#project-DnD {
   background: linear-gradient(to bottom right, #FCF0EE, #E3D7D5);
   color: #141414;
 }
 
-#project-2 {
+#project-virt {
   background: linear-gradient(to bottom right, #2848BD, #3057E3);
 }
 
-#project-1 {
-  background: linear-gradient(to bottom right, #ECECEC, #D4D4D4);
+#project-uline {
+  background: linear-gradient(113.61deg, #ED8F78 0%, #E78067 100%);
   color: #141414;
 }
 
@@ -1630,27 +1630,9 @@ span {
     margin: 2rem;
   }
 
-  .display-project-text {
-    background-color: rgba(20, 20, 20, .8);
-    color: #EFEFEF;
-    margin-left: 4%;
-    width: 380px;
-    border-radius: 4px;
-  }
-
   .display-project-image {
     right: 0;
-    width: 70%;
-  }
-
-  .case-study-btn {
-    border: 1px solid #EFEFEF;
-    color: #EFEFEF;
-  }
-
-  .case-study-btn:hover {
-    background-color: #EFEFEF;
-    color: #141414;
+    width: 60%;
   }
 
   /**** CASE STUDY ****/
