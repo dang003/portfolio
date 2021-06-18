@@ -15,35 +15,6 @@ function toggleNav() {
   toggleNav();
 });
 
-// STICKY NAV
-
-const BAR = document.querySelector('.sticky-header');
-const ARROW = document.querySelector('.sticky-arrow');
-const LINKS = document.querySelector('.sticky-links');
-
-function toggleSticky() {
-  var x = document.querySelector('.sticky-links');
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  } ARROW.classList.toggle('fa-angle-up');
-}
-
-var w = window.innerWidth;
-if (w < 992) {
-
-(BAR).addEventListener('click', function() {
-  toggleSticky();
-}
-);
-
-(LINKS).addEventListener('click', function() {
-  toggleSticky();
-});
-
-}
-
 //// FILTERS
 
 filterSelection("all");
@@ -85,7 +56,7 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current control button (highlight it)
 var btnContainer = document.getElementById("filterBtnContainer");
-var btns = btnContainer.getElementsByClassName("filter-btn");
+var btns = document.getElementsByClassName("filter-btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("filter-active");
